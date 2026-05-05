@@ -1,0 +1,3445 @@
+{
+  "metadata": {
+    "created_at": "2026-02-26T02:35:00.000000",
+    "dataset_path": "dataset/TOAN_LOP_5/HK1_HK2",
+    "total_questions": 100,
+    "version": "1.0",
+    "source": "Bộ câu hỏi trắc nghiệm Toán lớp 5 – Học kì 1 & 2",
+    "cleaned_at": "2026-02-26T02:35:00.000000"
+  },
+  "questions": [
+    {
+      "id": "TOAN5KI1P1C1",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Khái niệm và hàng của số thập phân",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Số thập phân gồm có: Năm đơn vị, hai phần mười và sáu phần nghìn viết là:",
+      "type": "multiple_choice",
+      "choices": [
+        "5,26",
+        "5,206",
+        "5,026",
+        "5,0026"
+      ],
+      "correct_answer": 1,
+      "explanation": "Hai phần mười là chữ số 2 ở hàng sau dấu phẩy. Sáu phần nghìn là chữ số 6 ở vị trí thứ 3 sau dấu phẩy. Hàng phần trăm khuyết nên là 0. Vậy số là 5,206 [1].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C2",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Viết phân số dưới dạng số thập phân",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Phân số thập phân \\frac{834}{100} được viết dưới dạng số thập phân là:",
+      "type": "multiple_choice",
+      "choices": [
+        "0,834",
+        "8,34",
+        "83,4",
+        "834,0"
+      ],
+      "correct_answer": 1,
+      "explanation": "Chia 834 cho 100, ta dời dấu phẩy sang trái 2 chữ số [1].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C3",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Viết hỗn số dưới dạng số thập phân",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Hỗn số 3 \\frac{4}{5} viết dưới dạng số thập phân là:",
+      "type": "multiple_choice",
+      "choices": [
+        "3,4",
+        "3,5",
+        "3,8",
+        "3,45"
+      ],
+      "correct_answer": 2,
+      "explanation": "\\frac{4}{5} = \\frac{8}{10} = 0,8. Vậy 3 \\frac{4}{5} = 3,8 [2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C4",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Hàng của số thập phân",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Chữ số 9 trong số thập phân 17,209 thuộc hàng nào?",
+      "type": "multiple_choice",
+      "choices": [
+        "Hàng phần mười",
+        "Hàng phần trăm",
+        "Hàng phần nghìn",
+        "Hàng đơn vị"
+      ],
+      "correct_answer": 2,
+      "explanation": "Chữ số 9 nằm ở vị trí thứ 3 sau dấu phẩy nên thuộc hàng phần nghìn [2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C5",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "So sánh số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Số lớn nhất trong các số: 8,09; 7,99; 8,89; 8,9 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "8,09",
+        "7,99",
+        "8,89",
+        "8,9"
+      ],
+      "correct_answer": 3,
+      "explanation": "So sánh phần nguyên: 8 > 7. So sánh phần thập phân của các số có phần nguyên là 8: 8,9 > 8,89 > 8,09 [2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C6",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép cộng số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả của phép cộng 35,88 + 19,36 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "55,24",
+        "54,24",
+        "54,14",
+        "45,24"
+      ],
+      "correct_answer": 0,
+      "explanation": "Đặt tính thẳng hàng dấu phẩy và cộng như số tự nhiên: 8+6=14 nhớ 1, 8+3=11 nhớ 1 là 12 nhớ 1, 5+9=14 nhớ 1 là 15... Kết quả 55,24 [3].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C7",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép trừ số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả của phép trừ 50 - 26,4 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "24,4",
+        "23,6",
+        "36,4",
+        "24,6"
+      ],
+      "correct_answer": 1,
+      "explanation": "Viết 50 thành 50,0 rồi trừ. 10 - 4 = 6, nhớ 1. 0 - 7 (do nhớ 1) không được, lấy 10 - 7 = 3, nhớ 1. 5 - 3 = 2. Kết quả 23,6 [3].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C8",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tìm x với số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tìm x biết: x + 4,32 = 8,6",
+      "type": "multiple_choice",
+      "choices": [
+        "x = 4,28",
+        "x = 4,38",
+        "x = 12,92",
+        "x = 3,28"
+      ],
+      "correct_answer": 0,
+      "explanation": "x = 8,6 - 4,32 = 4,28 [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C9",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép nhân số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả của phép nhân 12,5 \\times 4 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "500",
+        "50",
+        "5",
+        "48,20"
+      ],
+      "correct_answer": 1,
+      "explanation": "12,5 \\times 4 = 50,0 = 50 [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C10",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Quy tắc nhân nhẩm số thập phân",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Khi nhân một số thập phân với 0,1; 0,01; 0,001... ta chỉ việc:",
+      "type": "multiple_choice",
+      "choices": [
+        "Chuyển dấu phẩy sang phải 1, 2, 3... chữ số.",
+        "Chuyển dấu phẩy sang trái 1, 2, 3... chữ số.",
+        "Thêm số 0 vào bên phải.",
+        "Thêm số 0 vào bên trái."
+      ],
+      "correct_answer": 1,
+      "explanation": "Theo quy tắc nhân nhẩm với 0,1; 0,01; 0,001... ta chuyển dấu phẩy sang trái [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C11",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Nhân số thập phân với 10, 100, 1000",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tính nhẩm: 45,67 \\times 100:",
+      "type": "multiple_choice",
+      "choices": [
+        "4,567",
+        "456,7",
+        "4567",
+        "0,4567"
+      ],
+      "correct_answer": 2,
+      "explanation": "Nhân với 100 thì dời dấu phẩy sang phải 2 chữ số [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C12",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép chia số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả phép chia 9 : 4,5 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "2",
+        "0,2",
+        "20",
+        "2,2"
+      ],
+      "correct_answer": 0,
+      "explanation": "9 : 4,5 = 90 : 45 = 2 [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C13",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Ứng dụng phép chia số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một sợi dây dài 10m được cắt thành 4 đoạn bằng nhau. Mỗi đoạn dài:",
+      "type": "multiple_choice",
+      "choices": [
+        "2,5 m",
+        "2,4 m",
+        "0,4 m",
+        "2,05 m"
+      ],
+      "correct_answer": 0,
+      "explanation": "10 : 4 = 2,5 [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C14",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tìm x (phép nhân/chia)",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tìm x biết: x \\times 5 = 12,5",
+      "type": "multiple_choice",
+      "choices": [
+        "x = 2,5",
+        "x = 62,5",
+        "x = 2,1",
+        "x = 0,25"
+      ],
+      "correct_answer": 0,
+      "explanation": "x = 12,5 : 5 = 2,5 [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C15",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tính giá trị biểu thức",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Giá trị biểu thức: 20,5 - 3,4 + 1,6 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "15,5",
+        "18,7",
+        "19,7",
+        "25,5"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thực hiện từ trái sang phải: 20,5 - 3,4 = 17,1; sau đó 17,1 + 1,6 = 18,7 [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C16",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Rút gọn phân số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "0,25 viết dưới dạng phân số tối giản là:",
+      "type": "multiple_choice",
+      "choices": [
+        "\\frac{25}{100}",
+        "\\frac{1}{4}",
+        "\\frac{1}{5}",
+        "\\frac{5}{20}"
+      ],
+      "correct_answer": 1,
+      "explanation": "0,25 = \\frac{25}{100}. Rút gọn chia cả tử và mẫu cho 25 được \\frac{1}{4} [6].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C17",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Số dư trong phép chia số thập phân",
+      "difficulty": "VDC",
+      "difficulty_name": "Vận dụng cao",
+      "content": "Số dư trong phép chia 12,5 : 4 (nếu chỉ lấy đến 1 chữ số ở phần thập phân của thương) là:",
+      "type": "multiple_choice",
+      "choices": [
+        "1",
+        "0,1",
+        "0,01",
+        "5"
+      ],
+      "correct_answer": 1,
+      "explanation": "12,5 : 4 = 3,1 (dư 0,1). Thử lại: 3,1 \\times 4 + 0,1 = 12,4 + 0,1 = 12,5 [6].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C18",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Bài toán giải về số thập phân",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một ki-lô-gam gạo giá 15.000 đồng. Mẹ mua 3,5 kg gạo thì hết bao nhiêu tiền?",
+      "type": "multiple_choice",
+      "choices": [
+        "52.500 đồng",
+        "45.000 đồng",
+        "55.000 đồng",
+        "52.000 đồng"
+      ],
+      "correct_answer": 0,
+      "explanation": "15.000 \\times 3,5 = 52.500 [6, 7].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C19",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Nhân nhẩm số thập phân",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Số thích hợp điền vào chỗ chấm: 5,07 \\times ...... = 50,7",
+      "type": "multiple_choice",
+      "choices": [
+        "100",
+        "10",
+        "0,1",
+        "0,01"
+      ],
+      "correct_answer": 1,
+      "explanation": "Dấu phẩy dịch sang phải 1 hàng nên nhân với 10 [7].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P1C20",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Liên hệ giữa phép nhân và phép chia",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả phép tính 45,6 : 100 bằng với kết quả phép tính nào dưới đây?",
+      "type": "multiple_choice",
+      "choices": [
+        "45,6 \\times 0,1",
+        "45,6 \\times 0,01",
+        "45,6 : 0,1",
+        "45,6 : 0,01"
+      ],
+      "correct_answer": 1,
+      "explanation": "Chia cho 100 tương đương với nhân với 0,01 (đều dời dấu phẩy sang trái 2 hàng) [7].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_1.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C1",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm tỉ số phần trăm của hai số",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Tỉ số phần trăm của 3 và 4 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "0,75%",
+        "75%",
+        "7,5%",
+        "34%"
+      ],
+      "correct_answer": 1,
+      "explanation": "3 : 4 = 0,75 = 75%. [1]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C2",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi phân số sang tỉ số phần trăm",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Phân số \\frac{2}{5} viết dưới dạng tỉ số phần trăm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "25%",
+        "20%",
+        "40%",
+        "50%"
+      ],
+      "correct_answer": 2,
+      "explanation": "\\frac{2}{5} = 0,4 = 40%. [1]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C3",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm giá trị phần trăm của một số",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "25% của 120 là:",
+      "type": "multiple_choice",
+      "choices": [
+        "30",
+        "40",
+        "25",
+        "48"
+      ],
+      "correct_answer": 0,
+      "explanation": "120 \\times 25 : 100 = 30 (hoặc lấy 120 : 4 = 30). [1]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C4",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm một số khi biết giá trị phần trăm của nó",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tìm một số biết 20% của số đó là 50.",
+      "type": "multiple_choice",
+      "choices": [
+        "10",
+        "100",
+        "200",
+        "250"
+      ],
+      "correct_answer": 3,
+      "explanation": "Số đó là: 50 : 20 \\times 100 = 250. [1]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C5",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán tỉ số phần trăm (Dạng 1)",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Lớp 5A có 40 học sinh, trong đó có 22 học sinh nữ. Tỉ số phần trăm của học sinh nữ so với cả lớp là:",
+      "type": "multiple_choice",
+      "choices": [
+        "55%",
+        "45%",
+        "50%",
+        "22%"
+      ],
+      "correct_answer": 0,
+      "explanation": "22 : 40 = 0,55 = 55%. [1, 2]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C6",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Phép tính với tỉ số phần trăm",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Kết quả của phép tính 15% + 75% + 10% là:",
+      "type": "multiple_choice",
+      "choices": [
+        "10%",
+        "90%",
+        "100%",
+        "110%"
+      ],
+      "correct_answer": 2,
+      "explanation": "Cộng các số: 15 + 75 + 10 = 100. Vậy kết quả là 100%. [2]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C7",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán tỉ số phần trăm (Dạng kế hoạch)",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một cửa hàng đặt kế hoạch may 500 bộ quần áo. Thực tế cửa hàng đã may được 550 bộ. Hỏi cửa hàng đã thực hiện được bao nhiêu phần trăm kế hoạch?",
+      "type": "multiple_choice",
+      "choices": [
+        "100%",
+        "90%",
+        "110%",
+        "105%"
+      ],
+      "correct_answer": 2,
+      "explanation": "(550 : 500) \\times 100 = 110%. [2]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C8",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm x khi biết tỉ số phần trăm",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Biết 5% của x là 15. Giá trị của x là:",
+      "type": "multiple_choice",
+      "choices": [
+        "3",
+        "75",
+        "300",
+        "30"
+      ],
+      "correct_answer": 2,
+      "explanation": "x = 15 : 5 \\times 100 = 300. [2, 3]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C9",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về giảm giá",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một chiếc xe đạp giá 2.000.000 đồng. Nhân dịp khai trương, cửa hàng giảm giá 10%. Giá chiếc xe đạp sau khi giảm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "200.000 đồng",
+        "1.800.000 đồng",
+        "2.200.000 đồng",
+        "1.900.000 đồng"
+      ],
+      "correct_answer": 1,
+      "explanation": "Số tiền được giảm: 2.000.000 \\times 10 : 100 = 200.000 đồng. Giá sau giảm: 2.000.000 - 200.000 = 1.800.000 đồng. [3]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C10",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về lãi suất tiết kiệm",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Lãi suất tiết kiệm là 0,5% một tháng. Nếu gửi 1.000.000 đồng thì sau một tháng nhận được bao nhiêu tiền lãi?",
+      "type": "multiple_choice",
+      "choices": [
+        "5.000 đồng",
+        "50.000 đồng",
+        "500 đồng",
+        "500.000 đồng"
+      ],
+      "correct_answer": 0,
+      "explanation": "1.000.000 \\times 0,5 : 100 = 5.000 đồng. [3, 4]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C11",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về tỉ số phần trăm lãi so với vốn",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một người mua một món hàng với giá 50.000 đồng và bán ra với giá 60.000 đồng. Người đó đã lãi bao nhiêu phần trăm so với giá vốn?",
+      "type": "multiple_choice",
+      "choices": [
+        "10%",
+        "20%",
+        "120%",
+        "83,3%"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tiền lãi: 60.000 - 50.000 = 10.000 đồng. Tỉ số phần trăm lãi: 10.000 : 50.000 = 0,2 = 20%. [4]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C12",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi hỗn số sang tỉ số phần trăm",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Hỗn số 1 \\frac{1}{2} viết dưới dạng tỉ số phần trăm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "150%",
+        "120%",
+        "50%",
+        "15%"
+      ],
+      "correct_answer": 0,
+      "explanation": "1 \\frac{1}{2} = 1,5 = 150%. [4]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C13",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm phần trăm của một đại lượng đo",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "10% của 2,5 tấn là:",
+      "type": "multiple_choice",
+      "choices": [
+        "25 tấn",
+        "0,25 tấn",
+        "2,5 tạ",
+        "25 kg"
+      ],
+      "correct_answer": 1,
+      "explanation": "2,5 \\times 10 : 100 = 0,25 tấn. [5]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C14",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về thành phần phần trăm",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một lớp học có 25% học sinh giỏi, 55% học sinh khá, còn lại là học sinh trung bình. Tỉ số phần trăm học sinh trung bình là:",
+      "type": "multiple_choice",
+      "choices": [
+        "20%",
+        "30%",
+        "25%",
+        "15%"
+      ],
+      "correct_answer": 0,
+      "explanation": "Coi cả lớp là 100%. Học sinh trung bình chiếm: 100% - (25% + 55%) = 20%. [5, 6]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C15",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm số chưa biết khi biết phần trăm",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tìm số a biết 30% của a là 72.",
+      "type": "multiple_choice",
+      "choices": [
+        "21,6",
+        "240",
+        "216",
+        "24"
+      ],
+      "correct_answer": 1,
+      "explanation": "a = 72 : 30 \\times 100 = 240. [6]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C16",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm tỉ số phần trăm giữa đối tượng và tổng thể",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Vườn cây nhà bác An có 120 cây, trong đó có 30 cây cam. Tỉ số phần trăm số cây cam so với tổng số cây trong vườn là:",
+      "type": "multiple_choice",
+      "choices": [
+        "30%",
+        "40%",
+        "25%",
+        "20%"
+      ],
+      "correct_answer": 2,
+      "explanation": "30 : 120 = 0,25 = 25%. [6]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C17",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Biểu thức chứa tỉ số phần trăm",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Biểu thức: 25% \\times x = 4 có giá trị x là:",
+      "type": "multiple_choice",
+      "choices": [
+        "16",
+        "1",
+        "100",
+        "10"
+      ],
+      "correct_answer": 0,
+      "explanation": "25% = 0,25. Vậy x = 4 : 0,25 = 16. [6, 7]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C18",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán kết hợp diện tích và tỉ số phần trăm",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một mảnh đất hình chữ nhật có chiều dài 20m, chiều rộng 15m. Người ta dành 20% diện tích để làm nhà. Diện tích làm nhà là:",
+      "type": "multiple_choice",
+      "choices": [
+        "300 m^2",
+        "60 m^2",
+        "35 m^2",
+        "70 m^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "Diện tích mảnh đất: 20 \\times 15 = 300 (m^2). Diện tích làm nhà: 300 \\times 20 : 100 = 60 (m^2). [7]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C19",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi số thập phân sang tỉ số phần trăm",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Số thập phân 0,07 viết thành tỉ số phần trăm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "7%",
+        "70%",
+        "0,7%",
+        "700%"
+      ],
+      "correct_answer": 0,
+      "explanation": "Nhân với 100 và thêm ký hiệu %. 0,07 = 7%. [7]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P2C20",
+      "lesson_id": 2,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Bài toán tư duy về tăng giảm phần trăm",
+      "difficulty": "VDC",
+      "difficulty_name": "Vận dụng cao",
+      "content": "Nếu tăng một số lên 10% rồi lại giảm số mới đi 10% thì số đó thay đổi thế nào so với ban đầu?",
+      "type": "multiple_choice",
+      "choices": [
+        "Không đổi",
+        "Tăng 1%",
+        "Giảm 1%",
+        "Giảm 10%"
+      ],
+      "correct_answer": 2,
+      "explanation": "Giả sử số ban đầu là 100. Tăng 10% lên 110. Giảm 10% của 110 là giảm 11 đơn vị còn 99. So với 100 thì đã giảm 1%. [8]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_2.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C1",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích hình tam giác",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Diện tích hình tam giác có độ dài đáy 15cm và chiều cao 8cm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "120 cm^2",
+        "60 cm^2",
+        "11,5 cm^2",
+        "23 cm^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "S = (15 × 8) / 2 = 60 (cm^2) [1].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C2",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tính chiều cao hình tam giác",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một hình tam giác có diện tích 40m^2 và độ dài đáy là 8m. Chiều cao của tam giác đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "5 m",
+        "10 m",
+        "320 m",
+        "2,5 m"
+      ],
+      "correct_answer": 1,
+      "explanation": "h = (S × 2) / a = (40 × 2) / 8 = 10 (m) [1, 2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C3",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích hình thang",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Diện tích hình thang có độ dài hai đáy lần lượt là 12cm và 8cm, chiều cao 5cm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "100 cm^2",
+        "50 cm^2",
+        "40 cm^2",
+        "20 cm^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "S = ((12 + 8) × 5) / 2 = 50 (cm^2) [2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C4",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Chu vi hình tròn",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Hình tròn có bán kính r = 5cm. Chu vi của hình tròn là:",
+      "type": "multiple_choice",
+      "choices": [
+        "15,7 cm",
+        "31,4 cm",
+        "78,5 cm",
+        "10 cm"
+      ],
+      "correct_answer": 1,
+      "explanation": "Chu vi C = r × 2 × 3,14 = 5 × 2 × 3,14 = 31,4 (cm) [2].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C5",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích hình tròn",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Diện tích hình tròn có đường kính d = 10cm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "31,4 cm^2",
+        "78,5 cm^2",
+        "314 cm^2",
+        "15,7 cm^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "Bán kính r = 10 : 2 = 5 (cm). Diện tích S = 5 × 5 × 3,14 = 78,5 (cm^2) [2, 3].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C6",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Chu vi bánh xe",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một bánh xe đạp có đường kính 0,6m. Chu vi của bánh xe đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "1,884 m",
+        "3,768 m",
+        "0,2826 m",
+        "0,942 m"
+      ],
+      "correct_answer": 0,
+      "explanation": "C = d × 3,14 = 0,6 × 3,14 = 1,884 (m) [3].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C7",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích xung quanh hình hộp chữ nhật",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài 5m, chiều rộng 4m, chiều cao 3m là:",
+      "type": "multiple_choice",
+      "choices": [
+        "27 m^2",
+        "54 m^2",
+        "60 m^2",
+        "94 m^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "Chu vi đáy = (5 + 4) × 2 = 18 (m). Sxq = 18 × 3 = 54 (m^2) [3, 4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C8",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích hình hộp chữ nhật",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Thể tích của một hình hộp chữ nhật có chiều dài 8cm, chiều rộng 5cm và chiều cao 6cm là:",
+      "type": "multiple_choice",
+      "choices": [
+        "240 cm^3",
+        "120 cm^3",
+        "40 cm^3",
+        "480 cm^3"
+      ],
+      "correct_answer": 0,
+      "explanation": "V = 8 × 5 × 6 = 240 (cm^3) [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C9",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích toàn phần hình lập phương",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một hình lập phương có cạnh 4dm. Diện tích toàn phần của hình lập phương đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "16 dm^2",
+        "64 dm^2",
+        "96 dm^2",
+        "32 dm^2"
+      ],
+      "correct_answer": 2,
+      "explanation": "Stp = (4 × 4) × 6 = 96 (dm^2) [4].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C10",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích hình lập phương",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Thể tích hình lập phương có cạnh 3m là:",
+      "type": "multiple_choice",
+      "choices": [
+        "9 m^3",
+        "27 m^3",
+        "54 m^3",
+        "36 m^3"
+      ],
+      "correct_answer": 1,
+      "explanation": "V = 3 × 3 × 3 = 27 (m^3) [4, 5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C11",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích tam giác vuông",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một tam giác vuông có hai cạnh góc vuông là 3cm và 4cm. Diện tích tam giác vuông đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "12 cm^2",
+        "6 cm^2",
+        "7 cm^2",
+        "14 cm^2"
+      ],
+      "correct_answer": 1,
+      "explanation": "S = (3 × 4) : 2 = 6 (cm^2) [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C12",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tỉ lệ diện tích hình lập phương",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Nếu gấp cạnh của hình lập phương lên 2 lần thì diện tích xung quanh của nó gấp lên bao nhiêu lần?",
+      "type": "multiple_choice",
+      "choices": [
+        "2 lần",
+        "4 lần",
+        "6 lần",
+        "8 lần"
+      ],
+      "correct_answer": 1,
+      "explanation": "Diện tích tỉ lệ thuận với bình phương cạnh: 2 × 2 = 4 lần [5].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C13",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tỉ lệ thể tích hình lập phương",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Nếu gấp cạnh của hình lập phương lên 2 lần thì thể tích của nó gấp lên bao nhiêu lần?",
+      "type": "multiple_choice",
+      "choices": [
+        "2 lần",
+        "4 lần",
+        "6 lần",
+        "8 lần"
+      ],
+      "correct_answer": 3,
+      "explanation": "Thể tích tỉ lệ thuận với lập phương cạnh: 2 × 2 × 2 = 8 lần [6].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C14",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "So sánh diện tích hình tròn",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Hình tròn lớn có bán kính gấp đôi hình tròn bé. Hỏi diện tích hình tròn lớn gấp mấy lần diện tích hình tròn bé?",
+      "type": "multiple_choice",
+      "choices": [
+        "2 lần",
+        "4 lần",
+        "3,14 lần",
+        "8 lần"
+      ],
+      "correct_answer": 1,
+      "explanation": "r_lớn = 2 × r_bé => S_lớn = (2 × r_bé) × (2 × r_bé) × 3,14 = 4 × S_bé [6].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C15",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Đổi đơn vị thể tích",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "1,5 m^3 = ........ dm^3.",
+      "type": "multiple_choice",
+      "choices": [
+        "15",
+        "150",
+        "1500",
+        "15000"
+      ],
+      "correct_answer": 2,
+      "explanation": "1 m^3 = 1000 dm^3. 1,5 × 1000 = 1500 [7].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C16",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích bể nước",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một bể nước dạng hình hộp chữ nhật có kích thước trong lòng bể là: dài 2m, rộng 1,5m và cao 1m. Bể đó chứa được tối đa bao nhiêu lít nước? (1 dm^3 = 1 lít)",
+      "type": "multiple_choice",
+      "choices": [
+        "3 lít",
+        "30 lít",
+        "300 lít",
+        "3000 lít"
+      ],
+      "correct_answer": 3,
+      "explanation": "V = 2 × 1,5 × 1 = 3 (m^3). Đổi 3 m^3 = 3000 dm^3 = 3000 lít [7].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C17",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tính Sxq từ chu vi đáy",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Chu vi mặt đáy của một hình hộp chữ nhật là 20cm, chiều cao là 5cm. Diện tích xung quanh là:",
+      "type": "multiple_choice",
+      "choices": [
+        "100 cm^2",
+        "50 cm^2",
+        "200 cm^2",
+        "40 cm^2"
+      ],
+      "correct_answer": 0,
+      "explanation": "Sxq = C_đáy × h = 20 × 5 = 100 (cm^2) [7, 8].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C18",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Công thức diện tích hình thang",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Diện tích hình thang có đáy lớn a, đáy bé b và chiều cao h được tính theo công thức:",
+      "type": "multiple_choice",
+      "choices": [
+        "S = (a + b) × h",
+        "S = (a + b) × h × 2",
+        "S = ((a + b) × h) / 2",
+        "S = ((a × b) × h) / 2"
+      ],
+      "correct_answer": 2,
+      "explanation": "Công thức tính diện tích hình thang là tổng độ dài hai đáy nhân với chiều cao rồi chia cho 2 [8].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C19",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích tam giác (Đổi đơn vị)",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một hình tam giác có đáy là 2dm, chiều cao là 15cm. Diện tích hình tam giác đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "30 cm^2",
+        "300 cm^2",
+        "150 cm^2",
+        "15 dm^2"
+      ],
+      "correct_answer": 2,
+      "explanation": "Đổi 2dm = 20cm. S = (20 × 15) / 2 = 150 (cm^2) [8, 9].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI1P3C20",
+      "lesson_id": 3,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Đặc điểm hình hộp chữ nhật",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Số mặt, số đỉnh, số cạnh của hình hộp chữ nhật lần lượt là:",
+      "type": "multiple_choice",
+      "choices": [
+        "6 mặt, 8 đỉnh, 10 cạnh",
+        "6 mặt, 8 đỉnh, 12 cạnh",
+        "6 mặt, 12 đỉnh, 8 cạnh",
+        "8 mặt, 6 đỉnh, 12 cạnh"
+      ],
+      "correct_answer": 1,
+      "explanation": "Hình hộp chữ nhật có 6 mặt, 8 đỉnh và 12 cạnh [9].",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK1/PHAN_3.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C1",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi đơn vị thời gian (Năm - Tháng)",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "2,5 năm = ..... tháng.",
+      "type": "multiple_choice",
+      "choices": [
+        "24 tháng",
+        "25 tháng",
+        "30 tháng",
+        "28 tháng"
+      ],
+      "correct_answer": 2,
+      "explanation": "1 năm = 12 tháng. 2,5 × 12 = 30 tháng.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C2",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép cộng số đo thời gian",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "3 ngày 15 giờ + 2 ngày 12 giờ = ?",
+      "type": "multiple_choice",
+      "choices": [
+        "5 ngày 27 giờ",
+        "6 ngày 3 giờ",
+        "5 ngày 3 giờ",
+        "6 ngày"
+      ],
+      "correct_answer": 1,
+      "explanation": "3 + 2 = 5 ngày, 15 + 12 = 27 giờ. Vì 27 giờ = 1 ngày 3 giờ, nên kết quả là 5 + 1 = 6 ngày 3 giờ.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C3",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tỉ số thời gian",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Phút thứ 20 đến phút thứ 45 là bao nhiêu phần của một giờ?",
+      "type": "multiple_choice",
+      "choices": [
+        "\\frac{1}{2}",
+        "\\frac{1}{3}",
+        "\\frac{5}{12}",
+        "\\frac{1}{4}"
+      ],
+      "correct_answer": 2,
+      "explanation": "Khoảng thời gian là 45 - 20 = 25 phút. Tỉ số với 1 giờ (60 phút) là 25/60 = 5/12.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C4",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính quãng đường",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một ô tô đi với vận tốc 50 km/giờ. Hỏi trong 2 giờ 30 phút ô tô đi được bao nhiêu km?",
+      "type": "multiple_choice",
+      "choices": [
+        "100 km",
+        "125 km",
+        "150 km",
+        "115 km"
+      ],
+      "correct_answer": 1,
+      "explanation": "Đổi 2 giờ 30 phút = 2,5 giờ. Quãng đường s = v × t = 50 × 2,5 = 125 (km).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C5",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Công thức tính thời gian",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Công thức tính thời gian (t) khi biết quãng đường (s) và vận tốc (v) là:",
+      "type": "multiple_choice",
+      "choices": [
+        "t = s × v",
+        "t = s : v",
+        "t = v : s",
+        "t = s + v"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thời gian bằng quãng đường chia cho vận tốc.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C6",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính vận tốc",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một người chạy bộ quãng đường 400m hết 1 phút 20 giây. Vận tốc chạy của người đó là:",
+      "type": "multiple_choice",
+      "choices": [
+        "4 m/giây",
+        "5 m/giây",
+        "300 m/giây",
+        "3 m/giây"
+      ],
+      "correct_answer": 1,
+      "explanation": "Đổi 1 phút 20 giây = 80 giây. Vận tốc v = 400 : 80 = 5 (m/giây).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C7",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính quãng đường (thời điểm)",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Lúc 7 giờ, một xe máy đi từ A với vận tốc 35 km/giờ. Xe đến B lúc 9 giờ. Quãng đường AB dài:",
+      "type": "multiple_choice",
+      "choices": [
+        "35 km",
+        "70 km",
+        "60 km",
+        "105 km"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thời gian đi: 9 - 7 = 2 (giờ). Quãng đường: 35 × 2 = 70 (km).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C8",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép nhân số đo thời gian",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "2 giờ 45 phút × 3 = ?",
+      "type": "multiple_choice",
+      "choices": [
+        "6 giờ 135 phút",
+        "8 giờ 15 phút",
+        "7 giờ 15 phút",
+        "8 giờ 45 phút"
+      ],
+      "correct_answer": 1,
+      "explanation": "2 × 3 = 6 giờ; 45 × 3 = 135 phút. Đổi 135 phút = 2 giờ 15 phút. Tổng: 6 + 2 = 8 giờ 15 phút.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C9",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi đơn vị vận tốc",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Vận tốc 36 km/giờ bằng bao nhiêu m/giây?",
+      "type": "multiple_choice",
+      "choices": [
+        "360 m/giây",
+        "10 m/giây",
+        "100 m/giây",
+        "6 m/giây"
+      ],
+      "correct_answer": 1,
+      "explanation": "1 km = 1000m; 1 giờ = 3600 giây. 36000 : 3600 = 10 m/giây.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C10",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính quãng đường (Vận tốc nhỏ)",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Một con ong bay với vận tốc 2,5 m/giây. Hỏi trong 1 phút con ong bay được bao nhiêu mét?",
+      "type": "multiple_choice",
+      "choices": [
+        "2,5 m",
+        "150 m",
+        "25 m",
+        "60 m"
+      ],
+      "correct_answer": 1,
+      "explanation": "1 phút = 60 giây. Quãng đường: 2,5 × 60 = 150 (m).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C11",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính vận tốc ô tô",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Hai thành phố A và B cách nhau 180km. Một ô tô đi từ A đến B hết 4 giờ. Vận tốc của ô tô là:",
+      "type": "multiple_choice",
+      "choices": [
+        "40 km/giờ",
+        "45 km/giờ",
+        "50 km/giờ",
+        "55 km/giờ"
+      ],
+      "correct_answer": 1,
+      "explanation": "v = 180 : 4 = 45 (km/giờ).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C12",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép chia số đo thời gian",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "54 phút : 3 = ?",
+      "type": "multiple_choice",
+      "choices": [
+        "18 phút",
+        "16 phút",
+        "15 phút",
+        "28 phút"
+      ],
+      "correct_answer": 0,
+      "explanation": "54 : 3 = 18.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C13",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính thời gian (Đổi ra phút)",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một người đi xe đạp với vận tốc 12 km/giờ. Hỏi người đó đi quãng đường 3km hết bao nhiêu phút?",
+      "type": "multiple_choice",
+      "choices": [
+        "4 phút",
+        "15 phút",
+        "20 phút",
+        "25 phút"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thời gian (giờ) = 3 : 12 = 0,25 (giờ). Đổi ra phút: 0,25 × 60 = 15 phút.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C14",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Quan hệ vận tốc và thời gian",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Cùng một quãng đường, nếu vận tốc tăng gấp đôi thì thời gian sẽ:",
+      "type": "multiple_choice",
+      "choices": [
+        "Tăng gấp đôi",
+        "Giảm một nửa",
+        "Không đổi",
+        "Gấp 4 lần"
+      ],
+      "correct_answer": 1,
+      "explanation": "Vận tốc và thời gian là hai đại lượng tỉ lệ nghịch trên cùng một quãng đường.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C15",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Toán chuyển động ngược chiều",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Xe máy đi từ A với vận tốc 30 km/giờ, ô tô đi từ B với vận tốc 50 km/giờ. Hai xe khởi hành cùng lúc và đi ngược chiều nhau. Quãng đường AB dài 160km. Sau bao lâu hai xe gặp nhau?",
+      "type": "multiple_choice",
+      "choices": [
+        "1 giờ",
+        "2 giờ",
+        "3 giờ",
+        "1,5 giờ"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tổng vận tốc hai xe: 30 + 50 = 80 (km/giờ). Thời gian gặp nhau: 160 : 80 = 2 (giờ).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C16",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Toán chuyển động cùng chiều (Đuổi nhau)",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Xe máy đi trước với vận tốc 30 km/giờ. Ô tô đi sau với vận tốc 50 km/giờ. Khi bắt đầu đuổi, ô tô cách xe máy 40km. Sau bao lâu ô tô đuổi kịp xe máy?",
+      "type": "multiple_choice",
+      "choices": [
+        "1 giờ",
+        "2 giờ",
+        "3 giờ",
+        "4 giờ"
+      ],
+      "correct_answer": 1,
+      "explanation": "Hiệu vận tốc: 50 - 30 = 20 (km/giờ). Thời gian đuổi kịp: 40 : 20 = 2 (giờ).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C17",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Kiến thức lịch sử (Thế kỉ)",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Thế kỉ XXI bắt đầu từ năm nào?",
+      "type": "multiple_choice",
+      "choices": [
+        "2000",
+        "2001",
+        "2100",
+        "1999"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thế kỉ 21 bắt đầu từ 1/1/2001 đến 31/12/2100.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C18",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi số thập phân giờ sang phút",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "0,75 giờ = ..... phút.",
+      "type": "multiple_choice",
+      "choices": [
+        "75 phút",
+        "45 phút",
+        "30 phút",
+        "50 phút"
+      ],
+      "correct_answer": 1,
+      "explanation": "0,75 × 60 = 45 phút.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C19",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Vận tốc dòng nước",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một ca nô đi xuôi dòng với vận tốc 25 km/giờ, vận tốc dòng nước là 3 km/giờ. Vận tốc thực của ca nô (khi nước lặng) là:",
+      "type": "multiple_choice",
+      "choices": [
+        "28 km/giờ",
+        "22 km/giờ",
+        "25 km/giờ",
+        "31 km/giờ"
+      ],
+      "correct_answer": 1,
+      "explanation": "V_xuôi = V_thực + V_nước => V_thực = 25 - 3 = 22 (km/giờ).",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P4C20",
+      "lesson_id": 4,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính thời gian thực tế",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Bác An đi từ nhà lúc 6 giờ 30 phút và đến cơ quan lúc 7 giờ 15 phút. Dọc đường bác nghỉ 10 phút. Thời gian bác An thực đi là:",
+      "type": "multiple_choice",
+      "choices": [
+        "45 phút",
+        "35 phút",
+        "55 phút",
+        "30 phút"
+      ],
+      "correct_answer": 1,
+      "explanation": "Tổng thời gian: 7h15 - 6h30 = 45 phút. Thời gian thực đi = 45 - 10 (nghỉ) = 35 phút.",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_4.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C1",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Biểu đồ hình quạt",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Quan sát biểu đồ hình quạt biểu thị sở thích chơi thể thao của 100 học sinh. Biết phần 'Bóng đá' chiếm 40%. Số học sinh thích bóng đá là: [1]",
+      "type": "multiple_choice",
+      "choices": [
+        "20 bạn",
+        "30 bạn",
+        "40 bạn",
+        "50 bạn"
+      ],
+      "correct_answer": 2,
+      "explanation": "Số học sinh thích bóng đá là: 100 × 40 : 100 = 40 (bạn). [1]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C2",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Xác suất thực nghiệm",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Một hộp có 3 quả bóng xanh và 1 quả bóng đỏ. Nam nhắm mắt bốc ngẫu nhiên một quả. Khả năng Nam bốc được quả bóng nào cao hơn? [2]",
+      "type": "multiple_choice",
+      "choices": [
+        "Bóng đỏ",
+        "Bóng xanh",
+        "Bằng nhau",
+        "Không thể biết được"
+      ],
+      "correct_answer": 1,
+      "explanation": "Vì số bóng xanh (3) nhiều hơn số bóng đỏ (1) nên khả năng bốc được bóng xanh cao hơn. [2]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C3",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Sự kiện không thể",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Gieo một xúc xắc 6 mặt (các mặt có số chấm từ 1 đến 6). Sự kiện 'Gieo được mặt có 7 chấm' là sự kiện: [2]",
+      "type": "multiple_choice",
+      "choices": [
+        "Chắc chắn xảy ra",
+        "Có thể xảy ra",
+        "Không thể xảy ra",
+        "Rất ít khi xảy ra"
+      ],
+      "correct_answer": 2,
+      "explanation": "Xúc xắc chỉ có tối đa 6 chấm, nên không thể gieo được 7 chấm. [2]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C4",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Biểu đồ cột",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Biểu đồ cột về số cây trồng được của các lớp 5A, 5B, 5C lần lượt cao 5 ô, 4 ô và 6 ô (mỗi ô ứng với 10 cây). Lớp trồng được nhiều cây nhất là: [3]",
+      "type": "multiple_choice",
+      "choices": [
+        "5A",
+        "5B",
+        "5C",
+        "Bằng nhau"
+      ],
+      "correct_answer": 2,
+      "explanation": "Lớp 5C có cột cao nhất (6 ô) nên trồng được nhiều nhất. [3]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C5",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tính giá trị biểu thức phân số",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Giá trị của biểu thức A = 1/2 + 1/4 × 3 là: [3]",
+      "type": "multiple_choice",
+      "choices": [
+        "5/4",
+        "2/4",
+        "3/8",
+        "7/4"
+      ],
+      "correct_answer": 0,
+      "explanation": "Nhân trước cộng sau: 1/4 × 3 = 3/4. Sau đó: 1/2 + 3/4 = 2/4 + 3/4 = 5/4. [3]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C6",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Diện tích mảnh vườn",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một mảnh vườn hình chữ nhật có chu vi 120m, chiều rộng bằng 2/3 chiều dài. Diện tích mảnh vườn là: [4]",
+      "type": "multiple_choice",
+      "choices": [
+        "864 m^2",
+        "800 m^2",
+        "3456 m^2",
+        "1200 m^2"
+      ],
+      "correct_answer": 0,
+      "explanation": "Nửa chu vi: 60m. Chiều dài: 60 : 5 × 3 = 36m. Chiều rộng: 24m. Diện tích: 36 × 24 = 864 m^2. [4]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C7",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Trung bình cộng",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Số trung bình cộng của: 12; 15; 18 và 23 là: [4]",
+      "type": "multiple_choice",
+      "choices": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correct_answer": 2,
+      "explanation": "(12 + 15 + 18 + 23) : 4 = 68 : 4 = 17. [4]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C8",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "So sánh phân số",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Tìm số tự nhiên x biết: 3/5 < x/10 < 4/5 [4]",
+      "type": "multiple_choice",
+      "choices": [
+        "x = 6",
+        "x = 7",
+        "x = 8",
+        "x = 9"
+      ],
+      "correct_answer": 1,
+      "explanation": "Quy đồng mẫu số 10: 6/10 < x/10 < 8/10. Vậy x = 7. [5]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C9",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Hiệu - Tỉ",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Hiệu của hai số là 15,6. Nếu số lớn gấp 4 lần số bé thì số bé là: [5]",
+      "type": "multiple_choice",
+      "choices": [
+        "3,9",
+        "5,2",
+        "4,2",
+        "15,6"
+      ],
+      "correct_answer": 1,
+      "explanation": "Hiệu số phần là 3. Số bé là: 15,6 : 3 = 5,2. [5]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C10",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Bài toán về gạo",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một cửa hàng có 1 tấn gạo. Ngày đầu bán 300kg, ngày thứ hai bán 40% số gạo còn lại. Hỏi sau hai ngày cửa hàng còn lại bao nhiêu kg gạo? [5]",
+      "type": "multiple_choice",
+      "choices": [
+        "420 kg",
+        "280 kg",
+        "400 kg",
+        "600 kg"
+      ],
+      "correct_answer": 0,
+      "explanation": "Còn lại sau ngày đầu: 700kg. Ngày hai bán: 700 × 40% = 280kg. Còn lại: 700 - 280 = 420kg. [6]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C11",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "So sánh khối lượng",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Trong các số đo dưới đây, số đo nào lớn nhất? [6]",
+      "type": "multiple_choice",
+      "choices": [
+        "5kg 500g",
+        "5,6 kg",
+        "5060 g",
+        "5500 g"
+      ],
+      "correct_answer": 1,
+      "explanation": "Đổi hết ra gam: A=5500g; B=5600g; C=5060g; D=5500g. Vậy B lớn nhất. [6]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C12",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tỉ số phần trăm nữ",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Lớp 5A có 30 học sinh. Số học sinh nam chiếm 60%. Hỏi lớp có bao nhiêu học sinh nữ? [6]",
+      "type": "multiple_choice",
+      "choices": [
+        "18 bạn",
+        "12 bạn",
+        "15 bạn",
+        "20 bạn"
+      ],
+      "correct_answer": 1,
+      "explanation": "Số học sinh nữ chiếm 40%: 30 × 40 : 100 = 12 (bạn). [7]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C13",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thể tích từ Stp",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Một hình lập phương có diện tích toàn phần là 24 cm^2. Thể tích của nó là: [7]",
+      "type": "multiple_choice",
+      "choices": [
+        "8 cm^3",
+        "64 cm^3",
+        "216 cm^3",
+        "27 cm^3"
+      ],
+      "correct_answer": 0,
+      "explanation": "Cạnh hình lập phương là 2cm (vì 2×2×6=24). Thể tích: 2×2×2=8 cm^3. [7]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C14",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thời điểm khởi hành",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Quãng đường AB dài 120km. Một xe máy đi với vận tốc 40km/giờ thì đến nơi lúc 10 giờ 30 phút. Hỏi xe máy đó khởi hành lúc mấy giờ? [7]",
+      "type": "multiple_choice",
+      "choices": [
+        "6 giờ 30 phút",
+        "7 giờ 30 phút",
+        "7 giờ",
+        "8 giờ"
+      ],
+      "correct_answer": 1,
+      "explanation": "Thời gian đi: 3 giờ. Thời gian khởi hành: 10h30 - 3h = 7h30. [8]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C15",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tổng - Tỉ",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Tổng của hai số là 2024. Số thứ nhất bằng 0,6 lần số thứ hai. Số thứ nhất là: [8]",
+      "type": "multiple_choice",
+      "choices": [
+        "759",
+        "1265",
+        "1012",
+        "506"
+      ],
+      "correct_answer": 0,
+      "explanation": "Đổi 0,6 = 3/5. Tổng số phần: 8. Số thứ nhất: 2024 : 8 × 3 = 759. [8]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C16",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Dãy số quy luật",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Cho dãy số: 1,1; 2,2; 3,3; 4,4; ... Số hạng thứ 10 của dãy là: [8]",
+      "type": "multiple_choice",
+      "choices": [
+        "10,1",
+        "11,0",
+        "9,9",
+        "12,2"
+      ],
+      "correct_answer": 1,
+      "explanation": "Quy luật: Số hạng thứ n = 1,1 × n. Vậy 1,1 × 10 = 11. [8]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C17",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Lượng nước đổ thêm",
+      "difficulty": "VDC",
+      "difficulty_name": "Vận dụng cao",
+      "content": "Một hồ nước hình hộp chữ nhật dài 2m, rộng 1,5m và sâu 1,2m. Hiện nay 1/3 hồ đang chứa nước. Cần đổ thêm bao nhiêu lít nước nữa để đầy hồ? [9]",
+      "type": "multiple_choice",
+      "choices": [
+        "3600 lít",
+        "2400 lít",
+        "1200 lít",
+        "1800 lít"
+      ],
+      "correct_answer": 1,
+      "explanation": "V hồ = 3,6 m^3 = 3600 lít. Nước cần thêm: 3600 × 2/3 = 2400 lít. [9]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C18",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tính nhanh",
+      "difficulty": "TH",
+      "difficulty_name": "Thông hiểu",
+      "content": "Kết quả phép tính: 4,5 × 5,5 + 4,5 × 4,5 là: [9]",
+      "type": "multiple_choice",
+      "choices": [
+        "45",
+        "450",
+        "100",
+        "4,5"
+      ],
+      "correct_answer": 0,
+      "explanation": "4,5 × (5,5 + 4,5) = 4,5 × 10 = 45. [9]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C19",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Số viên gạch lát nền",
+      "difficulty": "VD",
+      "difficulty_name": "Vận dụng",
+      "content": "Để lát nền một căn phòng 20 m^2 bằng gạch hình vuông cạnh 40cm, cần bao nhiêu viên gạch? [10]",
+      "type": "multiple_choice",
+      "choices": [
+        "125 viên",
+        "1250 viên",
+        "50 viên",
+        "200 viên"
+      ],
+      "correct_answer": 0,
+      "explanation": "S gạch = 0,16 m^2. Số viên = 20 : 0,16 = 125 viên. [10]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    },
+    {
+      "id": "TOAN5KI2P5C20",
+      "lesson_id": 5,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thời gian năm nhuận",
+      "difficulty": "N",
+      "difficulty_name": "Nhận biết",
+      "content": "Năm 2024 là năm nhuận có 366 ngày. Hỏi năm 2024 có bao nhiêu tuần lễ và dư mấy ngày? [10]",
+      "type": "multiple_choice",
+      "choices": [
+        "52 tuần dư 1 ngày",
+        "52 tuần dư 2 ngày",
+        "52 tuần dư 3 ngày",
+        "53 tuần"
+      ],
+      "correct_answer": 1,
+      "explanation": "366 : 7 = 52 (dư 2). [10]",
+      "timestamp": "14/02/2026 13:15:00",
+      "file_path": "TOAN_LOP_5/HK2/PHAN_5.tex"
+    }
+  ],
+  "videos": [
+    {
+      "id": "TOAN5KI1C1B1V1",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 1. Ôn tập các số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B1V2",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 1. Ôn tập các số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ANkjl3xfK4g&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=174",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B2V1",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 2. Ôn tập các phép tính với số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZZgOESgAv4U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=173",
+      "file_path": "TOAN_LOP_5/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B2V2",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 2. Ôn tập các phép tính với số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gPLBSgp42mE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=172",
+      "file_path": "TOAN_LOP_5/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B3V1",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 3. Ôn tập phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=t0wwCC72Ye4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=171",
+      "file_path": "TOAN_LOP_5/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B3V2",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 3. Ôn tập phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=BCnzw3ynY3I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=170",
+      "file_path": "TOAN_LOP_5/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B4V1",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 4. Phân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NOqHOuSwraE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=169",
+      "file_path": "TOAN_LOP_5/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B4V2",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 4. Phân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OboskrP97eI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=168",
+      "file_path": "TOAN_LOP_5/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B5V1",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 5. Ôn tập các phép tính với phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6fOqN3MXP5U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=167",
+      "file_path": "TOAN_LOP_5/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B5V2",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 5. Ôn tập các phép tính với phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=St6d6I2Kd8s&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=166",
+      "file_path": "TOAN_LOP_5/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B6V1",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 6. Cộng, trừ hai phân số khác mẫu số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mmbHlfJBw1Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=165",
+      "file_path": "TOAN_LOP_5/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B6V2",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 6. Cộng, trừ hai phân số khác mẫu số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ux_z8EusLxg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=164",
+      "file_path": "TOAN_LOP_5/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B7V1",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 7. Hỗn số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=aapWN9wWVVk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=163",
+      "file_path": "TOAN_LOP_5/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B7V2",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 7. Hỗn số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LdsTfhw6sa4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=162",
+      "file_path": "TOAN_LOP_5/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B8V1",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 8. Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=EEkxZprl2IU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=161",
+      "file_path": "TOAN_LOP_5/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B8V2",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 8. Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=pQMP6QUeKDA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=160",
+      "file_path": "TOAN_LOP_5/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V1",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jNwCuvX1PdE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=159",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V2",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=hJmgdMVsD0A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=158",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V3",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=feZ488YggYk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=157",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B10V1",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Rbl9ukW6kVc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=156",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B10V2",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=UrTsXewXoMI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=155",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B10V3",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZCbShNMVYV4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=154",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B11V1",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 11. So sánh các số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2eTh1fwg2U0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=153",
+      "file_path": "TOAN_LOP_5/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B11V2",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 11. So sánh các số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wWkWVrergHs&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=152",
+      "file_path": "TOAN_LOP_5/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B12V1",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=I5_wWcijjpY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=151",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B12V2",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=W6D2Srm6qMk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=150",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B12V3",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DRVwTve0u7s&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=149",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B13V1",
+      "lesson_id": 13,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 13. Làm tròn số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Zbj7L6Dl2ik&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=148",
+      "file_path": "TOAN_LOP_5/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B13V2",
+      "lesson_id": 13,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 13. Làm tròn số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ii4nuGHOFBY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=147",
+      "file_path": "TOAN_LOP_5/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B14V1",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 14. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7RnTMcQKNfI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=146",
+      "file_path": "TOAN_LOP_5/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C2B14V2",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "Bài 14. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3KXwF4-Bx40&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=145",
+      "file_path": "TOAN_LOP_5/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B15V1",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 15. Ki-lô-mét vuông. Héc-ta",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NL8QriLp9WI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=144",
+      "file_path": "TOAN_LOP_5/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B15V2",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 15. Ki-lô-mét vuông. Héc-ta",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7W63fNqkKQk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=143",
+      "file_path": "TOAN_LOP_5/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B16V1",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 16. Các đơn vị đo diện tích",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8jq0-8EnS9c&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=142",
+      "file_path": "TOAN_LOP_5/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B16V2",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 16. Các đơn vị đo diện tích",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0ZrlSdFPHQg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=141",
+      "file_path": "TOAN_LOP_5/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B17V1",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 17. Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jj5ycsqOlaY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=140",
+      "file_path": "TOAN_LOP_5/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B17V2",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 17. Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dhDbeA55oPY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=139",
+      "file_path": "TOAN_LOP_5/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B18V1",
+      "lesson_id": 18,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 18. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2eDTd96YZMM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=4",
+      "file_path": "TOAN_LOP_5/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C3B18V2",
+      "lesson_id": 18,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "Bài 18. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4Qo8ay9VPKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=3",
+      "file_path": "TOAN_LOP_5/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B19V1",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 19. Phép cộng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CrRjzjKi7AU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=2",
+      "file_path": "TOAN_LOP_5/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B19V2",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 19. Phép cộng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=cqmXTT6BBLw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=1",
+      "file_path": "TOAN_LOP_5/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B23V1",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 23. Nhân, chia số thập phân với 10; 100; 1 000;... hoặc với 0,1; 0,01; 0,001;...",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iY86ZAVahCY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=136",
+      "file_path": "TOAN_LOP_5/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B23V2",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 23. Nhân, chia số thập phân với 10; 100; 1 000;... hoặc với 0,1; 0,01; 0,001;...",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kb6CIc64qT0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=135",
+      "file_path": "TOAN_LOP_5/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B24V1",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=UaHmbejFpvU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=134",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B24V2",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=sWk8i3W80Ec&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=133",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C4B24V3",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3ZauVbtoKqQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=132",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B25V1",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CauUcG2zDNk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=131",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B25V2",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=uGX3mVkExtc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=130",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B25V3",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8fHPeH9vf6E&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=129",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B25V4",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IZ-MGMb-puo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=128",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B26V1",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ydE37QidyZY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=127",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B26V2",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OszF8wvsMcY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=126",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B26V3",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=rgx1iYy65lc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=125",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B26V4",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=T4YxW5k7n1M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=124",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B27V1",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4NHPjdAgzJo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=123",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B27V2",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=TG1cLFLHwG8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=122",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B27V3",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g7pKtRLR3xo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=121",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B27V4",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mE0keVl7r6Y&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=120",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B27V5",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dSZ2gVZHPxE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=119",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B28V1",
+      "lesson_id": 28,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 28. Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LljXlOJI-aU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=118",
+      "file_path": "TOAN_LOP_5/HK1/BAI_28_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B29V1",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Tpz9BL5zrD4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=117",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B29V2",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=PW1LVvOd5jg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=116",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C5B29V3",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8U03CSR1Ye4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=115",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B30V1",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=htPzxQdvB_I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=114",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B30V2",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=X28EQDId0ZE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=113",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B30V3",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Xvs-1RHU0YE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=112",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B31V1",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=B442jk3EbtA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=111",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B31V2",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tEpDm6D7nBg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=110",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B31V3",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=BDrS_IhmYGk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=109",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B31V4",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jfrJsC-aiBk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=108",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B32V1",
+      "lesson_id": 32,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 32. Ôn tập một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tu3f-UTGFbA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=107",
+      "file_path": "TOAN_LOP_5/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B32V2",
+      "lesson_id": 32,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 32. Ôn tập một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JPkSOMucCek&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=106",
+      "file_path": "TOAN_LOP_5/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B33V1",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=E5kANDquNtU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=105",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B33V2",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=b9MznQxmDQQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=104",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B33V3",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kJcXf3v1Ub8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=103",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B34V1",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 34. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=TervnfWc_sY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=102",
+      "file_path": "TOAN_LOP_5/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B34V2",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 34. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=XTlySwuFJmg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=101",
+      "file_path": "TOAN_LOP_5/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B35V1",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3kaKU9XEcPY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=100",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B35V2",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JOymDCfNjf8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=99",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C6B35V3",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=615HNy8Ko64&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=98",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B36V1",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 36. Tỉ số. Tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DSQtHH0ewZk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=95",
+      "file_path": "TOAN_LOP_5/HK2/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B36V2",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 36. Tỉ số. Tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NkrbQMaQ_io&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=94",
+      "file_path": "TOAN_LOP_5/HK2/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B37V1",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 37. Tỉ lệ bản đồ và ứng dụng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g7CQ33wGD4Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=93",
+      "file_path": "TOAN_LOP_5/HK2/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B37V2",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 37. Tỉ lệ bản đồ và ứng dụng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4mAFlEL4yes&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=92",
+      "file_path": "TOAN_LOP_5/HK2/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B38V1",
+      "lesson_id": 38,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 38. Tìm hai số khi biết tổng và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gDuXi5l214M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=91",
+      "file_path": "TOAN_LOP_5/HK2/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B38V2",
+      "lesson_id": 38,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 38. Tìm hai số khi biết tổng và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=acqFCVqUZyg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=90",
+      "file_path": "TOAN_LOP_5/HK2/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B39V1",
+      "lesson_id": 39,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 39. Tìm hai số khi biết hiệu và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=oDOsCM1-J2U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=89",
+      "file_path": "TOAN_LOP_5/HK2/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B39V2",
+      "lesson_id": 39,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 39. Tìm hai số khi biết hiệu và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4Fcx7bOZdBM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=88",
+      "file_path": "TOAN_LOP_5/HK2/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B40V1",
+      "lesson_id": 40,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 40. Tìm tỉ số phần trăm của hai số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kOcm0WpHwA0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=87",
+      "file_path": "TOAN_LOP_5/HK2/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B40V2",
+      "lesson_id": 40,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 40. Tìm tỉ số phần trăm của hai số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=saMwOUPfP9U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=86",
+      "file_path": "TOAN_LOP_5/HK2/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B41V1",
+      "lesson_id": 41,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 41. Tìm giá trị phần trăm của một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Fscr50OdIJU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=84",
+      "file_path": "TOAN_LOP_5/HK2/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B41V2",
+      "lesson_id": 41,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 41. Tìm giá trị phần trăm của một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JS7l_OD-WF0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=83",
+      "file_path": "TOAN_LOP_5/HK2/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B42V1",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 42. Máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=KdI1DC1iUKc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=81",
+      "file_path": "TOAN_LOP_5/HK2/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B42V2",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 42. Máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=yEtU9mHl3hk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=80",
+      "file_path": "TOAN_LOP_5/HK2/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B43V1",
+      "lesson_id": 43,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 43. Thực hành và trải nghiệm sử dụng máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=34yJhs2XgKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=79",
+      "file_path": "TOAN_LOP_5/HK2/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B44V1",
+      "lesson_id": 44,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 44. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=vviUjpn8x4k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=78",
+      "file_path": "TOAN_LOP_5/HK2/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C7B44V2",
+      "lesson_id": 44,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "Bài 44. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=9D-Wx_b-8O8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=77",
+      "file_path": "TOAN_LOP_5/HK2/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B45V1",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 45. Thể tích của một hình",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ppG3X6ZAapc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=76",
+      "file_path": "TOAN_LOP_5/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B46V1",
+      "lesson_id": 46,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 46. Xăng-ti-mét khối. Đề-xi-mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WZFbBS_RajA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=75",
+      "file_path": "TOAN_LOP_5/HK2/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B46V2",
+      "lesson_id": 46,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 46. Xăng-ti-mét khối. Đề-xi-mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=sJg60MD-Fs0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=74",
+      "file_path": "TOAN_LOP_5/HK2/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B47V1",
+      "lesson_id": 47,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 47. Mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5EhgzEN2EQc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=72",
+      "file_path": "TOAN_LOP_5/HK2/BAI_47_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B47V2",
+      "lesson_id": 47,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 47. Mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5416j62E5as&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=71",
+      "file_path": "TOAN_LOP_5/HK2/BAI_47_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B48V1",
+      "lesson_id": 48,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 48. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OBWxS3DJF1Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=70",
+      "file_path": "TOAN_LOP_5/HK2/BAI_48_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C8B48V2",
+      "lesson_id": 48,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "Bài 48. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=-GYrMHa4Xys&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=69",
+      "file_path": "TOAN_LOP_5/HK2/BAI_48_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B49V1",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 49. Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=V7LNf12TtkY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=68",
+      "file_path": "TOAN_LOP_5/HK2/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B49V2",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 49. Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iWULx6ZBO_U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=67",
+      "file_path": "TOAN_LOP_5/HK2/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B50V1",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=QIg--GKNfLc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=66",
+      "file_path": "TOAN_LOP_5/HK2/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B50V2",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OQUfzfIkZeo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=65",
+      "file_path": "TOAN_LOP_5/HK2/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B50V3",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=FSLprCW-BHE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=64",
+      "file_path": "TOAN_LOP_5/HK2/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B51V1",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 51. Diện tích xung quanh và diện tích toàn phần của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xOW8ZDlUd64&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=63",
+      "file_path": "TOAN_LOP_5/HK2/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B51V2",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 51. Diện tích xung quanh và diện tích toàn phần của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0dtF4cJsZk0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=62",
+      "file_path": "TOAN_LOP_5/HK2/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B52V1",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 52. Thể tích của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xaDSR6PaDpc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=61",
+      "file_path": "TOAN_LOP_5/HK2/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B52V2",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 52. Thể tích của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=By3VHjEFVWU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=60",
+      "file_path": "TOAN_LOP_5/HK2/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B53V1",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 53. Thể tích của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dY8Mqs9vs6I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=59",
+      "file_path": "TOAN_LOP_5/HK2/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B53V2",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 53. Thể tích của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=f3-JrzMUaJE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=58",
+      "file_path": "TOAN_LOP_5/HK2/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B54V1",
+      "lesson_id": 54,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 54. Thực hành tính toán và ước lượng thể tích một số hình khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ybzlA1kJv70&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=57",
+      "file_path": "TOAN_LOP_5/HK2/BAI_54_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B55V1",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xOxZmWyArVY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=56",
+      "file_path": "TOAN_LOP_5/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B55V2",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xTeBi3jweZs&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=55",
+      "file_path": "TOAN_LOP_5/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C9B55V3",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=GATlvLgw4EY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=54",
+      "file_path": "TOAN_LOP_5/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B56V1",
+      "lesson_id": 56,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 56. Các đơn vị đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7GKub8FY4Uw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=53",
+      "file_path": "TOAN_LOP_5/HK2/BAI_56_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B57V1",
+      "lesson_id": 57,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 57. Cộng trừ số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=S8zqDv15A_w&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=52",
+      "file_path": "TOAN_LOP_5/HK2/BAI_57_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B57V2",
+      "lesson_id": 57,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 57. Cộng trừ số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dTBIneezo0A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=51",
+      "file_path": "TOAN_LOP_5/HK2/BAI_57_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B58V1",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=zKlcx8RYMkk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=50",
+      "file_path": "TOAN_LOP_5/HK2/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B58V2",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Mbq9alTACE4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=49",
+      "file_path": "TOAN_LOP_5/HK2/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B58V3",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CgLCN18kj1M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=48",
+      "file_path": "TOAN_LOP_5/HK2/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B59V1",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 59. Vận tốc của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WvA39UHfuL4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=47",
+      "file_path": "TOAN_LOP_5/HK2/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B59V2",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 59. Vận tốc của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6Z07KkBxnPI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=46",
+      "file_path": "TOAN_LOP_5/HK2/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B60V1",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IrYDYNtmHzk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=45",
+      "file_path": "TOAN_LOP_5/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B60V2",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=k1As20yOcSk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=44",
+      "file_path": "TOAN_LOP_5/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B60V3",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iSfvbA86VoM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=43",
+      "file_path": "TOAN_LOP_5/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B61V1",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 61. Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=_zAd9AJWuq4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=42",
+      "file_path": "TOAN_LOP_5/HK2/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B61V2",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 61. Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CaTovTM8RJk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=41",
+      "file_path": "TOAN_LOP_5/HK2/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B62V1",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4DuZAH-ih04&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=40",
+      "file_path": "TOAN_LOP_5/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B62V2",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZpQKeMvjC9o&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=39",
+      "file_path": "TOAN_LOP_5/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C10B62V3",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=FXHLI8Tcjg8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=38",
+      "file_path": "TOAN_LOP_5/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B63V1",
+      "lesson_id": 63,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 63. Thu thập, phân loại, sắp xếp các số liệu",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wjiIbJtfcWo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=37",
+      "file_path": "TOAN_LOP_5/HK2/BAI_63_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B64V1",
+      "lesson_id": 64,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 64. Biểu đồ hình quạt",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Z6pDje1n3Is&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=36",
+      "file_path": "TOAN_LOP_5/HK2/BAI_64_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B64V2",
+      "lesson_id": 64,
+      "chapter_name": "Chủ đề 11. Một số yếu tô tố thống kê và xác suất",
+      "lesson_name": "Bài 64. Biểu đồ hình quạt",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=a7UFKwh_LKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=35",
+      "file_path": "TOAN_LOP_5/HK2/BAI_64_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B65V1",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 65. Tỉ số của số lần lặp lại của một sự kiện so với tổng số lần thực hiện",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=od5hU2astpE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=34",
+      "file_path": "TOAN_LOP_5/HK2/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B66V1",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 66. Thực hành và trải nghiệm. Thu thập, phân tích, biểu diễn các số liệu thống kê",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iyLCHxsBY4A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=33",
+      "file_path": "TOAN_LOP_5/HK2/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B66V2",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 66. Thực hành và trải nghiệm. Thu thập, phân tích, biểu diễn các số liệu thống kê",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kINozDP68BQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=32",
+      "file_path": "TOAN_LOP_5/HK2/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C11B67V1",
+      "lesson_id": 67,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "Bài 67. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=GgJ4m9WmIy4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=31",
+      "file_path": "TOAN_LOP_5/HK2/BAI_67_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B68V1",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=lhWxgIOXmGg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=30",
+      "file_path": "TOAN_LOP_5/HK2/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B68V2",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=-ZIffIMEuyI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=29",
+      "file_path": "TOAN_LOP_5/HK2/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B68V3",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZSyFxBG0kiI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=28",
+      "file_path": "TOAN_LOP_5/HK2/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B69V1",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 69. Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DnxSpP34Ow0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=27",
+      "file_path": "TOAN_LOP_5/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B69V2",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 69. Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ogV5n9Al7GA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=26",
+      "file_path": "TOAN_LOP_5/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B69V3",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 69. Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xTKuDBJa5LU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=25",
+      "file_path": "TOAN_LOP_5/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B69V4",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 69. Ôn tập các phép tính với số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Gn2pNCOqPhw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=24",
+      "file_path": "TOAN_LOP_5/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B70V1",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 70. Ôn tập tỉ số, tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=umkkPOYoYQQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=23",
+      "file_path": "TOAN_LOP_5/HK2/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B70V2",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 70. Ôn tập tỉ số, tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3whJWeQ7f-c&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=22",
+      "file_path": "TOAN_LOP_5/HK2/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B71V1",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=EQGEvLRe5AI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=21",
+      "file_path": "TOAN_LOP_5/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B71V2",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=XcOJJA9s6jk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=20",
+      "file_path": "TOAN_LOP_5/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B71V3",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=_CA6D6JtiYw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=19",
+      "file_path": "TOAN_LOP_5/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B71V4",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=1Z5XRjZvYCk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=18",
+      "file_path": "TOAN_LOP_5/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B72V1",
+      "lesson_id": 72,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 72. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=t3B68Y9p90Y&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=17",
+      "file_path": "TOAN_LOP_5/HK2/BAI_72_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B72V2",
+      "lesson_id": 72,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 72. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6U9IlPGBI5U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=16",
+      "file_path": "TOAN_LOP_5/HK2/BAI_72_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B73V1",
+      "lesson_id": 73,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 73. Ôn tập toán chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ye5tGOiDnjM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=15",
+      "file_path": "TOAN_LOP_5/HK2/BAI_73_VIDEO"
+    },
+    {
+      "id": "TOAN5KI2C12B73V2",
+      "lesson_id": 73,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "Bài 73. Ôn tập toán chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=lbIwJgUJ51g&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=14",
+      "file_path": "TOAN_LOP_5/HK2/BAI_73_VIDEO"
+    }
+  ]
+}

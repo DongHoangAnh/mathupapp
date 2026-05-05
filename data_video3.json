@@ -1,0 +1,936 @@
+{
+  "metadata": {
+    "total_videos": 103,
+    "subject": "math",
+    "grade": 3
+  },
+  "videos": [
+    {
+      "id": "TOAN3KI1C1B1V1",
+      "lesson_id": 1,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 1 Ôn tập các số đến 1000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B1V2",
+      "lesson_id": 1,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 1 Ôn tập các số đến 1000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=nZ_gDyJSs8o&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=2&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B2V1",
+      "lesson_id": 2,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 2 Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=M8CLM9ly8SY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=3&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B2V2",
+      "lesson_id": 2,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 2 Ôn tập phép cộng, phép trừ trong phạm vi 1000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=94RLKQaqud4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=4&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B3V1",
+      "lesson_id": 3,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 3 Tìm thành phần trong phép cộng, phép trừ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=VHABd0ArOCk&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=5&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B3V2",
+      "lesson_id": 3,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 3 Tìm thành phần trong phép cộng, phép trừ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4gGe4MDSymc&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=6&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B4V1",
+      "lesson_id": 4,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 4 |Tiết 1 Ôn tập bảng nhân 2, bảng chia 2",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=XZDnQxHj_Wo&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=7&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B4V2",
+      "lesson_id": 4,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 4 |Tiết 1 Ôn tập bảng nhân 2, bảng chia 2",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZPtLCyBB__E&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=8&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B5V1",
+      "lesson_id": 5,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 5 Bảng nhân 3, bảng chia 3",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CaasHtNCSlw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=9&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B5V2",
+      "lesson_id": 5,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 5 Bảng nhân 3, bảng chia 3",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3oG0KDX9MD0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=10&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B6V1",
+      "lesson_id": 6,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 6 Bảng nhân 4, bảng chia 4",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=bKZ7q-Nq1jU&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=11&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B6V2",
+      "lesson_id": 6,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 6 Bảng nhân 4, bảng chia 4",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Xum3-TgjGD4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=12&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B7V1",
+      "lesson_id": 7,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 7: Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IEEDModGK1c&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=13&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B7V2",
+      "lesson_id": 7,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 7: Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4VA5uMXOET0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=14&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B8V1",
+      "lesson_id": 8,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 8: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qe6JPylY-v0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=15&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B8V2",
+      "lesson_id": 8,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 8: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=uWMS_31e5dk&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=16&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B8V3",
+      "lesson_id": 8,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 8: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=p-iTntHw47g&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=17&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B9V1",
+      "lesson_id": 9,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 9: Bảng nhân 6, bảng chia 6",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LZDd6QAn7jw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=18&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B9V2",
+      "lesson_id": 9,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 9: Bảng nhân 6, bảng chia 6",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Bv62HTu_w4o&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=19&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B10V1",
+      "lesson_id": 10,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 10: Bảng nhân 7, bảng chia 7",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2kDGbnnhgQQ&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=20&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B10V2",
+      "lesson_id": 10,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 10: Bảng nhân 7, bảng chia 7",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qntE0SM07sE&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=21&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B11V1",
+      "lesson_id": 11,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 11: Bảng nhân 8, bảng chia 8",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=BCzAjjanI1k&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=22&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B11V2",
+      "lesson_id": 11,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 11: Bảng nhân 8, bảng chia 8",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qiJqmB3HJV8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=23&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B12V1",
+      "lesson_id": 12,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 12: Bảng nhân 9, bảng chia 9",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g7fZC862AZo&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=24&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B12V2",
+      "lesson_id": 12,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 12: Bảng nhân 9, bảng chia 9",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WVgmUM29QYY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=25&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B12V3",
+      "lesson_id": 12,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 12: Bảng nhân 9, bảng chia 9",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=a11XsR6atts&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=26&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B13V1",
+      "lesson_id": 13,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 13: Tìm thành phần trong phép nhân, phép chia",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=i6Ax711k8sw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=27&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B13V2",
+      "lesson_id": 13,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 13: Tìm thành phần trong phép nhân, phép chia",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=G-8EkQnqCTs&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=28&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B14V1",
+      "lesson_id": 14,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 14: Một phần mấy",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=utyUGhbfN7c&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=29&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B14V2",
+      "lesson_id": 14,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 14: Một phần mấy",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qzAYIszEz4M&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=30&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B15V1",
+      "lesson_id": 15,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 15: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=I_XEh8A15vM&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=31&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B15V2",
+      "lesson_id": 15,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 15: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iNdpX7_zuxY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=32&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B16V1",
+      "lesson_id": 16,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4K4FeZ7VsDQ&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=33&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B16V2",
+      "lesson_id": 16,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Qqpp0vVLbj0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=34&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B17V1",
+      "lesson_id": 17,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 17: Hình tròn, tâm, bán kính, đường kính của hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0Da74aIAVCw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=35&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B18V1",
+      "lesson_id": 18,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 18: Góc, góc vuông, góc không vuông",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=q-J604BZ4HU&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=36&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B19V1",
+      "lesson_id": 19,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 19: Hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3nt1pBTDLL0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=37&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B19V2",
+      "lesson_id": 19,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 19: Hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ebHWGBxzY8I&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=38&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B19V3",
+      "lesson_id": 19,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 19: Hình tam giác, hình tứ giác, hình chữ nhật, hình vuông",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DYpxdIt1m7I&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=39&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B20V1",
+      "lesson_id": 20,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 20:Thực hành vẽ góc vuông, vẽ đường tròn hình vuông hình chữ nhật và vẽ trang trí",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xM6d9TGxWhM&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=40&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_20_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B21V1",
+      "lesson_id": 21,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 21: Khối lập phương, khối hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0wq_pz0akgY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=41&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_21_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B22V1",
+      "lesson_id": 22,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 22: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=sU2Y5SoR1Qk&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=42&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B22V2",
+      "lesson_id": 22,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 22: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=efUMFJlCs6E&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=43&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B23V1",
+      "lesson_id": 23,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 23: Nhân số có hai chữ số với số có 1 chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Y51QC3RoGs8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=44&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B23V2",
+      "lesson_id": 23,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 23: Nhân số có hai chữ số với số có 1 chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Rk0Qd03Ilh4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=45&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B24V1",
+      "lesson_id": 24,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 24: Gấp một số lên một số lần",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=siHCL0VmLIU&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=46&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B24V2",
+      "lesson_id": 24,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 24: Gấp một số lên một số lần",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CxZ46zym_9Q&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=47&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B25V1",
+      "lesson_id": 25,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 25: Phép chia hết, phép chia có dư",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qRaTXHE1MwY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=48&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B25V2",
+      "lesson_id": 25,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 25: Phép chia hết, phép chia có dư",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=60P4Zo_PNp8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=49&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B26V1",
+      "lesson_id": 26,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 26: Chia số có hai chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=60P4Zo_PNp8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=49&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B26V2",
+      "lesson_id": 26,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 26: Chia số có hai chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IGkmlDg4UyA&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=51&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B26V3",
+      "lesson_id": 26,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 26: Chia số có hai chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4D_XDKjv2uQ&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=52&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B27V1",
+      "lesson_id": 27,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 27: Giảm một số đi một số lần",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=O7zxRrHxEGI&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=53&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B27V2",
+      "lesson_id": 27,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 27: Giảm một số đi một số lần",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=GTKUJBJ4g88&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=54&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B28V1",
+      "lesson_id": 28,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 28: Bài toán giải bằng hai bước tính",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=fBV6h6WWPdw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=55&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_28_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B28V2",
+      "lesson_id": 28,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 28: Bài toán giải bằng hai bước tính",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8UENglcvnoM&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=56&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_28_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B29V1",
+      "lesson_id": 29,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 29: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=nDHoaGbz56U&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=57&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B29V2",
+      "lesson_id": 29,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 29: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=S-fjh7rCv1E&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=58&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B30V1",
+      "lesson_id": 30,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 30: Mi-li-mét",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LNvyen1Y1Mc&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=59&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B30V2",
+      "lesson_id": 30,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 30: Mi-li-mét",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=UYeHIPzPygI&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=60&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B31V1",
+      "lesson_id": 31,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 31: Gam",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kGEpLx7X3mo&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=61&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B31V2",
+      "lesson_id": 31,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 31: Gam",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=H6fLVx4-ySs&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=62&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B32V1",
+      "lesson_id": 32,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 33: Nhiệt độ. Đơn vị đo nhiệt độ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=95zGqpuwT7o&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=63&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B33V1",
+      "lesson_id": 33,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 34 Thực hành và trải nghiệm với các đơn vị Mi-li-mét,gam,mi-li-lít, độ C",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=KNUE8DgotSA&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=64&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B33V2",
+      "lesson_id": 33,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 34 Thực hành và trải nghiệm với các đơn vị Mi-li-mét,gam,mi-li-lít, độ C",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wOUWuKgXAbg&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=66&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B34V1",
+      "lesson_id": 34,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 35: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wOUWuKgXAbg&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=66&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B35V1",
+      "lesson_id": 35,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 36: Nhân số có ba chữ số với số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=1gCT_4Eg7dI&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=67&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B35V2",
+      "lesson_id": 35,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 36: Nhân số có ba chữ số với số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=73On9s8dRC4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=68&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B36V1",
+      "lesson_id": 36,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 37: Chia số có ba chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=agYFVuGNWSY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=69&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B36V2",
+      "lesson_id": 36,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 37: Chia số có ba chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=EgwZvfDvCnI&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=70&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B36V3",
+      "lesson_id": 36,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 37: Chia số có ba chữ số cho số có một chữ số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=RhLVv6CQAW4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=71&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B37V1",
+      "lesson_id": 37,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 38: Biểu thức số. Tính giá trị của biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=l_dfrRNRWfY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=72&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B37V2",
+      "lesson_id": 37,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 38: Biểu thức số. Tính giá trị của biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=294uOdVZ0JE&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=73&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B37V3",
+      "lesson_id": 37,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 38: Biểu thức số. Tính giá trị của biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=1RCuTXZxY6g&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=74&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B37V4",
+      "lesson_id": 37,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 38: Biểu thức số. Tính giá trị của biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ku8PE-s5yBg&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=75&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B38V1",
+      "lesson_id": 38,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 39: So sánh số lớn gấp mấy lần số bé",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=TFx2dfs6OG0&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=76&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B38V2",
+      "lesson_id": 38,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 39: So sánh số lớn gấp mấy lần số bé",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=VSQIENjlm7Y&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=78&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B39V1",
+      "lesson_id": 39,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 40: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=VSQIENjlm7Y&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=78&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B39V2",
+      "lesson_id": 39,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 40: Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tHwdVHlYaKg&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=79&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B40V1",
+      "lesson_id": 40,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 41:Ôn tập phép nhân, phép chia trong phạm vi 100,",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qsNy-5HInQ8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=80&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B40V2",
+      "lesson_id": 40,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 41:Ôn tập phép nhân, phép chia trong phạm vi 100,",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=rz6Gw2_rxNY&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=81&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B40V3",
+      "lesson_id": 40,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 41:Ôn tập phép nhân, phép chia trong phạm vi 100,",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=YkHqG6SdEy4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=82&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B41V1",
+      "lesson_id": 41,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 42: Ôn tập biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JZ9Gzt6VNV4&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=83&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B41V2",
+      "lesson_id": 41,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 42: Ôn tập biểu thức số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=csZP8fdJyL8&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=84&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B42V1",
+      "lesson_id": 42,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 43: Ôn tập về hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=o5Ss1xiDIOw&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=85&pp=iAQB2AbzAg%3D%3D",
+      "file_path": "TOAN_LOP_3/HK1/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B42V2",
+      "lesson_id": 42,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 43: Ôn tập về hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2aBH1wONPSU&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=86&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B43V1",
+      "lesson_id": 43,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 44: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=R_tFODKVIos&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=87&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B43V2",
+      "lesson_id": 43,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 44: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5QpTSCDnL84&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=88&pp=iAQB0gcJCYcKAYcqIYzv",
+      "file_path": "TOAN_LOP_3/HK1/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B44V1",
+      "lesson_id": 44,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 45: Các số có bốn chữ số. Số 10 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Te9uHdJbYzE&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=89&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B44V2",
+      "lesson_id": 44,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 45: Các số có bốn chữ số. Số 10 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=RBGNM9FuVIE&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=90&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B44V3",
+      "lesson_id": 44,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 45: Các số có bốn chữ số. Số 10 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=uPua4J4iapc&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=91&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B45V1",
+      "lesson_id": 45,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 46: So sánh các số trong phạm vi 10 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=y_UD6g0S4Hs&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=92&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B45V2",
+      "lesson_id": 45,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 46: So sánh các số trong phạm vi 10 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iw8MpbIvmNo&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=93&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B46V1",
+      "lesson_id": 46,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 47: làm quen với chữ số La Mã",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=vPD5jFfNTnc&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=94&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B46V2",
+      "lesson_id": 46,
+      "chapter_name": "Chương 1",
+      "lesson_name": "Bài 47: làm quen với chữ số La Mã",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wIB2U9ZKkJM&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=95&pp=iAQB",
+      "file_path": "TOAN_LOP_3/HK1/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243668_9739",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243668_6226",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 2: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243668_663",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 4: ÔN TẬP BẢNG NHÂN 2; 5, BẢNG CHIA 2; 5",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243669_6185",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 17: HÌNH TRÒN. TÂM, BÁN KÍNH, ĐƯỜNG KÍNH CỦA HÌNH TRÒN",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243669_2330",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 19: HÌNH TAM GIÁC, HÌNH TỨ GIÁC. HÌNH CHỮ NHẬT, HÌNH VUÔNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243669_8567",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ 1",
+      "lesson_name": "BÀI 20: THỰC HÀNH VẼ GÓC VUÔNG, VẼ ĐƯỜNG TRÒN, HÌNH VUÔNG, HÌNH CHỮ NHẬT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243669_9763",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 4: PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23: NHÂN SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN3KI1C1B_AUTO_1772972243671_9286",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 5: MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ",
+      "lesson_name": "BÀI 34: THỰC HÀNH VÀ TRẢI NGHIỆM (mm, g, ml, độ C)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WLHWEmis2ww&list=PLAbgKpL3K4iQxSO-J39UougYbZeLTIBwG&index=1&pp=iAQB2AYb",
+      "file_path": "TOAN_LOP_3/HK1/BAI_1_VIDEO"
+    }
+  ]
+}

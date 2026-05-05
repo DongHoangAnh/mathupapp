@@ -1,0 +1,1520 @@
+{
+  "metadata": {
+    "total_videos": 168,
+    "subject": "math"
+  },
+  "videos": [
+    {
+      "id": "TOAN2KI1C1B1V1",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 1 – ÔN TẬP CÁC SỐ ĐẾN 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B1V2",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 1 – ÔN TẬP CÁC SỐ ĐẾN 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=P_9FC6sRIVQ&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=2",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B1V3",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 1 – ÔN TẬP CÁC SỐ ĐẾN 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=zmGRCeG--4I&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=3",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B2V1",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 2 – TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dYZI9c08Dkc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=4",
+      "file_path": "TOAN_LOP_2/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B2V2",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 2 – TIA, SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dcZ741QORpE&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=5",
+      "file_path": "TOAN_LOP_2/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B3V1",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 3 – CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=AntOAHda2e8&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=6",
+      "file_path": "TOAN_LOP_2/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B3V2",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 3 – CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tzQ6RIRSZtY&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=7",
+      "file_path": "TOAN_LOP_2/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B3V3",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 3 – CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=pKQAFjy81u8&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=8",
+      "file_path": "TOAN_LOP_2/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B4V1",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 4 – HƠN, KÉM NHAU BAO NHIÊU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mM4axSp3cpQ&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=9",
+      "file_path": "TOAN_LOP_2/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B4V2",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 4 – HƠN, KÉM NHAU BAO NHIÊU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4Es0NiUHwYI&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=10",
+      "file_path": "TOAN_LOP_2/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B5V1",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 5 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Hx4xbNWkn3k&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=11",
+      "file_path": "TOAN_LOP_2/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B5V2",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 5 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZgbIopZQBs0&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=12",
+      "file_path": "TOAN_LOP_2/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B5V3",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 5 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=YoqqOGzkNiU&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=13",
+      "file_path": "TOAN_LOP_2/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B6V1",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 6 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=G0tx6pimbXQ&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=14",
+      "file_path": "TOAN_LOP_2/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B6V2",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. ÔN TẬP VÀ BỔ SUNG",
+      "lesson_name": "BÀI 6 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=w0zdytA7fCc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=15",
+      "file_path": "TOAN_LOP_2/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B7V1",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 7 – PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=hGJ0MsM8eP0&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=16",
+      "file_path": "TOAN_LOP_2/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B7V2",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 7 – PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=qt5rdwX3ihs&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=17",
+      "file_path": "TOAN_LOP_2/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B7V3",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 7 – PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=aRqa6MiI1c0&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=18",
+      "file_path": "TOAN_LOP_2/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B7V4",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 7 – PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4am2HJQR1aw&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=19",
+      "file_path": "TOAN_LOP_2/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B7V5",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 7 – PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=V5N1zAKjkUc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=20",
+      "file_path": "TOAN_LOP_2/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B8V1",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 8 – BẢNG CỘNG (QUA 10)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Gud0l4hyGLo&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=21",
+      "file_path": "TOAN_LOP_2/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B8V2",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 8 – BẢNG CỘNG (QUA 10)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=53z3c-fXwtU&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=22",
+      "file_path": "TOAN_LOP_2/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B9V1",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 9 – BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0mCDbldE5Ws&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=23",
+      "file_path": "TOAN_LOP_2/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B9V2",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 9 – BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WOeH4U6Oi5o&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=24",
+      "file_path": "TOAN_LOP_2/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B10V1",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 10 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2bm6Y8JUOzo&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=25",
+      "file_path": "TOAN_LOP_2/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B10V2",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 10 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2jsXK1f6i1M&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=26",
+      "file_path": "TOAN_LOP_2/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B11V1",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 11 – PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=YXjVt3TZxlE&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=27",
+      "file_path": "TOAN_LOP_2/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B11V2",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 11 – PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=oHIfc24dNvA&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=28",
+      "file_path": "TOAN_LOP_2/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B11V3",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 11 – PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=odktR3Yrczk&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=29",
+      "file_path": "TOAN_LOP_2/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B11V4",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 11 – PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=hiIi9s3NM2s&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=30",
+      "file_path": "TOAN_LOP_2/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B11V5",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 11 – PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=9Uma4-bi9-E&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=31",
+      "file_path": "TOAN_LOP_2/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B12V1",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 12 – BẢNG TRỪ (QUA 10)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=PbVFqGWYOF4&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=32",
+      "file_path": "TOAN_LOP_2/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B12V2",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 12 – BẢNG TRỪ (QUA 10)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3Cr5_M7xptc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=33",
+      "file_path": "TOAN_LOP_2/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B13V1",
+      "lesson_id": 13,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 13 – BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7RDBKrcgsHE&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=34",
+      "file_path": "TOAN_LOP_2/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B14V1",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 14 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7q1A6alztZ8&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=35",
+      "file_path": "TOAN_LOP_2/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B14V2",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 14 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=AWOsIwf5liI&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=36",
+      "file_path": "TOAN_LOP_2/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C2B14V3",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20",
+      "lesson_name": "BÀI 14 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=c2l2bc_fOUk&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=37",
+      "file_path": "TOAN_LOP_2/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B15V1",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 15 – KI-LÔ-GAM",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=k0X2h786tIM&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=38",
+      "file_path": "TOAN_LOP_2/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B15V2",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 15 – KI-LÔ-GAM",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7lV3t_edEuw&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=39",
+      "file_path": "TOAN_LOP_2/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B15V3",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 15 – KI-LÔ-GAM",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=KhuFRMiedI4&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=40",
+      "file_path": "TOAN_LOP_2/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B16V1",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 16 – LÍT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DE8x3v8lu9Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=41",
+      "file_path": "TOAN_LOP_2/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B16V2",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 16 – LÍT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=nQDuyB0JH0Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=42",
+      "file_path": "TOAN_LOP_2/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B17V1",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 17 – THỰC HÀNH VÀ TRẢI NGHIỆM VỚI CÁC ĐƠN VỊ KI-LÔ-GAM, LÍT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6ezUvcGr8sY&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=43",
+      "file_path": "TOAN_LOP_2/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B17V2",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 17 – THỰC HÀNH VÀ TRẢI NGHIỆM VỚI CÁC ĐƠN VỊ KI-LÔ-GAM, LÍT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=lScwv7vrZIg&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=44",
+      "file_path": "TOAN_LOP_2/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C3B18V1",
+      "lesson_id": 18,
+      "chapter_name": "Chủ đề 3. LÀM QUEN VỚI KHỐI LƯỢNG, DUNG TÍCH",
+      "lesson_name": "BÀI 18 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=9LI2J_TMlrU&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=45",
+      "file_path": "TOAN_LOP_2/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B19V1",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 19 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=uqfYR7cbFPM&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=46",
+      "file_path": "TOAN_LOP_2/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B19V2",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 19 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mFdWLovOcdg&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=47",
+      "file_path": "TOAN_LOP_2/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B19V3",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 19 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mxahZ7gq2tc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=48",
+      "file_path": "TOAN_LOP_2/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B20V1",
+      "lesson_id": 20,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 20 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=418TI6mhVxY&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=49",
+      "file_path": "TOAN_LOP_2/HK1/BAI_20_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B20V2",
+      "lesson_id": 20,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 20 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LHI6mTELboU&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=50",
+      "file_path": "TOAN_LOP_2/HK1/BAI_20_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B20V3",
+      "lesson_id": 20,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 20 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=q23aqSJ8J3I&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=51",
+      "file_path": "TOAN_LOP_2/HK1/BAI_20_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B20V4",
+      "lesson_id": 20,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 20 – PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=MJR5C2tjR5A&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=52",
+      "file_path": "TOAN_LOP_2/HK1/BAI_20_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B21V1",
+      "lesson_id": 21,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 21 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gm-pQWIUPwQ&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=53",
+      "file_path": "TOAN_LOP_2/HK1/BAI_21_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B21V2",
+      "lesson_id": 21,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 21 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Nd4lRyYtFm0&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=54",
+      "file_path": "TOAN_LOP_2/HK1/BAI_21_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B22V1",
+      "lesson_id": 22,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 22 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6DobrjyNN_4&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=55",
+      "file_path": "TOAN_LOP_2/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B22V2",
+      "lesson_id": 22,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 22 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dIJp9tOLiSE&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=56",
+      "file_path": "TOAN_LOP_2/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B22V3",
+      "lesson_id": 22,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 22 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xYEhZEarfos&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=57",
+      "file_path": "TOAN_LOP_2/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B22V4",
+      "lesson_id": 22,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 22 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JpIjKKNyUHc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=58",
+      "file_path": "TOAN_LOP_2/HK1/BAI_22_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B23V1",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LvwFZ2sdTNo&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=59",
+      "file_path": "TOAN_LOP_2/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B23V2",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=moTpnV9yPeU&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=60",
+      "file_path": "TOAN_LOP_2/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B23V3",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=pNC9o4fXpm8&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=61",
+      "file_path": "TOAN_LOP_2/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B23V4",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=_wi51NY6rxI&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=62",
+      "file_path": "TOAN_LOP_2/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B23V5",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 23 – PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=anWShhe1b0o&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=63",
+      "file_path": "TOAN_LOP_2/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B24V1",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 24 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wniHX8JxrdA&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=64",
+      "file_path": "TOAN_LOP_2/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C4B24V2",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. PHÉP CỘNG, PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 100",
+      "lesson_name": "BÀI 24 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=QZnd_MMbZIY&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=65",
+      "file_path": "TOAN_LOP_2/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B25V1",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 25 – ĐIỂM, ĐOẠN THẲNG, ĐƯỜNG THẲNG, ĐƯỜNG CONG, BA ĐIỂM THẲNG HÀNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0z13y5Kkym4&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=66",
+      "file_path": "TOAN_LOP_2/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B25V2",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 25 – ĐIỂM, ĐOẠN THẲNG, ĐƯỜNG THẲNG, ĐƯỜNG CONG, BA ĐIỂM THẲNG HÀNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=PPlKIaruQ6U&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=67",
+      "file_path": "TOAN_LOP_2/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B26V1",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 26 – ĐƯỜNG GẤP KHÚC. HÌNH TỨ GIÁC",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h5RaMs4cGAc&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=68",
+      "file_path": "TOAN_LOP_2/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B26V2",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 26 – ĐƯỜNG GẤP KHÚC. HÌNH TỨ GIÁC",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=z9EeMsyt08U&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=69",
+      "file_path": "TOAN_LOP_2/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B27V1",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 27 – THỰC HÀNH GẤP, CẮT, GHÉP, XẾP HÌNH. VẼ ĐOẠN THẲNG",
+      "type": "video",
+      "video_url": "https://youtu.be/6V51xxa7eF8?si=vrp3g3Iirt6sruF8",
+      "file_path": "TOAN_LOP_2/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B27V2",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 27 – THỰC HÀNH GẤP, CẮT, GHÉP, XẾP HÌNH. VẼ ĐOẠN THẲNG",
+      "type": "video",
+      "video_url": "https://youtu.be/u_X7K_-eiNI?si=fp3NIHMyfPJqztvR",
+      "file_path": "TOAN_LOP_2/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C5B28V1",
+      "lesson_id": 28,
+      "chapter_name": "Chủ đề 5. LÀM QUEN VỚI HÌNH PHẲNG",
+      "lesson_name": "BÀI 28 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/-9HQubHhiO4?si=x55gt546xF4bP0e7",
+      "file_path": "TOAN_LOP_2/HK1/BAI_28_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C6B29V1",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 6. NGÀY – GIỜ, GIỜ – PHÚT, NGÀY – THÁNG",
+      "lesson_name": "BÀI 29 – NGÀY – GIỜ, GIỜ – PHÚT",
+      "type": "video",
+      "video_url": "https://youtu.be/_rDuYB6eAbo?si=0eb16EIpYHGNq9-t",
+      "file_path": "TOAN_LOP_2/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C6B29V2",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 6. NGÀY – GIỜ, GIỜ – PHÚT, NGÀY – THÁNG",
+      "lesson_name": "BÀI 29 – NGÀY – GIỜ, GIỜ – PHÚT",
+      "type": "video",
+      "video_url": "https://youtu.be/pRPPquwwzwc?si=3PSyRsyrIBSG3nNs",
+      "file_path": "TOAN_LOP_2/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C6B30V1",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. NGÀY – GIỜ, GIỜ – PHÚT, NGÀY – THÁNG",
+      "lesson_name": "BÀI 30 – NGÀY – THÁNG",
+      "type": "video",
+      "video_url": "https://youtu.be/4OLVkmdiPW4?si=2IZN2LDfhW3Ry8zD",
+      "file_path": "TOAN_LOP_2/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C6B31V1",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. NGÀY – GIỜ, GIỜ – PHÚT, NGÀY – THÁNG",
+      "lesson_name": "BÀI 31 – THỰC HÀNH VÀ TRẢI NGHIỆM XEM ĐỒNG HỒ, XEM LỊCH",
+      "type": "video",
+      "video_url": "https://youtu.be/0YLJpEiFNPs?si=XOqX8NkvVgglz-v_",
+      "file_path": "TOAN_LOP_2/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C6B32V1",
+      "lesson_id": 32,
+      "chapter_name": "Chủ đề 6. NGÀY – GIỜ, GIỜ – PHÚT, NGÀY – THÁNG",
+      "lesson_name": "BÀI 32 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/RayhGs25J1o?si=fTwwyumOQfh06bVm",
+      "file_path": "TOAN_LOP_2/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B33V1",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 33 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100",
+      "type": "video",
+      "video_url": "https://youtu.be/6lRE_PpTOF0?si=q_q0P8KETznXZnb3",
+      "file_path": "TOAN_LOP_2/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B33V2",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 33 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100",
+      "type": "video",
+      "video_url": "https://youtu.be/moFCcVpZzZc?si=LOML2FYr_T0fCuZg",
+      "file_path": "TOAN_LOP_2/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B34V1",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 34 – ÔN TẬP HÌNH PHẲNG",
+      "type": "video",
+      "video_url": "https://youtu.be/XPxx190HTXc?si=j5QkKrWltBiLusho",
+      "file_path": "TOAN_LOP_2/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B34V2",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 34 – ÔN TẬP HÌNH PHẲNG",
+      "type": "video",
+      "video_url": "https://youtu.be/kQrPcMQoxsY?si=s_fe0wq84n-HQNtx",
+      "file_path": "TOAN_LOP_2/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B35V1",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 35 – ÔN TẬP ĐO LƯỜNG",
+      "type": "video",
+      "video_url": "https://youtu.be/y7Byo0W3wnI?si=-UKzSMfL_Q7zyAug",
+      "file_path": "TOAN_LOP_2/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B35V2",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 35 – ÔN TẬP ĐO LƯỜNG",
+      "type": "video",
+      "video_url": "https://youtu.be/GfFPTLYkxXk?si=JtYqcyDwRmHnJbFP",
+      "file_path": "TOAN_LOP_2/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B36V1",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 36 – ÔN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/oGrbC5ajGoM?si=g0eMxlx5yQsZpSQJ",
+      "file_path": "TOAN_LOP_2/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C7B36V2",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. ÔN TẬP HỌC KÌ I",
+      "lesson_name": "BÀI 36 – ÔN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/CGpo3zYEYmU?si=YG9R6tvIK_ggei-E",
+      "file_path": "TOAN_LOP_2/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B37V1",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 37 – PHÉP NHÂN",
+      "type": "video",
+      "video_url": "https://youtu.be/W9uQ0LPx8Ug?si=xJrvpKdnsrmV8Ifr",
+      "file_path": "TOAN_LOP_2/HK2/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B37V2",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 37 – PHÉP NHÂN",
+      "type": "video",
+      "video_url": "https://youtu.be/YWMldspFijA?si=e_kAoszXb5_7u77B",
+      "file_path": "TOAN_LOP_2/HK2/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B38V1",
+      "lesson_id": 38,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 38 – THỪA SỐ, TÍCH",
+      "type": "video",
+      "video_url": "https://youtu.be/e_C771Atxxk?si=dQDGWaI9GMCM81VN",
+      "file_path": "TOAN_LOP_2/HK2/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B39V1",
+      "lesson_id": 39,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 39 – BẢNG NHÂN 2",
+      "type": "video",
+      "video_url": "https://youtu.be/gbOdNHBYlPg?si=2tMIXJr8s62UOXb-",
+      "file_path": "TOAN_LOP_2/HK2/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B40V1",
+      "lesson_id": 40,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 40 – BẢNG NHÂN 5",
+      "type": "video",
+      "video_url": "https://youtu.be/1Lts-ABwTko?si=Ed6Lk15P6xkd2P33",
+      "file_path": "TOAN_LOP_2/HK2/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B41V1",
+      "lesson_id": 41,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 41 – PHÉP CHIA",
+      "type": "video",
+      "video_url": "https://youtu.be/v9FQCnflpWM?si=AfCp17C9PGrfTElV",
+      "file_path": "TOAN_LOP_2/HK2/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B42V1",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 42 – SỐ BỊ CHIA, SỐ CHIA, THƯƠNG",
+      "type": "video",
+      "video_url": "https://youtu.be/uz3EqeBeOFY?si=sQUfkzba2LLusw9v",
+      "file_path": "TOAN_LOP_2/HK2/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B42V2",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 42 – SỐ BỊ CHIA, SỐ CHIA, THƯƠNG",
+      "type": "video",
+      "video_url": "https://youtu.be/V4FBW4vDF-o?si=d9x45gvJ_IsC1tqQ",
+      "file_path": "TOAN_LOP_2/HK2/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B43V1",
+      "lesson_id": 43,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 43 – BẢNG CHIA 2",
+      "type": "video",
+      "video_url": "https://youtu.be/zs8Mp8jVenA?si=cPEUoriaYmsc92Lq",
+      "file_path": "TOAN_LOP_2/HK2/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B43V2",
+      "lesson_id": 43,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 43 – BẢNG CHIA 2",
+      "type": "video",
+      "video_url": "https://youtu.be/4ukPtJQGkdI?si=4Mu8oc1QKy3sM_lG",
+      "file_path": "TOAN_LOP_2/HK2/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B44V1",
+      "lesson_id": 44,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 44 – BẢNG CHIA 5",
+      "type": "video",
+      "video_url": "https://youtu.be/KmhNJ0uxGzs?si=m_iyXMJ6-EvF4Gif",
+      "file_path": "TOAN_LOP_2/HK2/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B45V1",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 45 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/5nkgJn83Hlw?si=iZa9fKUZ9JAO20hw",
+      "file_path": "TOAN_LOP_2/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B45V2",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 45 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/c0KmJZhGjX0?si=Vbi6zznntD0-l4Zk",
+      "file_path": "TOAN_LOP_2/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B45V3",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 45 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/1BeQbz-4DGc?si=rVcAB20GpdoFDCKG",
+      "file_path": "TOAN_LOP_2/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B45V4",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 45 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/WhDMTEYxbW4?si=A-aMg_nsvOVWc7xQ",
+      "file_path": "TOAN_LOP_2/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C8B45V5",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. PHÉP NHÂN, PHÉP CHIA",
+      "lesson_name": "BÀI 45 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/PciF3Ka-fWo?si=bFVHSQVIcMKecOv0",
+      "file_path": "TOAN_LOP_2/HK2/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C9B46V1",
+      "lesson_id": 46,
+      "chapter_name": "Chủ đề 9. LÀM QUEN VỚI HÌNH KHỐI",
+      "lesson_name": "BÀI 46 – KHỐI TRỤ, KHỐI CẦU",
+      "type": "video",
+      "video_url": "https://youtu.be/luXQECh-sS8?si=cNalC6RQ4P8BiCoa",
+      "file_path": "TOAN_LOP_2/HK2/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C9B47V1",
+      "lesson_id": 47,
+      "chapter_name": "Chủ đề 9. LÀM QUEN VỚI HÌNH KHỐI",
+      "lesson_name": "BÀI 47 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/NrubtwBiTRo?si=tRPCEFPD2mJ-krMx",
+      "file_path": "TOAN_LOP_2/HK2/BAI_47_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B48V1",
+      "lesson_id": 48,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 48 – ĐƠN VỊ, CHỤC, TRĂM, NGHÌN",
+      "type": "video",
+      "video_url": "https://youtu.be/MWxbzN84SPI?si=enxHB04C8869ey8d",
+      "file_path": "TOAN_LOP_2/HK2/BAI_48_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B49V1",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 49 – CÁC SỐ TRÒN TRĂM, TRÒN CHỤC",
+      "type": "video",
+      "video_url": "https://youtu.be/8VX_9GAhiOw?si=gpImvM-MVOcOaKUH",
+      "file_path": "TOAN_LOP_2/HK2/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B49V2",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 49 – CÁC SỐ TRÒN TRĂM, TRÒN CHỤC",
+      "type": "video",
+      "video_url": "https://youtu.be/0sHAnS3vYQE?si=iCIBhWzKwZ_Crvqy",
+      "file_path": "TOAN_LOP_2/HK2/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B50V1",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 50 – SO SÁNH CÁC SỐ TRÒN TRĂM, TRÒN CHỤC",
+      "type": "video",
+      "video_url": "https://youtu.be/QGaQ-bVtoJo?si=4SuCUL6BrAXUKvXU",
+      "file_path": "TOAN_LOP_2/HK2/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B50V2",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 50 – SO SÁNH CÁC SỐ TRÒN TRĂM, TRÒN CHỤC",
+      "type": "video",
+      "video_url": "https://youtu.be/dRwXsBOkmbI?si=Q2WZojwcwVe-HKxC",
+      "file_path": "TOAN_LOP_2/HK2/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B51V1",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 51 – SỐ CÓ BA CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://youtu.be/sHA0vZKAaho?si=PD0miXbXVbMuxmpG",
+      "file_path": "TOAN_LOP_2/HK2/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B51V2",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 51 – SỐ CÓ BA CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://youtu.be/T9rlsnIEXS4?si=8Tlz5khnSeNFx-08",
+      "file_path": "TOAN_LOP_2/HK2/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B52V1",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 52 – VIẾT SỐ THÀNH TỔNG CÁC TRĂM, CHỤC, ĐƠN VỊ",
+      "type": "video",
+      "video_url": "https://youtu.be/O06LNql3qWs?si=h9CjTK1Ht3TPFxe3",
+      "file_path": "TOAN_LOP_2/HK2/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B52V2",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 52 – VIẾT SỐ THÀNH TỔNG CÁC TRĂM, CHỤC, ĐƠN VỊ",
+      "type": "video",
+      "video_url": "https://youtu.be/7Zm3lh_iBWc?si=ygKrWSAkXsxl-pF5",
+      "file_path": "TOAN_LOP_2/HK2/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B53V1",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 53 – SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://youtu.be/79f0N7P2H8Y?si=UiT2ZynoeeJZOlvA",
+      "file_path": "TOAN_LOP_2/HK2/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B53V2",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 53 – SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ",
+      "type": "video",
+      "video_url": "https://youtu.be/TzrA6FhvRYA?si=WU7e4V25JJSWy5zg",
+      "file_path": "TOAN_LOP_2/HK2/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B54V1",
+      "lesson_id": 54,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 54 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/gGGr9t70W4o?si=BfcmgZSXo2a8A20Q",
+      "file_path": "TOAN_LOP_2/HK2/BAI_54_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C10B54V2",
+      "lesson_id": 54,
+      "chapter_name": "Chủ đề 10. CÁC SỐ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 54 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/ji8sJCdN2Pw?si=Sduy5deEbd-2Pd4i",
+      "file_path": "TOAN_LOP_2/HK2/BAI_54_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B55V1",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 55 – ĐỀ-XI-MÉT. MÉT. KI-LÔ-MÉT",
+      "type": "video",
+      "video_url": "https://youtu.be/B9k7xHSpTD4?si=dX3S4tdZaQKMc80B",
+      "file_path": "TOAN_LOP_2/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B55V2",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 55 – ĐỀ-XI-MÉT. MÉT. KI-LÔ-MÉT",
+      "type": "video",
+      "video_url": "https://youtu.be/6ML_oPuV6mA?si=LTb68FceNuLvCKQ7",
+      "file_path": "TOAN_LOP_2/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B55V3",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 55 – ĐỀ-XI-MÉT. MÉT. KI-LÔ-MÉT",
+      "type": "video",
+      "video_url": "https://youtu.be/TUfKHGE2dL4?si=uEgvAfMf1ZeO0oCL",
+      "file_path": "TOAN_LOP_2/HK2/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B56V1",
+      "lesson_id": 56,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 56 – GIỚI THIỆU TIỀN VIỆT NAM",
+      "type": "video",
+      "video_url": "https://youtu.be/cT2kkAtvQ2E?si=Ar2qeu2jgRaI0SvS",
+      "file_path": "TOAN_LOP_2/HK2/BAI_56_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B57V1",
+      "lesson_id": 57,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 57 – THỰC HÀNH VÀ TRẢI NGHIỆM ĐO ĐỘ DÀI",
+      "type": "video",
+      "video_url": "https://youtu.be/rqXf81zumuA?si=UoSghHAqo3fUe6DF",
+      "file_path": "TOAN_LOP_2/HK2/BAI_57_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B58V1",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 58 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/igJbGLrFryk?si=LzlgqBCVcX8W7PRO",
+      "file_path": "TOAN_LOP_2/HK2/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C11B58V2",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 11. ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM",
+      "lesson_name": "BÀI 58 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/Yn57TIh7Cak?si=lpPNTF5piUgfqkLQ",
+      "file_path": "TOAN_LOP_2/HK2/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B59V1",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 59 – PHÉP CỘNG (KHÔNG NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/Heh-5iaEa28?si=HgMGD1IO9gSRz6EU",
+      "file_path": "TOAN_LOP_2/HK2/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B59V2",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 59 – PHÉP CỘNG (KHÔNG NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/1rRLJ9hVq6g?si=mTQM_IehcZJAeJiI",
+      "file_path": "TOAN_LOP_2/HK2/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B60V1",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 60 – PHÉP CỘNG (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/kru_gHDuQco?si=xW9NFoa2fV1jKZBP",
+      "file_path": "TOAN_LOP_2/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B60V2",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 60 – PHÉP CỘNG (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/YSMabqF-Gzs?si=6nr5GkT4K3AdBmYH",
+      "file_path": "TOAN_LOP_2/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B60V3",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 60 – PHÉP CỘNG (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/brxKZOGsaYY?si=MI49cirr8JnQxAop",
+      "file_path": "TOAN_LOP_2/HK2/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B61V1",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 61 – PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/MTONULU2SfI?si=MBzKzKvqaQ2u3VqF",
+      "file_path": "TOAN_LOP_2/HK2/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B61V2",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 61 – PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/afqhmysLeyY?si=sWwNIdYft-3NfWEb",
+      "file_path": "TOAN_LOP_2/HK2/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B61V3",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 61 – PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/4MQO9aiWcd0?si=T59jRC34-6YCyE1D",
+      "file_path": "TOAN_LOP_2/HK2/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B62V1",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 62 – PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/6hckQEEgOhE?si=Sg6fe3pUdRPIO_fv",
+      "file_path": "TOAN_LOP_2/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B62V2",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 62 – PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/1WGvqUbGw8k?si=0o1aLsDszQIXZytV",
+      "file_path": "TOAN_LOP_2/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B62V3",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 62 – PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/jSQAFPD_8-0?si=Q3uLHhSjGgT8uydE",
+      "file_path": "TOAN_LOP_2/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B62V4",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 62 – PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/H0KnUCeC0qc?si=qVDjAvlkqSU619ob",
+      "file_path": "TOAN_LOP_2/HK2/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B63V1",
+      "lesson_id": 63,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 63 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/U9ddJg9Yi0Q?si=BDZ5_pWAdLJsT0xu",
+      "file_path": "TOAN_LOP_2/HK2/BAI_63_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C12B63V2",
+      "lesson_id": 63,
+      "chapter_name": "Chủ đề 12. PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 63 – LUYỆN TẬP CHUNG",
+      "type": "video",
+      "video_url": "https://youtu.be/rwF494wFGRg?si=cXfseiHTagp-XUNm",
+      "file_path": "TOAN_LOP_2/HK2/BAI_63_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B64V1",
+      "lesson_id": 64,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 64 – THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU",
+      "type": "video",
+      "video_url": "https://youtu.be/xY6Z3CtDFL0?si=rDDughiPkQTR1FD2",
+      "file_path": "TOAN_LOP_2/HK2/BAI_64_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B65V1",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 65 – BIỂU ĐỒ TRANH",
+      "type": "video",
+      "video_url": "https://youtu.be/obi0utWgmRM?si=tAnbfFK8s1mhWPRr",
+      "file_path": "TOAN_LOP_2/HK2/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B65V2",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 65 – BIỂU ĐỒ TRANH",
+      "type": "video",
+      "video_url": "https://youtu.be/rq7sRVcdMl4?si=acQ0Bihq3mUJx46g",
+      "file_path": "TOAN_LOP_2/HK2/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B66V1",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 66 – CHẮC CHẮN, CÓ THỂ, KHÔNG THỂ",
+      "type": "video",
+      "video_url": "https://youtu.be/_qAyt3w9ZaI?si=3dneMxTwCEyLlnkA",
+      "file_path": "TOAN_LOP_2/HK2/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B67V1",
+      "lesson_id": 67,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 67 – THỰC HÀNH VÀ TRẢI NGHIỆM THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU",
+      "type": "video",
+      "video_url": "https://youtu.be/dYBJeoLZMik?si=U47HjDH5Pm3RWlli",
+      "file_path": "TOAN_LOP_2/HK2/BAI_67_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B68V1",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 68 – ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/ZNpweaSQ3us?si=E0kAPrSFIVr5y-8u",
+      "file_path": "TOAN_LOP_2/HK2/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B68V2",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 68 – ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/dEsv72u3ndM?si=Oekz8eiqNuJP2uCw",
+      "file_path": "TOAN_LOP_2/HK2/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B69V1",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 69 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://youtu.be/WteTt2znves?si=Uj4NaeeFHTQgWkSL",
+      "file_path": "TOAN_LOP_2/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B69V2",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 69 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://youtu.be/S5g6I-d3Aqk?si=8q7ksuBOIXKyVmlE",
+      "file_path": "TOAN_LOP_2/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B69V3",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 69 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100",
+      "type": "video",
+      "video_url": "https://youtu.be/T4YJYJxc5hg?si=SU4xAOLt-0U_etcM",
+      "file_path": "TOAN_LOP_2/HK2/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B70V1",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 70 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/8pucG3k4_Lc?si=DGnlABv8D9FyKEvC",
+      "file_path": "TOAN_LOP_2/HK2/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B70V2",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 70 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/Ut94Biu5iEs?si=iaouP_05muFRi-HK",
+      "file_path": "TOAN_LOP_2/HK2/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B70V3",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 70 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000",
+      "type": "video",
+      "video_url": "https://youtu.be/8tQYGHNTwGs?si=rm4bJrM_UdCLMB6t",
+      "file_path": "TOAN_LOP_2/HK2/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B71V1",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 71 – ÔN TẬP PHÉP NHÂN, PHÉP CHIA",
+      "type": "video",
+      "video_url": "https://youtu.be/2dSXFabd-wc?si=cck_ptf2ubBUBW9k",
+      "file_path": "TOAN_LOP_2/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN2KI2C13B71V2",
+      "lesson_id": 71,
+      "chapter_name": "Chủ đề 13. LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+      "lesson_name": "BÀI 71 – ÔN TẬP PHÉP NHÂN, PHÉP CHIA",
+      "type": "video",
+      "video_url": "https://youtu.be/_stKQ6Vhoro?si=y3V1vA1gEX7vsZK6",
+      "file_path": "TOAN_LOP_2/HK2/BAI_71_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243648_4716",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 2 – TIA SỐ. SỐ LIỀN TRƯỚC – SỐ LIỀN SAU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243650_8718",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 5 – PHÉP CỘNG KHÔNG NHỚ (TRONG PHẠM VI 100)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243651_1533",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 20 – BẢNG CHIA (ÔN TẬP, VẬN DỤNG)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243652_7058",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 26 – ĐƯỜNG GẤP KHÚC – HÌNH TỨ GIÁC",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243653_9907",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 27 – THỰC HÀNH GẤP, CẮT, GHÉP, XẾP HÌNH – VẼ ĐOẠN THẲNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243654_2890",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 33 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ (TRONG PHẠM VI 100)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243654_7867",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 34 – ÔN TẬP HÌNH HỌC",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243657_5433",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 55 – ĐỀ-XI-MÉT, MÉT, KI-LÔ-MÉT",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243658_7558",
+      "lesson_id": 1,
+      "chapter_name": "CHỦ ĐỀ 12 – PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "lesson_name": "BÀI 59 – PHÉP CỘNG (KHÔNG NHỚ) TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243659_3863",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 60 – PHÉP CỘNG (CÓ NHỚ) TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243659_702",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 61 – PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243660_8500",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 62 – PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243661_9797",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 67 – THỰC HÀNH, TRẢI NGHIỆM THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243662_3192",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 68 – ÔN TẬP CÁC SỐ TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243663_9432",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 70 – ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN2KI1C1B_AUTO_1772972243664_8343",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề khác",
+      "lesson_name": "BÀI 74 – ÔN TẬP KIỂM ĐẾM SỐ LIỆU VÀ LỰA CHỌN KHẢ NĂNG",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ci5MgY89f3Q&list=PLAbgKpL3K4iRX5WpEgCvnk2rhZqe4KTUH&index=1",
+      "file_path": "TOAN_LOP_2/HK1/BAI_1_VIDEO"
+    }
+  ]
+}

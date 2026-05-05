@@ -1,0 +1,155 @@
+-- WARNING: This schema is for context only and is not meant to be run.
+-- Table order and constraints may not be valid for execution.
+
+CREATE TABLE public.assessments (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  subject text NOT NULL DEFAULT 'math'::text,
+  score integer NOT NULL CHECK (score >= 0 AND score <= 100),
+  total_questions integer NOT NULL DEFAULT 12,
+  knowledge_map jsonb NOT NULL DEFAULT '{}'::jsonb,
+  responses jsonb NOT NULL DEFAULT '[]'::jsonb,
+  avg_response_time integer,
+  avg_confidence_score integer,
+  avg_pattern_recognition integer,
+  avg_conceptual_understanding integer,
+  status text DEFAULT 'completed'::text CHECK (status = ANY (ARRAY['in_progress'::text, 'completed'::text])),
+  started_at timestamp with time zone,
+  completed_at timestamp with time zone DEFAULT timezone('utc'::text, now()),
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT assessments_pkey PRIMARY KEY (id),
+  CONSTRAINT assessments_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.cognitive_profiles (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL UNIQUE,
+  topic_mastery jsonb DEFAULT '{}'::jsonb,
+  avg_response_speed integer,
+  pattern_recognition_score integer CHECK (pattern_recognition_score >= 0 AND pattern_recognition_score <= 100),
+  conceptual_understanding_score integer CHECK (conceptual_understanding_score >= 0 AND conceptual_understanding_score <= 100),
+  problem_solving_confidence integer CHECK (problem_solving_confidence >= 0 AND problem_solving_confidence <= 100),
+  visual_learning_preference numeric DEFAULT 0.50,
+  step_by_step_preference numeric DEFAULT 0.50,
+  exploration_preference numeric DEFAULT 0.50,
+  misconception_patterns jsonb DEFAULT '{}'::jsonb,
+  last_assessment_id uuid,
+  total_assessments_completed integer DEFAULT 0,
+  last_updated timestamp with time zone DEFAULT timezone('utc'::text, now()),
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT cognitive_profiles_pkey PRIMARY KEY (id),
+  CONSTRAINT cognitive_profiles_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id),
+  CONSTRAINT cognitive_profiles_last_assessment_fkey FOREIGN KEY (last_assessment_id) REFERENCES public.assessments(id)
+);
+CREATE TABLE public.game_matches (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  room_id text NOT NULL,
+  player1_id uuid NOT NULL,
+  player2_id uuid NOT NULL,
+  player1_display_name text NOT NULL,
+  player2_display_name text NOT NULL,
+  player1_score integer NOT NULL DEFAULT 0,
+  player2_score integer NOT NULL DEFAULT 0,
+  player1_correct integer NOT NULL DEFAULT 0,
+  player2_correct integer NOT NULL DEFAULT 0,
+  player1_total_time_ms integer NOT NULL DEFAULT 0,
+  player2_total_time_ms integer NOT NULL DEFAULT 0,
+  winner_id uuid,
+  questions_count integer NOT NULL DEFAULT 10,
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT game_matches_pkey PRIMARY KEY (id),
+  CONSTRAINT game_matches_player1_fkey FOREIGN KEY (player1_id) REFERENCES auth.users(id),
+  CONSTRAINT game_matches_player2_fkey FOREIGN KEY (player2_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.learning_paths (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  assessment_id uuid,
+  subject text NOT NULL DEFAULT 'math'::text,
+  title text NOT NULL,
+  topics jsonb NOT NULL DEFAULT '[]'::jsonb,
+  priority text DEFAULT 'foundational-gaps'::text CHECK (priority = ANY (ARRAY['foundational-gaps'::text, 'advanced'::text, 'exam-prep'::text])),
+  estimated_duration text,
+  duration_months integer,
+  status text DEFAULT 'active'::text CHECK (status = ANY (ARRAY['active'::text, 'completed'::text, 'archived'::text])),
+  progress integer DEFAULT 0 CHECK (progress >= 0 AND progress <= 100),
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  updated_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  duration_days integer,
+  CONSTRAINT learning_paths_pkey PRIMARY KEY (id),
+  CONSTRAINT learning_paths_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id),
+  CONSTRAINT learning_paths_assessment_id_fkey FOREIGN KEY (assessment_id) REFERENCES public.assessments(id)
+);
+CREATE TABLE public.onboarding_data (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL UNIQUE,
+  grade text NOT NULL,
+  motivation text CHECK (motivation = ANY (ARRAY['excellence'::text, 'understanding'::text, 'confidence'::text, 'preparation'::text])),
+  learning_style text CHECK (learning_style = ANY (ARRAY['visual'::text, 'step-by-step'::text, 'exploration'::text, 'balanced'::text])),
+  cognitive_preferences jsonb DEFAULT '{"visualLearning": 0.5, "conceptualDepth": 0.6, "challengePreference": 0.6}'::jsonb,
+  course text DEFAULT 'math-2'::text,
+  goal_percent integer DEFAULT 80 CHECK (goal_percent >= 60 AND goal_percent <= 100),
+  goal_deadline timestamp with time zone,
+  profile_complete boolean DEFAULT false,
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  updated_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT onboarding_data_pkey PRIMARY KEY (id),
+  CONSTRAINT onboarding_data_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.subscriptions (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  plan_type text NOT NULL CHECK (plan_type = ANY (ARRAY['free'::text, 'monthly'::text, 'yearly'::text])),
+  status text NOT NULL DEFAULT 'active'::text CHECK (status = ANY (ARRAY['active'::text, 'expired'::text, 'cancelled'::text])),
+  start_date timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  end_date timestamp with time zone,
+  price integer DEFAULT 0,
+  payment_method text,
+  transaction_id text,
+  auto_renew boolean DEFAULT false,
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  updated_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT subscriptions_pkey PRIMARY KEY (id),
+  CONSTRAINT subscriptions_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.user_profiles (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL UNIQUE,
+  full_name text,
+  username text,
+  role text CHECK (role = ANY (ARRAY['student'::text, 'teacher'::text, 'parent'::text])),
+  grade text,
+  avatar_url text,
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  updated_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT user_profiles_pkey PRIMARY KEY (id),
+  CONSTRAINT user_profiles_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.user_stats (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL UNIQUE,
+  total_points integer NOT NULL DEFAULT 0,
+  lessons_completed integer NOT NULL DEFAULT 0,
+  study_time_minutes integer NOT NULL DEFAULT 0,
+  total_matches integer NOT NULL DEFAULT 0,
+  total_wins integer NOT NULL DEFAULT 0,
+  win_streak integer NOT NULL DEFAULT 0,
+  best_win_streak integer NOT NULL DEFAULT 0,
+  current_rank integer DEFAULT NULL,
+  best_rank integer DEFAULT NULL,
+  created_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  updated_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT user_stats_pkey PRIMARY KEY (id),
+  CONSTRAINT user_stats_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id) ON DELETE CASCADE
+);
+CREATE TABLE public.user_achievements (
+  id uuid NOT NULL DEFAULT gen_random_uuid(),
+  user_id uuid NOT NULL,
+  achievement_id text NOT NULL,
+  achievement_name text NOT NULL,
+  achievement_description text,
+  achievement_emoji text DEFAULT '⭐',
+  earned_at timestamp with time zone NOT NULL DEFAULT timezone('utc'::text, now()),
+  CONSTRAINT user_achievements_pkey PRIMARY KEY (id),
+  CONSTRAINT user_achievements_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id) ON DELETE CASCADE,
+  CONSTRAINT user_achievements_unique UNIQUE (user_id, achievement_id)
+);

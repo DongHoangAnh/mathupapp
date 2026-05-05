@@ -1,0 +1,2250 @@
+{
+  "metadata": {
+    "total_videos": 249,
+    "subject": "math",
+    "grade": 5
+  },
+  "videos": [
+    {
+      "id": "TOAN5KI1C1B1V1",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "1. Bài 1. Ôn tập các số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B1V2",
+      "lesson_id": 1,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "1. Bài 1. Ôn tập các số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ANkjl3xfK4g&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=174",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B2V1",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "2. Bài 2. Ôn tập các phép tính với số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZZgOESgAv4U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=173",
+      "file_path": "TOAN_LOP_5/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B2V2",
+      "lesson_id": 2,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "2. Bài 2. Ôn tập các phép tính với số tự nhiên",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gPLBSgp42mE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=172",
+      "file_path": "TOAN_LOP_5/HK1/BAI_2_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B3V1",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "3. Bài 3. Ôn tập phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=t0wwCC72Ye4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=171",
+      "file_path": "TOAN_LOP_5/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B3V2",
+      "lesson_id": 3,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "3. Bài 3. Ôn tập phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=BCnzw3ynY3I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=170",
+      "file_path": "TOAN_LOP_5/HK1/BAI_3_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B4V1",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "4. Bài 4. Phân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NOqHOuSwraE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=169",
+      "file_path": "TOAN_LOP_5/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B4V2",
+      "lesson_id": 4,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "4. Bài 4. Phân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OboskrP97eI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=168",
+      "file_path": "TOAN_LOP_5/HK1/BAI_4_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B5V1",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "5. Bài 5. Ôn tập các phép tính với phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6fOqN3MXP5U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=167",
+      "file_path": "TOAN_LOP_5/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B5V2",
+      "lesson_id": 5,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "5. Bài 5. Ôn tập các phép tính với phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=St6d6I2Kd8s&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=166",
+      "file_path": "TOAN_LOP_5/HK1/BAI_5_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B6V1",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "6. Bài 6. Cộng, trừ hai phân số khác mẫu số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mmbHlfJBw1Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=165",
+      "file_path": "TOAN_LOP_5/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B6V2",
+      "lesson_id": 6,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "6. Bài 6. Cộng, trừ hai phân số khác mẫu số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ux_z8EusLxg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=164",
+      "file_path": "TOAN_LOP_5/HK1/BAI_6_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B7V1",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "7. Bài 7. Hỗn số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=aapWN9wWVVk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=163",
+      "file_path": "TOAN_LOP_5/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B7V2",
+      "lesson_id": 7,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "7. Bài 7. Hỗn số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LdsTfhw6sa4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=162",
+      "file_path": "TOAN_LOP_5/HK1/BAI_7_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B8V1",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "8. Bài 8. Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=EEkxZprl2IU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=161",
+      "file_path": "TOAN_LOP_5/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B8V2",
+      "lesson_id": 8,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "8. Bài 8. Ôn tập hình học và đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=pQMP6QUeKDA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=160",
+      "file_path": "TOAN_LOP_5/HK1/BAI_8_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V1",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "9. Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jNwCuvX1PdE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=159",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V2",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "9. Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=hJmgdMVsD0A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=158",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B9V3",
+      "lesson_id": 9,
+      "chapter_name": "Chủ đề 1. Ôn tập và bổ sung",
+      "lesson_name": "9. Bài 9. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=feZ488YggYk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=157",
+      "file_path": "TOAN_LOP_5/HK1/BAI_9_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B10V1",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "1. Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Rbl9ukW6kVc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=156",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B10V2",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "1. Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=UrTsXewXoMI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=155",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B10V3",
+      "lesson_id": 10,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "1. Bài 10. Khái niệm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZCbShNMVYV4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=154",
+      "file_path": "TOAN_LOP_5/HK1/BAI_10_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B11V1",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "2. Bài 11. So sánh các số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2eTh1fwg2U0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=153",
+      "file_path": "TOAN_LOP_5/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B11V2",
+      "lesson_id": 11,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "2. Bài 11. So sánh các số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wWkWVrergHs&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=152",
+      "file_path": "TOAN_LOP_5/HK1/BAI_11_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B12V1",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "3. Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=I5_wWcijjpY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=151",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B12V2",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "3. Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=W6D2Srm6qMk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=150",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B12V3",
+      "lesson_id": 12,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "3. Bài 12. Viết số đo đại lượng dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DRVwTve0u7s&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=149",
+      "file_path": "TOAN_LOP_5/HK1/BAI_12_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B13V1",
+      "lesson_id": 13,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "4. Bài 13. Làm tròn số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Zbj7L6Dl2ik&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=148",
+      "file_path": "TOAN_LOP_5/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B13V2",
+      "lesson_id": 13,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "4. Bài 13. Làm tròn số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Ii4nuGHOFBY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=147",
+      "file_path": "TOAN_LOP_5/HK1/BAI_13_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B14V1",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "5. Bài 14. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7RnTMcQKNfI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=146",
+      "file_path": "TOAN_LOP_5/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B14V2",
+      "lesson_id": 14,
+      "chapter_name": "Chủ đề 2. Số thập phân",
+      "lesson_name": "5. Bài 14. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3KXwF4-Bx40&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=145",
+      "file_path": "TOAN_LOP_5/HK1/BAI_14_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B15V1",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "1. Bài 15. Ki-lô-mét vuông. Héc-ta",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NL8QriLp9WI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=144",
+      "file_path": "TOAN_LOP_5/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B15V2",
+      "lesson_id": 15,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "1. Bài 15. Ki-lô-mét vuông. Héc-ta",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7W63fNqkKQk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=143",
+      "file_path": "TOAN_LOP_5/HK1/BAI_15_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B16V1",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "2. Bài 16. Các đơn vị đo diện tích",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8jq0-8EnS9c&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=142",
+      "file_path": "TOAN_LOP_5/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B16V2",
+      "lesson_id": 16,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "2. Bài 16. Các đơn vị đo diện tích",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0ZrlSdFPHQg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=141",
+      "file_path": "TOAN_LOP_5/HK1/BAI_16_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B17V1",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "3. Bài 17. Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jj5ycsqOlaY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=140",
+      "file_path": "TOAN_LOP_5/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B17V2",
+      "lesson_id": 17,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "3. Bài 17. Thực hành và trải nghiệm với một số đơn vị đo đại lượng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dhDbeA55oPY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=139",
+      "file_path": "TOAN_LOP_5/HK1/BAI_17_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B18V1",
+      "lesson_id": 18,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "4. Bài 18. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=2eDTd96YZMM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=4",
+      "file_path": "TOAN_LOP_5/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B18V2",
+      "lesson_id": 18,
+      "chapter_name": "Chủ đề 3. Một số đơn vị đo diện tích",
+      "lesson_name": "4. Bài 18. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4Qo8ay9VPKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=3",
+      "file_path": "TOAN_LOP_5/HK1/BAI_18_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B19V1",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "1. Bài 19. Phép cộng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CrRjzjKi7AU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=2",
+      "file_path": "TOAN_LOP_5/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B19V2",
+      "lesson_id": 19,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "1. Bài 19. Phép cộng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=cqmXTT6BBLw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=1",
+      "file_path": "TOAN_LOP_5/HK1/BAI_19_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B23V1",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "5. Bài 23. Nhân, chia số thập phân với 10; 100; 1 000;... hoặc với 0,",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iY86ZAVahCY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=136",
+      "file_path": "TOAN_LOP_5/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B23V2",
+      "lesson_id": 23,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "5. Bài 23. Nhân, chia số thập phân với 10; 100; 1 000;... hoặc với 0,",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kb6CIc64qT0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=135",
+      "file_path": "TOAN_LOP_5/HK1/BAI_23_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B24V1",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "6. Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=UaHmbejFpvU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=134",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B24V2",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "6. Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=sWk8i3W80Ec&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=133",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B24V3",
+      "lesson_id": 24,
+      "chapter_name": "Chủ đề 4. Các phép tính với số thập phân",
+      "lesson_name": "6. Bài 24. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3ZauVbtoKqQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=132",
+      "file_path": "TOAN_LOP_5/HK1/BAI_24_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B25V1",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "1. Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CauUcG2zDNk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=131",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B25V2",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "1. Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=uGX3mVkExtc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=130",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B25V3",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "1. Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8fHPeH9vf6E&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=129",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B25V4",
+      "lesson_id": 25,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "1. Bài 25. Hình tam giác. Diện tích hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IZ-MGMb-puo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=128",
+      "file_path": "TOAN_LOP_5/HK1/BAI_25_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B26V1",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "2. Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ydE37QidyZY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=127",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B26V2",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "2. Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OszF8wvsMcY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=126",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B26V3",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "2. Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=rgx1iYy65lc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=125",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B26V4",
+      "lesson_id": 26,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "2. Bài 26. Hình thang. Diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=T4YxW5k7n1M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=124",
+      "file_path": "TOAN_LOP_5/HK1/BAI_26_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B27V1",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "3. Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4NHPjdAgzJo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=123",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B27V2",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "3. Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=TG1cLFLHwG8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=122",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B27V3",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "3. Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g7pKtRLR3xo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=121",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B27V4",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "3. Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=mE0keVl7r6Y&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=120",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B27V5",
+      "lesson_id": 27,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "3. Bài 27. Đường tròn. Chu vi và diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dSZ2gVZHPxE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=119",
+      "file_path": "TOAN_LOP_5/HK1/BAI_27_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B28V1",
+      "lesson_id": 28,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "4. Bài 28. Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=LljXlOJI-aU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=118",
+      "file_path": "TOAN_LOP_5/HK1/BAI_28_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B29V1",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "5. Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Tpz9BL5zrD4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=117",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B29V2",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "5. Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=PW1LVvOd5jg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=116",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B29V3",
+      "lesson_id": 29,
+      "chapter_name": "Chủ đề 5. Một số hình phẳng. Chu vi và diện tích",
+      "lesson_name": "5. Bài 29. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=8U03CSR1Ye4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=115",
+      "file_path": "TOAN_LOP_5/HK1/BAI_29_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B30V1",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "1. Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=htPzxQdvB_I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=114",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B30V2",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "1. Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=X28EQDId0ZE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=113",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B30V3",
+      "lesson_id": 30,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "1. Bài 30. Ôn tập số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Xvs-1RHU0YE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=112",
+      "file_path": "TOAN_LOP_5/HK1/BAI_30_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B31V1",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "2. Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=B442jk3EbtA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=111",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B31V2",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "2. Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tEpDm6D7nBg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=110",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B31V3",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "2. Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=BDrS_IhmYGk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=109",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B31V4",
+      "lesson_id": 31,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "2. Bài 31. Ôn tập các phép tính với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=jfrJsC-aiBk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=108",
+      "file_path": "TOAN_LOP_5/HK1/BAI_31_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B32V1",
+      "lesson_id": 32,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "3. Bài 32. Ôn tập một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=tu3f-UTGFbA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=107",
+      "file_path": "TOAN_LOP_5/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B32V2",
+      "lesson_id": 32,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "3. Bài 32. Ôn tập một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JPkSOMucCek&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=106",
+      "file_path": "TOAN_LOP_5/HK1/BAI_32_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B33V1",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "4. Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=E5kANDquNtU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=105",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B33V2",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "4. Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=b9MznQxmDQQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=104",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B33V3",
+      "lesson_id": 33,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "4. Bài 33. Ôn tập diện tích, chu vi một số hình phẳng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kJcXf3v1Ub8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=103",
+      "file_path": "TOAN_LOP_5/HK1/BAI_33_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B34V1",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "5. Bài 34. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=TervnfWc_sY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=102",
+      "file_path": "TOAN_LOP_5/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B34V2",
+      "lesson_id": 34,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "5. Bài 34. Ôn tập đo lường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=XTlySwuFJmg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=101",
+      "file_path": "TOAN_LOP_5/HK1/BAI_34_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B35V1",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "6. Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3kaKU9XEcPY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=100",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B35V2",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "6. Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JOymDCfNjf8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=99",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B35V3",
+      "lesson_id": 35,
+      "chapter_name": "Chủ đề 6. Ôn tập học kì 1",
+      "lesson_name": "6. Bài 35: Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=615HNy8Ko64&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=98",
+      "file_path": "TOAN_LOP_5/HK1/BAI_35_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B36V1",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "1. Bài 36. Tỉ số. Tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DSQtHH0ewZk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=95",
+      "file_path": "TOAN_LOP_5/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B36V2",
+      "lesson_id": 36,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "1. Bài 36. Tỉ số. Tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=NkrbQMaQ_io&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=94",
+      "file_path": "TOAN_LOP_5/HK1/BAI_36_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B37V1",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "2. Bài 37. Tỉ lệ bản đồ và ứng dụng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=g7CQ33wGD4Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=93",
+      "file_path": "TOAN_LOP_5/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B37V2",
+      "lesson_id": 37,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "2. Bài 37. Tỉ lệ bản đồ và ứng dụng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4mAFlEL4yes&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=92",
+      "file_path": "TOAN_LOP_5/HK1/BAI_37_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B38V1",
+      "lesson_id": 38,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "3. Bài 38. Tìm hai số khi biết tổng và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=gDuXi5l214M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=91",
+      "file_path": "TOAN_LOP_5/HK1/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B38V2",
+      "lesson_id": 38,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "3. Bài 38. Tìm hai số khi biết tổng và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=acqFCVqUZyg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=90",
+      "file_path": "TOAN_LOP_5/HK1/BAI_38_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B39V1",
+      "lesson_id": 39,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "4. Bài 39. Tìm hai số khi biết hiệu và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=oDOsCM1-J2U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=89",
+      "file_path": "TOAN_LOP_5/HK1/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B39V2",
+      "lesson_id": 39,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "4. Bài 39. Tìm hai số khi biết hiệu và tỉ số của hai số đó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4Fcx7bOZdBM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=88",
+      "file_path": "TOAN_LOP_5/HK1/BAI_39_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B40V1",
+      "lesson_id": 40,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "5. Bài 40. Tìm tỉ số phần trăm của hai số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kOcm0WpHwA0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=87",
+      "file_path": "TOAN_LOP_5/HK1/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B40V2",
+      "lesson_id": 40,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "5. Bài 40. Tìm tỉ số phần trăm của hai số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=saMwOUPfP9U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=86",
+      "file_path": "TOAN_LOP_5/HK1/BAI_40_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B41V1",
+      "lesson_id": 41,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "6. Bài 41. Tìm giá trị phần trăm của một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Fscr50OdIJU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=84",
+      "file_path": "TOAN_LOP_5/HK1/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B41V2",
+      "lesson_id": 41,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "6. Bài 41. Tìm giá trị phần trăm của một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=JS7l_OD-WF0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=83",
+      "file_path": "TOAN_LOP_5/HK1/BAI_41_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B42V1",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "7. Bài 42. Máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=KdI1DC1iUKc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=81",
+      "file_path": "TOAN_LOP_5/HK1/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B42V2",
+      "lesson_id": 42,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "7. Bài 42. Máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=yEtU9mHl3hk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=80",
+      "file_path": "TOAN_LOP_5/HK1/BAI_42_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B43V1",
+      "lesson_id": 43,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "8. Bài 43. Thực hành và trải nghiệm sử dụng máy tính cầm tay",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=34yJhs2XgKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=79",
+      "file_path": "TOAN_LOP_5/HK1/BAI_43_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B44V1",
+      "lesson_id": 44,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "9. Bài 44. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=vviUjpn8x4k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=78",
+      "file_path": "TOAN_LOP_5/HK1/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B44V2",
+      "lesson_id": 44,
+      "chapter_name": "Chủ đề 7. Tỉ số và các bài toán liên quan",
+      "lesson_name": "9. Bài 44. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=9D-Wx_b-8O8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=77",
+      "file_path": "TOAN_LOP_5/HK1/BAI_44_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B45V1",
+      "lesson_id": 45,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "1. Bài 45. Thể tích của một hình",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ppG3X6ZAapc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=76",
+      "file_path": "TOAN_LOP_5/HK1/BAI_45_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B46V1",
+      "lesson_id": 46,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "2. Bài 46. Xăng-ti-mét khối. Đề-xi-mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WZFbBS_RajA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=75",
+      "file_path": "TOAN_LOP_5/HK1/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B46V2",
+      "lesson_id": 46,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "2. Bài 46. Xăng-ti-mét khối. Đề-xi-mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=sJg60MD-Fs0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=74",
+      "file_path": "TOAN_LOP_5/HK1/BAI_46_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B47V1",
+      "lesson_id": 47,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "3. Bài 47. Mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5EhgzEN2EQc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=72",
+      "file_path": "TOAN_LOP_5/HK1/BAI_47_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B47V2",
+      "lesson_id": 47,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "3. Bài 47. Mét khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5416j62E5as&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=71",
+      "file_path": "TOAN_LOP_5/HK1/BAI_47_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B48V1",
+      "lesson_id": 48,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "4. Bài 48. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OBWxS3DJF1Q&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=70",
+      "file_path": "TOAN_LOP_5/HK1/BAI_48_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B48V2",
+      "lesson_id": 48,
+      "chapter_name": "Chủ đề 8. Thể tích. Đơn vị đo thể tích",
+      "lesson_name": "4. Bài 48. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=-GYrMHa4Xys&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=69",
+      "file_path": "TOAN_LOP_5/HK1/BAI_48_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B49V1",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "1. Bài 49. Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=V7LNf12TtkY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=68",
+      "file_path": "TOAN_LOP_5/HK1/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B49V2",
+      "lesson_id": 49,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "1. Bài 49. Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iWULx6ZBO_U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=67",
+      "file_path": "TOAN_LOP_5/HK1/BAI_49_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B50V1",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "2. Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=QIg--GKNfLc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=66",
+      "file_path": "TOAN_LOP_5/HK1/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B50V2",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "2. Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OQUfzfIkZeo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=65",
+      "file_path": "TOAN_LOP_5/HK1/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B50V3",
+      "lesson_id": 50,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "2. Bài 50. Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=FSLprCW-BHE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=64",
+      "file_path": "TOAN_LOP_5/HK1/BAI_50_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B51V1",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "3. Bài 51. Diện tích xung quanh và diện tích toàn phần của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xOW8ZDlUd64&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=63",
+      "file_path": "TOAN_LOP_5/HK1/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B51V2",
+      "lesson_id": 51,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "3. Bài 51. Diện tích xung quanh và diện tích toàn phần của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=0dtF4cJsZk0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=62",
+      "file_path": "TOAN_LOP_5/HK1/BAI_51_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B52V1",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "4. Bài 52. Thể tích của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xaDSR6PaDpc&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=61",
+      "file_path": "TOAN_LOP_5/HK1/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B52V2",
+      "lesson_id": 52,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "4. Bài 52. Thể tích của hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=By3VHjEFVWU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=60",
+      "file_path": "TOAN_LOP_5/HK1/BAI_52_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B53V1",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "5. Bài 53. Thể tích của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dY8Mqs9vs6I&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=59",
+      "file_path": "TOAN_LOP_5/HK1/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B53V2",
+      "lesson_id": 53,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "5. Bài 53. Thể tích của hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=f3-JrzMUaJE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=58",
+      "file_path": "TOAN_LOP_5/HK1/BAI_53_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B54V1",
+      "lesson_id": 54,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "6. Bài 54. Thực hành tính toán và ước lượng thể tích một số hình khối",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ybzlA1kJv70&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=57",
+      "file_path": "TOAN_LOP_5/HK1/BAI_54_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B55V1",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "7. Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xOxZmWyArVY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=56",
+      "file_path": "TOAN_LOP_5/HK1/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B55V2",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "7. Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xTeBi3jweZs&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=55",
+      "file_path": "TOAN_LOP_5/HK1/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B55V3",
+      "lesson_id": 55,
+      "chapter_name": "Chủ đề 9. Diện tích và thể tích của một số hình khối",
+      "lesson_name": "7. Bài 55. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=GATlvLgw4EY&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=54",
+      "file_path": "TOAN_LOP_5/HK1/BAI_55_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B56V1",
+      "lesson_id": 56,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "1. Bài 56. Các đơn vị đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=7GKub8FY4Uw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=53",
+      "file_path": "TOAN_LOP_5/HK1/BAI_56_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B57V1",
+      "lesson_id": 57,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "2. Bài 57. Cộng trừ số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=S8zqDv15A_w&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=52",
+      "file_path": "TOAN_LOP_5/HK1/BAI_57_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B57V2",
+      "lesson_id": 57,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "2. Bài 57. Cộng trừ số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=dTBIneezo0A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=51",
+      "file_path": "TOAN_LOP_5/HK1/BAI_57_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B58V1",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "3. Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=zKlcx8RYMkk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=50",
+      "file_path": "TOAN_LOP_5/HK1/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B58V2",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "3. Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Mbq9alTACE4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=49",
+      "file_path": "TOAN_LOP_5/HK1/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B58V3",
+      "lesson_id": 58,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "3. Bài 58. Nhân chia số đo thời gian với một số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CgLCN18kj1M&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=48",
+      "file_path": "TOAN_LOP_5/HK1/BAI_58_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B59V1",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "4. Bài 59. Vận tốc của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=WvA39UHfuL4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=47",
+      "file_path": "TOAN_LOP_5/HK1/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B59V2",
+      "lesson_id": 59,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "4. Bài 59. Vận tốc của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6Z07KkBxnPI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=46",
+      "file_path": "TOAN_LOP_5/HK1/BAI_59_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B60V1",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "5. Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=IrYDYNtmHzk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=45",
+      "file_path": "TOAN_LOP_5/HK1/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B60V2",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "5. Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=k1As20yOcSk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=44",
+      "file_path": "TOAN_LOP_5/HK1/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B60V3",
+      "lesson_id": 60,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "5. Bài 60. Quãng đường, thời gian của một chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iSfvbA86VoM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=43",
+      "file_path": "TOAN_LOP_5/HK1/BAI_60_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B61V1",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "6. Bài 61. Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=_zAd9AJWuq4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=42",
+      "file_path": "TOAN_LOP_5/HK1/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B61V2",
+      "lesson_id": 61,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "6. Bài 61. Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=CaTovTM8RJk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=41",
+      "file_path": "TOAN_LOP_5/HK1/BAI_61_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B62V1",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "7. Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=4DuZAH-ih04&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=40",
+      "file_path": "TOAN_LOP_5/HK1/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B62V2",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "7. Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZpQKeMvjC9o&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=39",
+      "file_path": "TOAN_LOP_5/HK1/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B62V3",
+      "lesson_id": 62,
+      "chapter_name": "Chủ đề 10. Số đo thời gian. Vận tốc. Các bài toán liên quan đến chuyển động đều",
+      "lesson_name": "7. Bài 62. Luyện tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=FXHLI8Tcjg8&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=38",
+      "file_path": "TOAN_LOP_5/HK1/BAI_62_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B63V1",
+      "lesson_id": 63,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "1. Bài 63. Thu thập, phân loại, sắp xếp các số liệu",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=wjiIbJtfcWo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=37",
+      "file_path": "TOAN_LOP_5/HK1/BAI_63_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B64V1",
+      "lesson_id": 64,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "2. Bài 64. Biểu đồ hình quạt",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Z6pDje1n3Is&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=36",
+      "file_path": "TOAN_LOP_5/HK1/BAI_64_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B64V2",
+      "lesson_id": 64,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "2. Bài 64. Biểu đồ hình quạt",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=a7UFKwh_LKQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=35",
+      "file_path": "TOAN_LOP_5/HK1/BAI_64_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B65V1",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "3. Bài 65. Tỉ số của số lần lặp lại của một sự kiện so với tổng số lần thực hiện",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=od5hU2astpE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=34",
+      "file_path": "TOAN_LOP_5/HK1/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B65V2",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "3. Bài 65. Tỉ số của số lần lặp lại của một sự kiện so với tổng số lần thực hiện",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=iyLCHxsBY4A&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=33",
+      "file_path": "TOAN_LOP_5/HK1/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B65V3",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "3. Bài 65. Tỉ số của số lần lặp lại của một sự kiện so với tổng số lần thực hiện",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=kINozDP68BQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=32",
+      "file_path": "TOAN_LOP_5/HK1/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B65V4",
+      "lesson_id": 65,
+      "chapter_name": "Chủ đề 11. Một số yếu tố thống kê và xác suất",
+      "lesson_name": "3. Bài 65. Tỉ số của số lần lặp lại của một sự kiện so với tổng số lần thực hiện",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=GgJ4m9WmIy4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=31",
+      "file_path": "TOAN_LOP_5/HK1/BAI_65_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V1",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=lhWxgIOXmGg&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=30",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V2",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=-ZIffIMEuyI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=29",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V3",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ZSyFxBG0kiI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=28",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V4",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=DnxSpP34Ow0&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=27",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V5",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ogV5n9Al7GA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=26",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V6",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=xTKuDBJa5LU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=25",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B66V7",
+      "lesson_id": 66,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "1. Bài 68. Ôn tập số tự nhiên, phân số, số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Gn2pNCOqPhw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=24",
+      "file_path": "TOAN_LOP_5/HK1/BAI_66_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B67V1",
+      "lesson_id": 67,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "3. Bài 70. Ôn tập tỉ số, tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=umkkPOYoYQQ&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=23",
+      "file_path": "TOAN_LOP_5/HK1/BAI_67_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B67V2",
+      "lesson_id": 67,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "3. Bài 70. Ôn tập tỉ số, tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=3whJWeQ7f-c&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=22",
+      "file_path": "TOAN_LOP_5/HK1/BAI_67_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V1",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=EQGEvLRe5AI&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=21",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V2",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=XcOJJA9s6jk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=20",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V3",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=_CA6D6JtiYw&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=19",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V4",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=1Z5XRjZvYCk&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=18",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V5",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=t3B68Y9p90Y&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=17",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V6",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=6U9IlPGBI5U&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=16",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V7",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=ye5tGOiDnjM&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=15",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B68V8",
+      "lesson_id": 68,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "4. Bài 71. Ôn tập hình học",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=lbIwJgUJ51g&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=14",
+      "file_path": "TOAN_LOP_5/HK1/BAI_68_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B69V1",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "7. Bài 74. Ôn tập một số yếu tố thống kê và xác suất",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=vjdDYvIf4tE&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=13",
+      "file_path": "TOAN_LOP_5/HK1/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B69V2",
+      "lesson_id": 69,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "7. Bài 74. Ôn tập một số yếu tố thống kê và xác suất",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=PT4dOiuZffU&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=12",
+      "file_path": "TOAN_LOP_5/HK1/BAI_69_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B70V1",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "8. Bài 75. Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=Cb4dthSCGfs&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=11",
+      "file_path": "TOAN_LOP_5/HK1/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B70V2",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "8. Bài 75. Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=OqwB0XC0FQ4&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=10",
+      "file_path": "TOAN_LOP_5/HK1/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B70V3",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "8. Bài 75. Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=VcpUq8YkmCo&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=9",
+      "file_path": "TOAN_LOP_5/HK1/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B70V4",
+      "lesson_id": 70,
+      "chapter_name": "Chủ đề 12: Ôn tập cuối năm",
+      "lesson_name": "8. Bài 75. Ôn tập chung",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=5f6CnJ7PxGA&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=8",
+      "file_path": "TOAN_LOP_5/HK1/BAI_70_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243690_6271",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Khái niệm và hàng của số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243691_4468",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Viết phân số dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243691_6405",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Viết hỗn số dưới dạng số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243692_3434",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "So sánh số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243693_2431",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép trừ số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243693_4743",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tìm x với số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243694_2211",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép nhân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243695_6304",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Quy tắc nhân nhẩm số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243695_3429",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Nhân số thập phân với 10, 100, 1000",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243695_8453",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Phép chia số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243696_8049",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tìm x (phép nhân/chia)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243697_7030",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Tính giá trị biểu thức",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243697_3187",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Rút gọn phân số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243698_1508",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Bài toán giải về số thập phân",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243699_2274",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 1: SỐ THẬP PHÂN & CÁC PHÉP TÍNH",
+      "lesson_name": "Liên hệ giữa phép nhân và phép chia",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243699_2938",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi phân số sang tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243700_3512",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm một số khi biết giá trị phần trăm của nó",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243701_5177",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán tỉ số phần trăm (Dạng 1)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243701_7363",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Phép tính với tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243702_7439",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán tỉ số phần trăm (Dạng kế hoạch)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243702_4667",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm x khi biết tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243703_8990",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về giảm giá",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243703_861",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về lãi suất tiết kiệm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243704_1245",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về tỉ số phần trăm lãi so với vốn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243705_5706",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi hỗn số sang tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243706_7945",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm phần trăm của một đại lượng đo",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243706_2585",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán về thành phần phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243707_6810",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm số chưa biết khi biết phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243707_2788",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Tìm tỉ số phần trăm giữa đối tượng và tổng thể",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243708_3566",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Biểu thức chứa tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243708_5103",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Giải toán kết hợp diện tích và tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243709_3592",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Chuyển đổi số thập phân sang tỉ số phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243709_477",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 2: TỈ SỐ PHẦN TRĂM",
+      "lesson_name": "Bài toán tư duy về tăng giảm phần trăm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243710_3023",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tính chiều cao hình tam giác",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243711_5079",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Chu vi hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243711_8031",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Chu vi bánh xe",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243712_3679",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích xung quanh hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243713_1068",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243713_8271",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích toàn phần hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243714_397",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243714_6289",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích tam giác vuông",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243715_6456",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tỉ lệ diện tích hình lập phương",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243716_9383",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "So sánh diện tích hình tròn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243716_1720",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Đổi đơn vị thể tích",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243717_9010",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Thể tích bể nước",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243717_9744",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Tính Sxq từ chu vi đáy",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243718_4291",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Công thức diện tích hình thang",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243718_7072",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Diện tích tam giác (Đổi đơn vị)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243719_9840",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 3: HÌNH HỌC (DIỆN TÍCH & THỂ TÍCH)",
+      "lesson_name": "Đặc điểm hình hộp chữ nhật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243720_1703",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi đơn vị thời gian (Năm - Tháng)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243720_7534",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép cộng số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243721_7737",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tỉ số thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243721_8158",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính quãng đường",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243722_5896",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Công thức tính thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243723_1184",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính vận tốc",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243724_1112",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép nhân số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243724_3972",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi đơn vị vận tốc",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243725_3368",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Phép chia số đo thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243726_7048",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính thời gian (Đổi ra phút)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243727_4470",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Quan hệ vận tốc và thời gian",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243727_2935",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Toán chuyển động ngược chiều",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243728_1702",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Toán chuyển động cùng chiều (Đuổi nhau)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243728_4586",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Kiến thức lịch sử (Thế kỉ)",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243729_5315",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Đổi số thập phân giờ sang phút",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243730_8514",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Vận tốc dòng nước",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243731_8450",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 4: SỐ ĐO THỜI GIAN & TOÁN CHUYỂN ĐỘNG ĐỀU",
+      "lesson_name": "Tính thời gian thực tế",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243732_7683",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Xác suất thực nghiệm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243732_693",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Sự kiện không thể",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243733_8370",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Biểu đồ cột",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243734_4796",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Diện tích mảnh vườn",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243735_6957",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Trung bình cộng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243735_7799",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "So sánh phân số",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243736_4441",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Hiệu - Tỉ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243737_4622",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Bài toán về gạo",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243738_9044",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "So sánh khối lượng",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243738_1842",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tỉ số phần trăm nữ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243739_1933",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thể tích từ Stp",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243740_2295",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thời điểm khởi hành",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243741_6611",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tổng - Tỉ",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243741_9896",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Dãy số quy luật",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243742_4032",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Lượng nước đổ thêm",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243743_7866",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Tính nhanh",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243743_8602",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Số viên gạch lát nền",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    },
+    {
+      "id": "TOAN5KI1C1B_AUTO_1772972243744_9482",
+      "lesson_id": 1,
+      "chapter_name": "PHẦN 5: SỐ LIỆU THỐNG KÊ, BIỂU ĐỒ & ÔN TẬP TỔNG HỢP",
+      "lesson_name": "Thời gian năm nhuận",
+      "type": "video",
+      "video_url": "https://www.youtube.com/watch?v=h7kUgXnMI5k&list=PLAbgKpL3K4iRnxqddBwS2_T4R1Fkf4m4q&index=175",
+      "file_path": "TOAN_LOP_5/HK1/BAI_1_VIDEO"
+    }
+  ]
+}
