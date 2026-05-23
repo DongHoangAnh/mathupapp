@@ -26,13 +26,22 @@ export default function LeaderboardScreen() {
 
   const load = useCallback(async () => {
     setError(null);
-    const { data, error: e } = await supabase
-      .from('user_profiles')
-      .select('id, display_name, ranking_points')
-      .order('ranking_points', { ascending: false })
-      .limit(50);
-    if (e) setError('Không thể tải bảng xếp hạng');
-    else setEntries(data ?? []);
+    try {
+      const { data, error: e } = await supabase
+        .from('user_profiles')
+        .select('id, display_name, ranking_points')
+        .order('ranking_points', { ascending: false })
+        .limit(50);
+      if (e) {
+        console.warn('Leaderboard error:', e.message);
+        setError('Không thể tải bảng xếp hạng');
+      } else {
+        setEntries(data ?? []);
+      }
+    } catch (err: any) {
+      console.warn('Leaderboard error:', err.message);
+      setError('Không thể tải bảng xếp hạng');
+    }
   }, []);
 
   useEffect(() => { setLoading(true); load().finally(() => setLoading(false)); }, [load]);

@@ -35,8 +35,15 @@ export default function HomeScreen() {
       .select('ranking_points')
       .eq('id', user.id)
       .single()
-      .then(({ data }) => {
+      .then(({ data, error }) => {
+        if (error) {
+          console.warn('Failed to load ranking points:', error.message);
+          return;
+        }
         if (data) setRankingPoints(data.ranking_points);
+      })
+      .catch((err) => {
+        console.warn('Ranking points error:', err.message);
       });
   }, [user]);
 

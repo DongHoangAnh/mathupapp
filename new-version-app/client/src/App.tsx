@@ -7,6 +7,7 @@ import { AuthProvider, useAuth } from './hooks/useAuth';
 
 // Screens
 import LoginScreen from './screens/LoginScreen';
+import RegisterScreen from './screens/RegisterScreen';
 import HomeScreen from './screens/HomeScreen';
 import GameShowScreen from './screens/GameShowScreen';
 import ProfileScreen from './screens/ProfileScreen';
@@ -115,7 +116,10 @@ function RootNavigator() {
       {user ? (
         <Stack.Screen name="MainApp" component={MainTabs} />
       ) : (
-        <Stack.Screen name="Login" component={LoginScreen} />
+        <>
+          <Stack.Screen name="Login" component={LoginScreen} />
+          <Stack.Screen name="Register" component={RegisterScreen} />
+        </>
       )}
     </Stack.Navigator>
   );

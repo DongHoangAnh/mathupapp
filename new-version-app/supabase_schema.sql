@@ -100,16 +100,21 @@ CREATE TABLE IF NOT EXISTS public.user_profiles (
 CREATE OR REPLACE FUNCTION public.handle_new_user()
 RETURNS trigger AS $$
 BEGIN
-  INSERT INTO public.user_profiles (id, display_name, avatar_url)
+  INSERT INTO public.user_profiles (id, display_name, avatar_url, ranking_points)
   VALUES (
     NEW.id,
     COALESCE(NEW.raw_user_meta_data->>'full_name', NEW.email),
-    NEW.raw_user_meta_data->>'avatar_url'
+    NEW.raw_user_meta_data->>'avatar_url',
+    0
   )
   ON CONFLICT (id) DO NOTHING;
   RETURN NEW;
+EXCEPTION WHEN others THEN
+  -- Log error but don't fail the trigger - user creation is already complete
+  RAISE WARNING 'Failed to create user profile: %', SQLERRM;
+  RETURN NEW;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
 CREATE TRIGGER on_auth_user_created
@@ -176,10 +181,30 @@ CREATE INDEX IF NOT EXISTS idx_game_matches_played_at
 ALTER TABLE public.user_profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.game_matches  ENABLE ROW LEVEL SECURITY;
 
+-- Allow all SELECT (read) on profiles
 DROP POLICY IF EXISTS "profiles_select_all" ON public.user_profiles;
 CREATE POLICY "profiles_select_all" ON public.user_profiles
   FOR SELECT USING (true);
 
+-- Allow users to UPDATE/INSERT their own profile
+DROP POLICY IF EXISTS "profiles_update_own" ON public.user_profiles;
+CREATE POLICY "profiles_update_own" ON public.user_profiles
+  FOR UPDATE USING (auth.uid() = id);
+
+DROP POLICY IF EXISTS "profiles_insert_own" ON public.user_profiles;
+CREATE POLICY "profiles_insert_own" ON public.user_profiles
+  FOR INSERT WITH CHECK (auth.uid() = id);
+
+-- Service role bypass (for triggers)
+DROP POLICY IF EXISTS "profiles_service_role" ON public.user_profiles;
+CREATE POLICY "profiles_service_role" ON public.user_profiles
+  FOR ALL USING (true);
+
+-- Match queries
 DROP POLICY IF EXISTS "matches_select_auth" ON public.game_matches;
 CREATE POLICY "matches_select_auth" ON public.game_matches
   FOR SELECT USING (true);
+
+DROP POLICY IF EXISTS "matches_insert_auth" ON public.game_matches;
+CREATE POLICY "matches_insert_auth" ON public.game_matches
+  FOR INSERT WITH CHECK (auth.uid() = player1_id OR auth.uid() = player2_id);

@@ -38,13 +38,24 @@ export default function ProfileScreen() {
       .select('ranking_points')
       .eq('id', user.id)
       .single()
-      .then(({ data }) => { if (data) setRankingPoints(data.ranking_points); });
+      .then(({ data, error }) => {
+        if (error) {
+          console.warn('Failed to load ranking points:', error.message);
+          return;
+        }
+        if (data) setRankingPoints(data.ranking_points);
+      })
+      .catch((err) => {
+        console.warn('Ranking points error:', err.message);
+      });
 
     // Load game stats from API
     fetch(`${process.env.EXPO_PUBLIC_API_URL}/api/gameshow/stats/${user.id}`)
       .then((r) => r.json())
       .then(setStats)
-      .catch(() => {});
+      .catch((err) => {
+        console.warn('Game stats error:', err.message);
+      });
   }, [user]);
 
   return (

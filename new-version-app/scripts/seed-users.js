@@ -11,13 +11,14 @@
 const SUPABASE_URL  = 'https://odrvldgxctfoqzbzpdgu.supabase.co';
 const SUPABASE_ANON = 'sb_publishable_zj-R_Eg-xJWfhjG0SmVqPg_TMmreMeg';
 
-// Supabase requires ≥ 6 chars. Padded: admin→admin1, admin1→admin1
+// Note: Supabase typically requires ≥ 6 chars for passwords.
+// If 'admin' fails, you may need to increase it to 'admin123' or similar.
 const ACCOUNTS = [
-  { email: 'admin@mathup.dev',  password: 'admin1', fullName: 'Admin' },
-  { email: 'admin1@mathup.dev', password: 'admin1', fullName: 'Admin1' },
+  { email: 'admin@mathup.dev',  password: 'admin123', fullName: 'Admin',   role: 'admin' },
+  { email: 'admin1@mathup.dev', password: 'admin123', fullName: 'Admin 1', role: 'admin' },
 ];
 
-async function signUp({ email, password, fullName }) {
+async function signUp({ email, password, fullName, role }) {
   const res = await fetch(`${SUPABASE_URL}/auth/v1/signup`, {
     method: 'POST',
     headers: {
@@ -27,7 +28,10 @@ async function signUp({ email, password, fullName }) {
     body: JSON.stringify({
       email,
       password,
-      data: { full_name: fullName },
+      data: {
+        full_name: fullName,
+        role: role
+      },
     }),
   });
   const json = await res.json();
@@ -52,6 +56,6 @@ async function signUp({ email, password, fullName }) {
     }
   }
   console.log('\nDone. Đăng nhập với:');
-  console.log('  admin@mathup.dev   /  admin1');
-  console.log('  admin1@mathup.dev  /  admin1');
+  console.log('  admin@mathup.dev   /  admin123');
+  console.log('  admin1@mathup.dev  /  admin123');
 })();

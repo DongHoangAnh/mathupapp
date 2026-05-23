@@ -62,7 +62,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const signInWithEmail = async (email: string, password: string) => {
     const { error } = await supabase.auth.signInWithPassword({ email, password })
-    if (error) throw error
+    if (error) {
+      console.error('❌ Email login error:', error.message)
+      throw new Error(error.message || 'Đăng nhập thất bại')
+    }
   }
 
   const signOut = async () => {

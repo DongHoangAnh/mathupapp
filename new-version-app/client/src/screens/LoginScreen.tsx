@@ -5,6 +5,7 @@ import {
   KeyboardAvoidingView, Platform, ScrollView,
 } from 'react-native';
 import { useAuth } from '../hooks/useAuth';
+import { useNavigation } from '@react-navigation/native';
 
 const C = {
   primary: '#3B82F6', deep: '#1E40AF', yellow: '#FACC15',
@@ -14,6 +15,7 @@ const C = {
 
 export default function LoginScreen() {
   const { signInWithEmail, signInWithGoogle, loading } = useAuth();
+  const navigation = useNavigation<any>();
 
   const [email, setEmail]       = useState('');
   const [password, setPassword] = useState('');
@@ -38,7 +40,7 @@ export default function LoginScreen() {
 
   const fillAccount = (acc: 'admin' | 'admin1') => {
     setEmail(acc === 'admin' ? 'admin@mathup.dev' : 'admin1@mathup.dev');
-    setPassword('admin1');
+    setPassword('admin123');
     setError(null);
   };
 
@@ -122,14 +124,22 @@ export default function LoginScreen() {
             <View style={styles.testRow}>
               <TouchableOpacity style={styles.testBtn} onPress={() => fillAccount('admin')} activeOpacity={0.7}>
                 <Text style={styles.testBtnEmail}>admin@mathup.dev</Text>
-                <Text style={styles.testBtnPwd}>admin1</Text>
+                <Text style={styles.testBtnPwd}>admin123</Text>
               </TouchableOpacity>
               <TouchableOpacity style={styles.testBtn} onPress={() => fillAccount('admin1')} activeOpacity={0.7}>
                 <Text style={styles.testBtnEmail}>admin1@mathup.dev</Text>
-                <Text style={styles.testBtnPwd}>admin1</Text>
+                <Text style={styles.testBtnPwd}>admin123</Text>
               </TouchableOpacity>
             </View>
             <Text style={styles.testHint}>Nhấn để điền tự động</Text>
+          </View>
+
+          {/* Registration link */}
+          <View style={styles.footer}>
+            <Text style={styles.footerText}>Chưa có tài khoản?</Text>
+            <TouchableOpacity onPress={() => navigation.navigate('Register')}>
+              <Text style={styles.footerLink}> Đăng ký ngay</Text>
+            </TouchableOpacity>
           </View>
 
 
@@ -202,4 +212,10 @@ const styles = StyleSheet.create({
   },
   googleIcon: { fontSize: 20 },
   googleText: { fontSize: 15, fontWeight: '700', color: C.text },
+
+  footer: {
+    flexDirection: 'row', justifyContent: 'center', marginTop: 32, marginBottom: 24,
+  },
+  footerText: { fontSize: 14, color: C.textLight },
+  footerLink: { fontSize: 14, fontWeight: '700', color: C.primary },
 });
