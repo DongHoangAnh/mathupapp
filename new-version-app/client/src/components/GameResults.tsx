@@ -1,15 +1,6 @@
-/**
- * GameResults Component - React Native
- * Displays game results and winner
- */
-
 import React from 'react';
 import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
+  View, Text, TouchableOpacity, StyleSheet, ScrollView, SafeAreaView,
 } from 'react-native';
 
 interface GameResultsProps {
@@ -17,263 +8,188 @@ interface GameResultsProps {
   opponentScore: number;
   playerTime: number;
   opponentTime: number;
+  rankingDelta?: number | null;
   onPlayAgain: () => void;
 }
 
+const C = {
+  primary: '#3B82F6', deep: '#1E40AF', yellow: '#FACC15',
+  bg: '#F8FBFF', white: '#FFFFFF', text: '#1E293B', textLight: '#64748B',
+  success: '#22C55E', error: '#EF4444',
+};
+
+function fmt(ms: number) {
+  const s = Math.floor(ms / 1000);
+  return `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')}`;
+}
+
 export default function GameResults({
-  playerScore,
-  opponentScore,
-  playerTime,
-  opponentTime,
-  onPlayAgain,
+  playerScore, opponentScore, playerTime, opponentTime,
+  rankingDelta, onPlayAgain,
 }: GameResultsProps) {
-  const playerWon = playerScore > opponentScore;
-  const isDraw = playerScore === opponentScore;
+  const won  = playerScore > opponentScore;
+  const draw = playerScore === opponentScore;
 
-  const formatTime = (ms: number): string => {
-    const seconds = Math.floor(ms / 1000);
-    const minutes = Math.floor(seconds / 60);
-    return `${minutes}:${(seconds % 60).toString().padStart(2, '0')}`;
-  };
-
-  const getWinnerMessage = (): string => {
-    if (isDraw) return 'Hoà!';
-    return playerWon ? '🎉 Bạn Thắng!' : '😢 Bạn Thua';
-  };
-
-  const getWinnerColor = (): string => {
-    if (isDraw) return '#FF9800';
-    return playerWon ? '#4CAF50' : '#FF6B6B';
-  };
+  const headline = draw ? 'Hoà!' : won ? 'Bạn Thắng! 🎉' : 'Bạn Thua 😢';
+  const headlineColor = draw ? '#F59E0B' : won ? C.success : C.error;
+  const headerBg = draw ? '#FEF9C3' : won ? '#DCFCE7' : '#FEE2E2';
 
   return (
-    <ScrollView style={styles.container}>
-      {/* Winner Message */}
-      <View style={styles.resultHeader}>
-        <Text style={[styles.resultTitle, { color: getWinnerColor() }]}>
-          {getWinnerMessage()}
-        </Text>
-      </View>
+    <SafeAreaView style={{ flex: 1, backgroundColor: C.bg }}>
+      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
 
-      {/* Score Comparison */}
-      <View style={styles.scoreComparison}>
-        {/* Player Card */}
-        <View style={styles.playerCard}>
-          <Text style={styles.playerLabel}>Bạn</Text>
-          <Text style={styles.playerScore}>{playerScore}</Text>
-          <View style={styles.scoreDetail}>
-            <Text style={styles.detailLabel}>Điểm</Text>
-            <Text style={styles.detailValue}>{playerScore * 10}</Text>
-          </View>
-          <View style={styles.scoreDetail}>
-            <Text style={styles.detailLabel}>Thời gian</Text>
-            <Text style={styles.detailValue}>{formatTime(playerTime)}</Text>
-          </View>
-          {playerWon && (
-            <View style={styles.badge}>
-              <Text style={styles.badgeText}>👑 Winner</Text>
+        {/* ── Result header ── */}
+        <View style={[styles.resultHeader, { backgroundColor: headerBg }]}>
+          <Text style={[styles.headline, { color: headlineColor }]}>{headline}</Text>
+
+          {rankingDelta != null && (
+            <View style={[
+              styles.rankBadge,
+              { backgroundColor: rankingDelta >= 0 ? C.success : C.error },
+            ]}>
+              <Text style={styles.rankBadgeText}>
+                {rankingDelta >= 0 ? `+${rankingDelta}` : `${rankingDelta}`}  điểm xếp hạng
+              </Text>
             </View>
           )}
         </View>
 
-        {/* VS */}
-        <View style={styles.vsContainer}>
-          <Text style={styles.vsText}>VS</Text>
-        </View>
-
-        {/* Opponent Card */}
-        <View style={styles.playerCard}>
-          <Text style={styles.playerLabel}>Đối Thủ</Text>
-          <Text style={styles.playerScore}>{opponentScore}</Text>
-          <View style={styles.scoreDetail}>
-            <Text style={styles.detailLabel}>Điểm</Text>
-            <Text style={styles.detailValue}>{opponentScore * 10}</Text>
+        {/* ── Score comparison ── */}
+        <View style={styles.scoreRow}>
+          {/* Me */}
+          <View style={[styles.scoreCard, won && styles.scoreCardWinner]}>
+            {won && <View style={styles.crownBadge}><Text style={styles.crownText}>👑</Text></View>}
+            <Text style={styles.scoreCardLabel}>Bạn</Text>
+            <Text style={[styles.scoreCardValue, { color: C.primary }]}>{playerScore}</Text>
+            <Text style={styles.scoreCardSub}>câu đúng</Text>
+            <Text style={styles.scoreCardTime}>{fmt(playerTime)}</Text>
           </View>
-          <View style={styles.scoreDetail}>
-            <Text style={styles.detailLabel}>Thời gian</Text>
-            <Text style={styles.detailValue}>{formatTime(opponentTime)}</Text>
+
+          <View style={styles.vsCircle}>
+            <Text style={styles.vsText}>VS</Text>
           </View>
-          {!playerWon && !isDraw && (
-            <View style={styles.badge}>
-              <Text style={styles.badgeText}>👑 Winner</Text>
-            </View>
-          )}
-        </View>
-      </View>
 
-      {/* Stats Summary */}
-      <View style={styles.summaryBox}>
-        <View style={styles.summaryRow}>
-          <Text style={styles.summaryLabel}>Câu Trả Lời Đúng</Text>
-          <Text style={styles.summaryValue}>
-            {playerScore}/10 vs {opponentScore}/10
-          </Text>
+          {/* Opponent */}
+          <View style={[styles.scoreCard, !won && !draw && styles.scoreCardWinner]}>
+            {!won && !draw && <View style={styles.crownBadge}><Text style={styles.crownText}>👑</Text></View>}
+            <Text style={styles.scoreCardLabel}>Đối Thủ</Text>
+            <Text style={[styles.scoreCardValue, { color: '#EF4444' }]}>{opponentScore}</Text>
+            <Text style={styles.scoreCardSub}>câu đúng</Text>
+            <Text style={styles.scoreCardTime}>{fmt(opponentTime)}</Text>
+          </View>
         </View>
-        <View style={styles.summaryRow}>
-          <Text style={styles.summaryLabel}>Tốc Độ</Text>
-          <Text style={styles.summaryValue}>
-            {formatTime(playerTime)} vs {formatTime(opponentTime)}
-          </Text>
-        </View>
-        <View style={styles.summaryRow}>
-          <Text style={styles.summaryLabel}>Tổng Điểm Nhận</Text>
-          <Text style={[styles.summaryValue, styles.pointsEarned]}>
-            +{Math.max(playerScore * 10, 50)}
-          </Text>
-        </View>
-      </View>
 
-      {/* Buttons */}
-      <View style={styles.buttonContainer}>
-        <TouchableOpacity
-          style={[styles.button, styles.primaryButton]}
-          onPress={onPlayAgain}
-        >
-          <Text style={styles.buttonText}>🔄 Chơi Trận Mới</Text>
-        </TouchableOpacity>
+        {/* ── Stats summary ── */}
+        <View style={styles.summaryCard}>
+          <SummaryRow label="Câu trả lời đúng" value={`${playerScore}/10 vs ${opponentScore}/10`} />
+          <SummaryRow label="Thời gian" value={`${fmt(playerTime)} vs ${fmt(opponentTime)}`} />
+          <SummaryRow
+            label="Điểm xếp hạng"
+            value={
+              rankingDelta == null ? 'Hoà (±0)' :
+              rankingDelta >= 0 ? `+${rankingDelta}` : `${rankingDelta}`
+            }
+            valueColor={
+              rankingDelta == null ? C.textLight :
+              rankingDelta >= 0 ? C.success : C.error
+            }
+            isLast
+          />
+        </View>
 
-        <TouchableOpacity style={[styles.button, styles.secondaryButton]}>
-          <Text style={styles.secondaryButtonText}>📊 Xem Thống Kê</Text>
-        </TouchableOpacity>
-      </View>
-    </ScrollView>
+        {/* ── Actions ── */}
+        <View style={styles.actions}>
+          <TouchableOpacity style={styles.playAgainBtn} onPress={onPlayAgain} activeOpacity={0.85}>
+            <Text style={styles.playAgainText}>🔄  Chơi Trận Mới</Text>
+          </TouchableOpacity>
+        </View>
+
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+function SummaryRow({
+  label, value, valueColor, isLast,
+}: { label: string; value: string; valueColor?: string; isLast?: boolean }) {
+  return (
+    <View style={[styles.summaryRow, isLast && { borderBottomWidth: 0 }]}>
+      <Text style={styles.summaryLabel}>{label}</Text>
+      <Text style={[styles.summaryValue, valueColor ? { color: valueColor, fontWeight: '800' } : {}]}>
+        {value}
+      </Text>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5',
-    padding: 16,
-  },
+  scroll: { paddingBottom: 32 },
+
   resultHeader: {
-    paddingVertical: 24,
-    alignItems: 'center',
-    marginBottom: 24,
+    paddingTop: 40, paddingBottom: 32, paddingHorizontal: 24,
+    alignItems: 'center', gap: 16,
+    borderBottomLeftRadius: 32, borderBottomRightRadius: 32,
   },
-  resultTitle: {
-    fontSize: 36,
-    fontWeight: 'bold',
+  headline: { fontSize: 38, fontWeight: '900' },
+  rankBadge: {
+    paddingVertical: 10, paddingHorizontal: 24, borderRadius: 20,
+    shadowColor: '#000', shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15, shadowRadius: 8, elevation: 4,
   },
-  scoreComparison: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    marginBottom: 24,
-    gap: 12,
+  rankBadgeText: { fontSize: 18, fontWeight: '900', color: '#fff' },
+
+  scoreRow: {
+    flexDirection: 'row', alignItems: 'center',
+    marginHorizontal: 20, marginTop: 24, gap: 12,
   },
-  playerCard: {
-    flex: 1,
-    backgroundColor: '#fff',
-    padding: 16,
-    borderRadius: 12,
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-    elevation: 3,
+  scoreCard: {
+    flex: 1, backgroundColor: C.white, borderRadius: 24, padding: 20,
+    alignItems: 'center', gap: 4,
+    shadowColor: 'rgba(59,130,246,0.1)',
+    shadowOffset: { width: 0, height: 4 }, shadowOpacity: 1,
+    shadowRadius: 12, elevation: 4,
   },
-  playerLabel: {
-    fontSize: 14,
-    color: '#666',
-    marginBottom: 8,
-    fontWeight: '600',
+  scoreCardWinner: {
+    borderWidth: 2.5, borderColor: C.yellow,
+    shadowColor: C.yellow, shadowOpacity: 0.25,
   },
-  playerScore: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    color: '#007AFF',
-    marginBottom: 12,
+  crownBadge: {
+    position: 'absolute', top: -14, alignSelf: 'center',
   },
-  scoreDetail: {
-    marginVertical: 4,
-    alignItems: 'center',
+  crownText: { fontSize: 28 },
+  scoreCardLabel: { fontSize: 12, color: C.textLight, fontWeight: '600' },
+  scoreCardValue: { fontSize: 44, fontWeight: '900' },
+  scoreCardSub: { fontSize: 11, color: C.textLight },
+  scoreCardTime: { fontSize: 13, color: C.textLight, fontWeight: '600', marginTop: 4 },
+
+  vsCircle: {
+    width: 40, height: 40, borderRadius: 20,
+    backgroundColor: C.bg, justifyContent: 'center', alignItems: 'center',
+    borderWidth: 2, borderColor: '#E2E8F0',
   },
-  detailLabel: {
-    fontSize: 12,
-    color: '#999',
-  },
-  detailValue: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#333',
-  },
-  badge: {
-    backgroundColor: '#FFD700',
-    paddingVertical: 4,
-    paddingHorizontal: 8,
-    borderRadius: 4,
-    marginTop: 8,
-  },
-  badgeText: {
-    fontSize: 12,
-    fontWeight: 'bold',
-    color: '#333',
-  },
-  vsContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: 40,
-  },
-  vsText: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#999',
-  },
-  summaryBox: {
-    backgroundColor: '#fff',
-    padding: 16,
-    borderRadius: 12,
-    marginBottom: 24,
+  vsText: { fontSize: 11, fontWeight: '800', color: C.textLight },
+
+  summaryCard: {
+    marginHorizontal: 20, marginTop: 20,
+    backgroundColor: C.white, borderRadius: 24, overflow: 'hidden',
+    shadowColor: 'rgba(59,130,246,0.08)',
+    shadowOffset: { width: 0, height: 4 }, shadowOpacity: 1,
+    shadowRadius: 12, elevation: 3,
   },
   summaryRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingVertical: 12,
-    borderBottomWidth: 1,
-    borderBottomColor: '#eee',
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    paddingVertical: 14, paddingHorizontal: 20,
+    borderBottomWidth: 1, borderBottomColor: '#F1F5F9',
   },
-  summaryLabel: {
-    fontSize: 14,
-    color: '#666',
-    fontWeight: '500',
-  },
-  summaryValue: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#333',
-  },
-  pointsEarned: {
-    color: '#4CAF50',
-    fontSize: 16,
-  },
-  buttonContainer: {
-    gap: 12,
-    marginBottom: 24,
-  },
-  button: {
-    paddingVertical: 14,
-    paddingHorizontal: 16,
-    borderRadius: 8,
+  summaryLabel: { fontSize: 14, color: C.textLight, fontWeight: '500' },
+  summaryValue: { fontSize: 14, fontWeight: '700', color: C.text },
+
+  actions: { marginHorizontal: 20, marginTop: 20, gap: 12 },
+  playAgainBtn: {
+    backgroundColor: C.primary, borderRadius: 20, paddingVertical: 18,
     alignItems: 'center',
+    shadowColor: C.primary, shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3, shadowRadius: 12, elevation: 8,
   },
-  primaryButton: {
-    backgroundColor: '#007AFF',
-  },
-  secondaryButton: {
-    backgroundColor: '#f0f0f0',
-    borderWidth: 2,
-    borderColor: '#ddd',
-  },
-  buttonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#fff',
-  },
-  secondaryButtonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
-  },
+  playAgainText: { fontSize: 17, fontWeight: '900', color: '#fff' },
 });

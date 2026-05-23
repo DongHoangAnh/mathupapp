@@ -1,12 +1,13 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import { User, Session } from '@supabase/supabase-js'
-import { supabase } from '@/lib/supabase'
+import { supabase } from '../services/supabase'
 
 interface AuthContextType {
   user: User | null
   session: Session | null
   loading: boolean
   signInWithGoogle: () => Promise<void>
+  signInWithEmail: (email: string, password: string) => Promise<void>
   signOut: () => Promise<void>
 }
 
@@ -22,7 +23,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setSession(session)
       setUser(session?.user ?? null)
       setLoading(false)
-    }).catch((error) => {
+    }).catch((error: unknown) => {
       console.error('Failed to get session:', error)
       setLoading(false)
     })
@@ -30,7 +31,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     // Listen for auth changes
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((event, session) => {
+    } = supabase.auth.onAuthStateChange((_event: string, session: Session | null) => {
       setSession(session)
       setUser(session?.user ?? null)
       setLoading(false)
@@ -39,16 +40,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return () => subscription.unsubscribe()
   }, [])
 
-  const getBaseURL = () => {
-    // Use the current origin for all environments
-    return window.location.origin
-  }
-
   const signInWithGoogle = async () => {
-    const baseURL = getBaseURL()
-    const redirectURL = `${baseURL}/auth/callback`
-    
-    
+    const apiUrl = process.env.EXPO_PUBLIC_API_URL ?? 'http://localhost:3000'
+    const redirectURL = `${apiUrl}/auth/callback`
+
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
@@ -65,6 +60,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }
 
+  const signInWithEmail = async (email: string, password: string) => {
+    const { error } = await supabase.auth.signInWithPassword({ email, password })
+    if (error) throw error
+  }
+
   const signOut = async () => {
     const { error } = await supabase.auth.signOut()
     if (error) {
@@ -79,6 +79,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       session,
       loading,
       signInWithGoogle,
+      signInWithEmail,
       signOut,
     }}>
       {children}

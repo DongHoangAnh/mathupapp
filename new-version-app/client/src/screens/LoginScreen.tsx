@@ -1,193 +1,205 @@
-/**
- * Login Screen - React Native
- * Google OAuth authentication
- */
-
 import React, { useState } from 'react';
 import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  ActivityIndicator,
-  Alert,
-  SafeAreaView,
+  View, Text, TouchableOpacity, StyleSheet,
+  ActivityIndicator, SafeAreaView, TextInput,
+  KeyboardAvoidingView, Platform, ScrollView,
 } from 'react-native';
 import { useAuth } from '../hooks/useAuth';
 
-export default function LoginScreen() {
-  const { signInWithGoogle, loading } = useAuth();
-  const [error, setError] = useState<string | null>(null);
+const C = {
+  primary: '#3B82F6', deep: '#1E40AF', yellow: '#FACC15',
+  bg: '#F8FBFF', white: '#FFFFFF', text: '#1E293B', textLight: '#64748B',
+  error: '#EF4444',
+};
 
-  const handleGoogleLogin = async () => {
+export default function LoginScreen() {
+  const { signInWithEmail, signInWithGoogle, loading } = useAuth();
+
+  const [email, setEmail]       = useState('');
+  const [password, setPassword] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError]       = useState<string | null>(null);
+
+  const handleEmailLogin = async () => {
+    if (!email.trim() || !password.trim()) {
+      setError('Vui lòng nhập email và mật khẩu');
+      return;
+    }
+    setError(null);
+    setSubmitting(true);
     try {
-      setError(null);
-      await signInWithGoogle();
-    } catch (err) {
-      const errorMessage =
-        err instanceof Error ? err.message : 'Login failed';
-      setError(errorMessage);
-      Alert.alert('Login Error', errorMessage);
+      await signInWithEmail(email.trim(), password);
+    } catch (e: any) {
+      setError(e?.message ?? 'Đăng nhập thất bại');
+    } finally {
+      setSubmitting(false);
     }
   };
 
+  const fillAccount = (acc: 'admin' | 'admin1') => {
+    setEmail(acc === 'admin' ? 'admin@mathup.dev' : 'admin1@mathup.dev');
+    setPassword('admin1');
+    setError(null);
+  };
+
+  const busy = submitting || loading;
+
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.content}>
-        {/* Logo/Title */}
-        <View style={styles.headerSection}>
-          <Text style={styles.logo}>🧮</Text>
-          <Text style={styles.title}>MathUp</Text>
-          <Text style={styles.subtitle}>
-            Thách đấu toán học với bạn bè
-          </Text>
-        </View>
+    <SafeAreaView style={styles.safe}>
+      <KeyboardAvoidingView
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+        style={{ flex: 1 }}
+      >
+        <ScrollView
+          contentContainerStyle={styles.scroll}
+          keyboardShouldPersistTaps="handled"
+          showsVerticalScrollIndicator={false}
+        >
+          {/* Header */}
+          <View style={styles.header}>
+            <Text style={styles.logo}>⚔️</Text>
+            <Text style={styles.appName}>MathUp</Text>
+            <Text style={styles.tagline}>Thách đấu toán học 1v1</Text>
+          </View>
 
-        {/* Features */}
-        <View style={styles.featuresSection}>
-          <FeatureItem icon="⚡" text="Chơi 1v1 trực tiếp" />
-          <FeatureItem icon="🏆" text="Tranh đấu xếp hạng" />
-          <FeatureItem icon="📊" text="Theo dõi tiến độ" />
-          <FeatureItem icon="🎯" text="Thách thức bạn bè" />
-        </View>
+          {/* Form card */}
+          <View style={styles.card}>
+            <Text style={styles.cardTitle}>Đăng nhập</Text>
 
-        {/* Login Button */}
-        <View style={styles.buttonsSection}>
-          <TouchableOpacity
-            style={[styles.button, styles.primaryButton]}
-            onPress={handleGoogleLogin}
-            disabled={loading}
-          >
-            {loading ? (
-              <ActivityIndicator color="#fff" size="large" />
-            ) : (
-              <>
-                <Text style={styles.googleIcon}>🔐</Text>
-                <Text style={styles.buttonText}>Đăng Nhập Với Google</Text>
-              </>
+            {/* Email */}
+            <View style={styles.inputGroup}>
+              <Text style={styles.inputLabel}>Email</Text>
+              <TextInput
+                style={styles.input}
+                value={email}
+                onChangeText={setEmail}
+                placeholder="email@mathup.dev"
+                placeholderTextColor="#CBD5E1"
+                keyboardType="email-address"
+                autoCapitalize="none"
+                autoCorrect={false}
+                editable={!busy}
+              />
+            </View>
+
+            {/* Password */}
+            <View style={styles.inputGroup}>
+              <Text style={styles.inputLabel}>Mật khẩu</Text>
+              <TextInput
+                style={styles.input}
+                value={password}
+                onChangeText={setPassword}
+                placeholder="••••••"
+                placeholderTextColor="#CBD5E1"
+                secureTextEntry
+                editable={!busy}
+              />
+            </View>
+
+            {/* Error */}
+            {error && (
+              <View style={styles.errorBox}>
+                <Text style={styles.errorText}>{error}</Text>
+              </View>
             )}
-          </TouchableOpacity>
 
-          {error && <Text style={styles.errorText}>{error}</Text>}
+            {/* Submit */}
+            <TouchableOpacity
+              style={[styles.loginBtn, busy && { opacity: 0.6 }]}
+              onPress={handleEmailLogin}
+              disabled={busy}
+              activeOpacity={0.85}
+            >
+              {busy
+                ? <ActivityIndicator color="#fff" />
+                : <Text style={styles.loginBtnText}>Đăng Nhập</Text>}
+            </TouchableOpacity>
+          </View>
 
-          {/* Info Text */}
-          <Text style={styles.infoText}>
-            Bạn cần tài khoản Google để chơi. An toàn và nhanh chóng.
-          </Text>
-        </View>
-      </View>
+          {/* Test accounts hint */}
+          <View style={styles.testBox}>
+            <Text style={styles.testTitle}>Tài khoản thử nghiệm</Text>
+            <View style={styles.testRow}>
+              <TouchableOpacity style={styles.testBtn} onPress={() => fillAccount('admin')} activeOpacity={0.7}>
+                <Text style={styles.testBtnEmail}>admin@mathup.dev</Text>
+                <Text style={styles.testBtnPwd}>admin1</Text>
+              </TouchableOpacity>
+              <TouchableOpacity style={styles.testBtn} onPress={() => fillAccount('admin1')} activeOpacity={0.7}>
+                <Text style={styles.testBtnEmail}>admin1@mathup.dev</Text>
+                <Text style={styles.testBtnPwd}>admin1</Text>
+              </TouchableOpacity>
+            </View>
+            <Text style={styles.testHint}>Nhấn để điền tự động</Text>
+          </View>
 
-      {/* Footer */}
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>
-          Made with ❤️ for Math Lovers
-        </Text>
-      </View>
+
+        </ScrollView>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
 
-function FeatureItem({ icon, text }: { icon: string; text: string }) {
-  return (
-    <View style={styles.featureItem}>
-      <Text style={styles.featureIcon}>{icon}</Text>
-      <Text style={styles.featureText}>{text}</Text>
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#007AFF',
+  safe: { flex: 1, backgroundColor: C.bg },
+  scroll: { padding: 24, flexGrow: 1 },
+
+  header: { alignItems: 'center', marginTop: 24, marginBottom: 32 },
+  logo: { fontSize: 64 },
+  appName: { fontSize: 36, fontWeight: '900', color: C.deep, marginTop: 8 },
+  tagline: { fontSize: 14, color: C.textLight, marginTop: 6 },
+
+  card: {
+    backgroundColor: C.white, borderRadius: 24, padding: 24,
+    shadowColor: 'rgba(59,130,246,0.12)',
+    shadowOffset: { width: 0, height: 8 }, shadowOpacity: 1,
+    shadowRadius: 24, elevation: 8, gap: 16,
   },
-  content: {
-    flex: 1,
-    padding: 24,
-    justifyContent: 'space-between',
+  cardTitle: { fontSize: 20, fontWeight: '900', color: C.text },
+
+  inputGroup: { gap: 6 },
+  inputLabel: { fontSize: 13, fontWeight: '700', color: C.textLight },
+  input: {
+    backgroundColor: '#F8FBFF', borderRadius: 14, paddingHorizontal: 16,
+    paddingVertical: 14, fontSize: 15, color: C.text,
+    borderWidth: 1.5, borderColor: '#E2E8F0',
   },
-  headerSection: {
-    alignItems: 'center',
-    marginTop: 40,
+
+  errorBox: {
+    backgroundColor: '#FEE2E2', borderRadius: 12, padding: 12,
   },
-  logo: {
-    fontSize: 64,
-    marginBottom: 16,
+  errorText: { fontSize: 13, color: C.error, textAlign: 'center' },
+
+  loginBtn: {
+    backgroundColor: C.primary, borderRadius: 16, paddingVertical: 16,
+    alignItems: 'center', marginTop: 4,
+    shadowColor: C.primary, shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.3, shadowRadius: 12, elevation: 8,
   },
-  title: {
-    fontSize: 36,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 8,
+  loginBtnText: { fontSize: 16, fontWeight: '900', color: '#fff' },
+
+  testBox: {
+    marginTop: 24, backgroundColor: '#FEF9C3', borderRadius: 20, padding: 16, gap: 10,
   },
-  subtitle: {
-    fontSize: 16,
-    color: 'rgba(255, 255, 255, 0.8)',
-    textAlign: 'center',
+  testTitle: { fontSize: 12, fontWeight: '800', color: '#78350F', textAlign: 'center' },
+  testRow: { flexDirection: 'row', gap: 10 },
+  testBtn: {
+    flex: 1, backgroundColor: C.white, borderRadius: 14,
+    padding: 12, alignItems: 'center', gap: 2,
+    borderWidth: 1.5, borderColor: '#FDE68A',
   },
-  featuresSection: {
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
-    borderRadius: 16,
-    padding: 20,
-    gap: 16,
+  testBtnEmail: { fontSize: 11, fontWeight: '700', color: C.deep },
+  testBtnPwd: { fontSize: 13, fontWeight: '900', color: C.primary },
+  testHint: { fontSize: 11, color: '#92400E', textAlign: 'center' },
+
+  divider: { flexDirection: 'row', alignItems: 'center', gap: 12, marginVertical: 20 },
+  dividerLine: { flex: 1, height: 1, backgroundColor: '#E2E8F0' },
+  dividerText: { fontSize: 12, color: C.textLight, fontWeight: '600' },
+
+  googleBtn: {
+    backgroundColor: C.white, borderRadius: 16, paddingVertical: 14,
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 10,
+    borderWidth: 1.5, borderColor: '#E2E8F0',
   },
-  featureItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 12,
-  },
-  featureIcon: {
-    fontSize: 24,
-  },
-  featureText: {
-    fontSize: 14,
-    color: '#fff',
-    fontWeight: '500',
-  },
-  buttonsSection: {
-    gap: 16,
-  },
-  button: {
-    paddingVertical: 14,
-    paddingHorizontal: 20,
-    borderRadius: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'row',
-    gap: 8,
-  },
-  primaryButton: {
-    backgroundColor: '#fff',
-  },
-  googleIcon: {
-    fontSize: 20,
-  },
-  buttonText: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#007AFF',
-  },
-  errorText: {
-    color: '#fff',
-    textAlign: 'center',
-    fontSize: 14,
-    backgroundColor: 'rgba(255, 107, 107, 0.3)',
-    padding: 10,
-    borderRadius: 8,
-    borderLeftWidth: 3,
-    borderLeftColor: '#FF6B6B',
-  },
-  infoText: {
-    fontSize: 12,
-    color: 'rgba(255, 255, 255, 0.7)',
-    textAlign: 'center',
-  },
-  footer: {
-    paddingBottom: 24,
-    alignItems: 'center',
-  },
-  footerText: {
-    color: 'rgba(255, 255, 255, 0.6)',
-    fontSize: 12,
-  },
+  googleIcon: { fontSize: 20 },
+  googleText: { fontSize: 15, fontWeight: '700', color: C.text },
 });

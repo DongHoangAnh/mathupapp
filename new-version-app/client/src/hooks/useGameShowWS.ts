@@ -26,6 +26,7 @@ export interface GameResult {
     score: number;
     totalTimeMs: number;
     displayName: string;
+    rankingDelta?: number;
 }
 
 export type MatchPhase =
@@ -50,6 +51,8 @@ export interface GameShowState {
     // Final
     opponent: OpponentInfo | null;
     finalResults: Record<string, GameResult> | null;
+    winnerId?: string | null;
+    myRankingDelta: number | null;
     connected: boolean;
     error: string | null;
 }
@@ -59,8 +62,10 @@ export interface GameShowState {
 // ═══════════════════════════════════════════════════════════
 
 function buildWSUrl() {
-    const proto = window.location.protocol === "https:" ? "wss:" : "ws:";
-    return `${proto}//${window.location.host}/ws/gameshow`;
+    // Use env variable for React Native (no window.location available)
+    const base = process.env.EXPO_PUBLIC_WS_URL ?? process.env.EXPO_PUBLIC_API_URL ?? 'http://localhost:3000';
+    const url = base.replace(/^http/, 'ws').replace(/^https/, 'wss');
+    return `${url}/ws/gameshow`;
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -76,6 +81,8 @@ export function useGameShowWS(
 ) {
     const wsRef = useRef<WebSocket | null>(null);
     const pingRef = useRef<ReturnType<typeof setInterval> | null>(null);
+    const userIdRef = useRef(userId);
+    useEffect(() => { userIdRef.current = userId; }, [userId]);
     // Track start time for each question
     const questionStartRef = useRef<number>(Date.now());
 
@@ -89,6 +96,7 @@ export function useGameShowWS(
         opponentFinished: false,
         opponent: null,
         finalResults: null,
+        myRankingDelta: null,
         connected: false,
         error: null,
     });
@@ -148,6 +156,7 @@ export function useGameShowWS(
                         opponentFinished: false,
                         opponent: msg.opponent,
                         finalResults: null,
+                        myRankingDelta: null,
                         error: null,
                     }));
                     break;
@@ -172,20 +181,26 @@ export function useGameShowWS(
                     setState((s) => ({ ...s, phase: "you_finished" }));
                     break;
 
-                case "GAME_OVER":
+                case "GAME_OVER": {
+                    const myResult = userIdRef.current && msg.results
+                        ? (msg.results as Record<string, GameResult>)[userIdRef.current]
+                        : null;
                     setState((s) => ({
                         ...s,
                         phase: "game_over",
                         finalResults: msg.results,
                         winnerId: msg.winnerId,
+                        myRankingDelta: myResult?.rankingDelta ?? null,
                     }));
                     break;
+                }
 
                 case "OPPONENT_DISCONNECTED":
                     setState((s) => ({
                         ...s,
                         phase: "opponent_disconnected",
                         error: msg.message,
+                        myRankingDelta: msg.rankingDelta ?? null,
                     }));
                     break;
 
@@ -300,6 +315,7 @@ export function useGameShowWS(
             opponentFinished: false,
             opponent: null,
             finalResults: null,
+            myRankingDelta: null,
             connected: state.connected,
             error: null,
         });

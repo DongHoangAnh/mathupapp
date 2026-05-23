@@ -2,7 +2,7 @@ import { WebSocketServer, WebSocket } from "ws";
 import type { Server } from "http";
 import fs from "fs";
 import path from "path";
-import { saveGameMatch } from "./supabase-server";
+import { saveGameMatch, saveDisconnectWin } from "./supabase-server";
 
 // ═══════════════════════════════════════════════════════════
 // TYPES
@@ -268,20 +268,12 @@ function finishGame(room: GameRoom) {
     }
     // null = draw
 
-    const gameOverPayload = {
-        type: "GAME_OVER",
-        roomId: room.roomId,
-        winnerId,
-        results: {
-            [room.player1.userId]: { ...p1Stats, displayName: room.player1.displayName },
-            [room.player2.userId]: { ...p2Stats, displayName: room.player2.displayName },
-        },
-    };
-
-    // 💾 Save to Supabase — chỉ gửi GAME_OVER sau khi lưu xong để client refetch đúng dữ liệu
+    // 💾 Save to Supabase + get ranking deltas — send GAME_OVER only after save
     (async () => {
+        let p1Delta = 0;
+        let p2Delta = 0;
         try {
-            await saveGameMatch({
+            const deltas = await saveGameMatch({
                 room_id: room.roomId,
                 player1_id: room.player1.userId,
                 player2_id: room.player2.userId,
@@ -296,9 +288,22 @@ function finishGame(room: GameRoom) {
                 winner_id: winnerId,
                 questions_count: room.questions.length,
             });
+            p1Delta = deltas.player1Delta;
+            p2Delta = deltas.player2Delta;
         } catch (err) {
             console.error("[GameShow WS] Supabase save error:", err);
         }
+
+        const gameOverPayload = {
+            type: "GAME_OVER",
+            roomId: room.roomId,
+            winnerId,
+            results: {
+                [room.player1.userId]: { ...p1Stats, displayName: room.player1.displayName, rankingDelta: p1Delta },
+                [room.player2.userId]: { ...p2Stats, displayName: room.player2.displayName, rankingDelta: p2Delta },
+            },
+        };
+
         sendToPlayer(room.player1, gameOverPayload);
         sendToPlayer(room.player2, gameOverPayload);
     })();
@@ -335,11 +340,15 @@ function handleDisconnect(userId: string) {
         if (room && !room.finished) {
             room.finished = true;
             const opponent = getOpponent(room, userId);
+            // Award ranking points to winner (fire-and-forget)
+            saveDisconnectWin(opponent.userId, opponent.displayName).catch((err) =>
+                console.error("[GameShow WS] saveDisconnectWin error:", err)
+            );
             sendToPlayer(opponent, {
                 type: "OPPONENT_DISCONNECTED",
                 message: "Đối thủ đã ngắt kết nối. Bạn thắng mặc định!",
+                rankingDelta: 5,
             });
-            // Player disconnected from active room
         }
         playerToRoom.delete(userId);
         if (roomId) activeRooms.delete(roomId);

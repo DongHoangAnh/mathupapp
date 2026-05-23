@@ -8,14 +8,15 @@
     "strict": true,
     "target": "es2020",
     "skipLibCheck": true,
-    "ignoreDeprecations": "6.0",
   },
   "include": [
     "App.tsx",
     "client/src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "client/src/components/game-results.tsx",
+    "client/src/components/protected-route.tsx"
   ],
   "extends": "expo/tsconfig.base"
 }

@@ -36,6 +36,7 @@ new-version-app/
 
 ### Key Features
 ✅ Multiplayer matchmaking (1v1)  
+✅ 1v1 Ranking System (+5 for win, -3 for loss)
 ✅ 10-question matches  
 ✅ Independent scoring (players answer independently)  
 ✅ Real-time opponent progress tracking  
@@ -206,6 +207,27 @@ const { data, error } = await supabase.auth.signInWithOAuth({
 const { data: { user } } = await supabase.auth.getUser();
 const userId = user?.id;
 ```
+
+---
+
+## 🏆 Ranking System
+
+The app features a competitive 1v1 ranking system. Points are updated automatically at the end of every match.
+
+### Scoring Logic
+| Result | Ranking Points | Description |
+| :--- | :--- | :--- |
+| **Win** | `+5` | Highest score, or fastest time if scores are tied. |
+| **Loss** | `-3` | Lower score or slower time. |
+| **Draw** | `±0` | Exactly equal score and time. |
+| **Opponent Quit** | `+5` | Awarded if the opponent disconnects mid-match. |
+
+*Note: Ranking points cannot drop below 0.*
+
+### Leaderboard
+The **Xếp Hạng** (Leaderboard) screen displays the top 50 players globally. 
+- **Real-time**: Updates immediately after `GAME_OVER` via Supabase RPC.
+- **Personal Status**: Highlights the current user's rank even if they aren't in the top 50.
 
 ---
 

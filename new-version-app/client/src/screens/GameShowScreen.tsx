@@ -1,311 +1,394 @@
-/**
- * GameShow Screen - React Native
- * Multiplayer 1v1 math quiz game
- */
-
 import React, { useEffect, useState } from 'react';
 import {
-  View,
-  Text,
-  TouchableOpacity,
-  StyleSheet,
-  ActivityIndicator,
-  Alert,
-  ScrollView,
+  View, Text, TouchableOpacity, StyleSheet,
+  ActivityIndicator, SafeAreaView, StatusBar,
 } from 'react-native';
 import { useGameShowWS } from '../hooks/useGameShowWS';
-import { generateQuestions } from '../services/questionGenerator';
+import { useAuth } from '../hooks/useAuth';
 import GameQuestion from '../components/GameQuestion';
-import PlayerCard from '../components/PlayerCard';
 import GameResults from '../components/GameResults';
 
-interface GameShowScreenProps {
-  userId: string;
-  displayName: string;
-  grade?: string;
-  totalScore?: number;
-  winRate?: number;
+const C = {
+  primary: '#3B82F6', deep: '#1E40AF', yellow: '#FACC15',
+  bg: '#F8FBFF', white: '#FFFFFF', text: '#1E293B', textLight: '#64748B',
+  success: '#22C55E', error: '#EF4444',
+};
+
+function adaptQuestion(q: any) {
+  return {
+    id: q.id,
+    text: q.question ?? q.text ?? '',
+    options: q.options,
+    correctAnswer: q.correctAnswer,
+    type: (q.type ?? 'arithmetic') as 'arithmetic' | 'comparison',
+  };
 }
 
-export default function GameShowScreen({
-  userId,
-  displayName,
-  grade,
-  totalScore = 0,
-  winRate = 0,
-}: GameShowScreenProps) {
-  // WebSocket hook for game
-  const { state, joinQueue, leaveQueue, submitAnswer } = useGameShowWS(
-    userId,
-    displayName,
-    grade,
-    totalScore,
-    winRate
-  );
+function countCorrect(answers: Record<number, { isCorrect: boolean }>) {
+  return Object.values(answers).filter((a) => a.isCorrect).length;
+}
+function sumTime(answers: Record<number, { timeMs: number }>) {
+  return Object.values(answers).reduce((s, a) => s + a.timeMs, 0);
+}
 
-  const [questions, setQuestions] = useState<any[]>([]);
+export default function GameShowScreen() {
+  const { user } = useAuth();
+  const userId = user?.id ?? null;
+  const displayName = user?.user_metadata?.full_name ?? 'Bạn';
+  const grade = user?.user_metadata?.grade;
+
+  const { state, joinQueue, leaveQueue, submitAnswer } = useGameShowWS(userId, displayName, grade);
+
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // Load questions when match starts
-  useEffect(() => {
-    if (state.phase === 'playing' && questions.length === 0) {
-      const qs = generateQuestions(10);
-      setQuestions(qs);
-    }
-  }, [state.phase]);
-
-  // Handle answer submission
-  const handleSubmitAnswer = async (answer: string) => {
-    if (!state.roomId || !state.questions) return;
-
-    setIsSubmitting(true);
+  const handleAnswer = (answer: string) => {
+    if (!state.roomId || selectedAnswer) return;
     setSelectedAnswer(answer);
-
-    try {
-      submitAnswer(state.currentQuestionIndex, answer);
-
-      // Move to next question after delay
-      setTimeout(() => {
-        setSelectedAnswer(null);
-        setIsSubmitting(false);
-      }, 1000);
-    } catch (error) {
-      Alert.alert('Error', 'Failed to submit answer');
-      setIsSubmitting(false);
-    }
+    submitAnswer(state.currentQuestionIndex, answer);
+    setTimeout(() => setSelectedAnswer(null), 900);
   };
 
   const handlePlayAgain = () => {
-    setQuestions([]);
     setSelectedAnswer(null);
     joinQueue();
   };
 
-  // Render based on game phase
-  switch (state.phase) {
-    case 'idle':
-      return (
-        <View style={styles.container}>
-          <View style={styles.centerContent}>
-            <Text style={styles.title}>🎮 GameShow</Text>
-            <Text style={styles.subtitle}>
-              Thách đấu với người chơi khác
-            </Text>
+  const myScore = countCorrect(state.myAnswers);
+  const myTime  = sumTime(state.myAnswers);
 
-            <TouchableOpacity
-              style={styles.button}
-              onPress={joinQueue}
-              disabled={state.loading}
-            >
-              {state.loading ? (
-                <ActivityIndicator color="#fff" />
-              ) : (
-                <Text style={styles.buttonText}>Tìm Đối Thủ</Text>
-              )}
-            </TouchableOpacity>
-          </View>
-        </View>
-      );
+  // ── IDLE ──────────────────────────────────────────────────────
+  if (state.phase === 'idle') {
+    return (
+      <SafeAreaView style={styles.safe}>
+        <View style={styles.idleContainer}>
+          <View style={styles.idleDeco} />
+          <View style={styles.idleDeco2} />
 
-    case 'queued':
-      return (
-        <View style={styles.container}>
-          <View style={styles.centerContent}>
-            <ActivityIndicator size="large" color="#007AFF" />
-            <Text style={styles.subtitle}>
-              Đang tìm đối thủ ({state.queuePosition || 'chờ'})...
-            </Text>
+          <Text style={styles.idleTitle}>Đấu 1v1</Text>
+          <Text style={styles.idleSub}>Thách đấu toán học trực tiếp</Text>
 
-            <TouchableOpacity
-              style={[styles.button, styles.cancelButton]}
-              onPress={leaveQueue}
-            >
-              <Text style={styles.buttonText}>Huỷ</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      );
-
-    case 'match_found':
-      return (
-        <View style={styles.container}>
-          <View style={styles.centerContent}>
-            <Text style={styles.title}>⚡ Tìm thấy đối thủ!</Text>
-            <Text style={styles.subtitle}>Chuẩn bị bắt đầu...</Text>
-            <ActivityIndicator size="large" color="#FF6B6B" />
-          </View>
-        </View>
-      );
-
-    case 'playing': {
-      if (!state.questions || questions.length === 0) {
-        return (
-          <View style={styles.container}>
-            <ActivityIndicator size="large" color="#007AFF" />
-          </View>
-        );
-      }
-
-      const currentQuestion = state.questions[state.currentQuestionIndex];
-
-      return (
-        <ScrollView style={styles.container}>
-          {/* Score Header */}
-          <View style={styles.header}>
-            <View style={styles.scoreRow}>
-              <Text style={styles.scoreLabel}>Bạn</Text>
-              <Text style={styles.scoreValue}>{state.myScore || 0}</Text>
-            </View>
-            <View style={styles.scoreRow}>
-              <Text style={styles.scoreLabel}>Đối Thủ</Text>
-              <Text style={styles.scoreValue}>{state.opponentScore || 0}</Text>
-            </View>
+          <View style={styles.idleCard}>
+            <Text style={styles.idleCardIcon}>⚔️</Text>
+            <Text style={styles.idleCardText}>10 câu hỏi · Ai nhanh & đúng hơn thắng</Text>
           </View>
 
-          {/* Question Counter */}
-          <Text style={styles.questionCounter}>
-            Câu {state.currentQuestionIndex + 1}/10
-          </Text>
-
-          {/* Question */}
-          <GameQuestion
-            question={currentQuestion}
-            selectedAnswer={selectedAnswer}
-            onSelectAnswer={handleSubmitAnswer}
-            isDisabled={isSubmitting}
-          />
-
-          {/* Opponent Status */}
-          {state.opponentProgress && (
-            <View style={styles.opponentStatus}>
-              <Text style={styles.statusText}>
-                Đối thủ: Câu {state.opponentProgress.currentQuestion + 1}
-              </Text>
+          {state.error && (
+            <View style={styles.errorBox}>
+              <Text style={styles.errorText}>{state.error}</Text>
             </View>
           )}
-        </ScrollView>
-      );
-    }
 
-    case 'game_over':
-      return (
-        <GameResults
-          playerScore={state.myScore || 0}
-          opponentScore={state.opponentScore || 0}
-          playerTime={state.myTotalTime || 0}
-          opponentTime={state.opponentTotalTime || 0}
-          onPlayAgain={handlePlayAgain}
-        />
-      );
+          <TouchableOpacity
+            style={[styles.primaryBtn, !userId && styles.primaryBtnDisabled]}
+            onPress={joinQueue}
+            disabled={!userId}
+            activeOpacity={0.85}
+          >
+            <Text style={styles.primaryBtnText}>🔍  Tìm Đối Thủ</Text>
+          </TouchableOpacity>
 
-    case 'opponent_disconnected':
-      return (
-        <View style={styles.container}>
-          <View style={styles.centerContent}>
-            <Text style={styles.title}>😞 Đối Thủ Rời Đi</Text>
-            <Text style={styles.subtitle}>Bạn thắng!</Text>
-            <Text style={styles.scoreDisplay}>+100 điểm</Text>
+          {!userId && (
+            <Text style={styles.hintText}>Vui lòng đăng nhập để chơi</Text>
+          )}
+        </View>
+      </SafeAreaView>
+    );
+  }
 
-            <TouchableOpacity style={styles.button} onPress={handlePlayAgain}>
-              <Text style={styles.buttonText}>Chơi Lại</Text>
-            </TouchableOpacity>
+  // ── QUEUED ────────────────────────────────────────────────────
+  if (state.phase === 'queued') {
+    return (
+      <SafeAreaView style={styles.safe}>
+        <View style={styles.centerBox}>
+          <View style={styles.searchingAnim}>
+            <ActivityIndicator size="large" color={C.primary} />
+          </View>
+          <Text style={styles.searchingTitle}>Đang tìm đối thủ...</Text>
+          <Text style={styles.searchingSub}>Ghép trận có thể mất vài giây</Text>
+          <TouchableOpacity style={styles.cancelBtn} onPress={leaveQueue}>
+            <Text style={styles.cancelBtnText}>Huỷ</Text>
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  // ── MATCH FOUND ───────────────────────────────────────────────
+  if (state.phase === 'match_found') {
+    return (
+      <SafeAreaView style={[styles.safe, { backgroundColor: C.deep }]}>
+        <View style={styles.centerBox}>
+          <Text style={styles.vsFound}>Tìm thấy đối thủ!</Text>
+
+          <View style={styles.vsRow}>
+            <View style={styles.vsPlayer}>
+              <View style={[styles.vsAvatar, { backgroundColor: C.yellow }]}>
+                <Text style={styles.vsAvatarText}>{displayName[0]?.toUpperCase()}</Text>
+              </View>
+              <Text style={styles.vsName} numberOfLines={1}>{displayName}</Text>
+              <Text style={styles.vsYou}>(Bạn)</Text>
+            </View>
+
+            <View style={styles.vsBadge}>
+              <Text style={styles.vsText}>VS</Text>
+            </View>
+
+            <View style={styles.vsPlayer}>
+              <View style={[styles.vsAvatar, { backgroundColor: '#EF4444' }]}>
+                <Text style={styles.vsAvatarText}>
+                  {state.opponent?.displayName[0]?.toUpperCase() ?? '?'}
+                </Text>
+              </View>
+              <Text style={styles.vsName} numberOfLines={1}>
+                {state.opponent?.displayName ?? '...'}
+              </Text>
+              <Text style={styles.vsGrade}>{state.opponent?.grade ?? ''}</Text>
+            </View>
+          </View>
+
+          <View style={styles.vsCountdown}>
+            <ActivityIndicator color={C.yellow} />
+            <Text style={styles.vsCountdownText}>Chuẩn bị...</Text>
           </View>
         </View>
-      );
-
-    default:
-      return (
-        <View style={styles.container}>
-          <Text>Trạng thái không xác định</Text>
-        </View>
-      );
+      </SafeAreaView>
+    );
   }
+
+  // ── PLAYING ───────────────────────────────────────────────────
+  if (state.phase === 'playing') {
+    const total = state.questions.length || 10;
+    const current = state.currentQuestionIndex;
+    const rawQ = state.questions[current];
+    if (!rawQ) return <SafeAreaView style={styles.safe}><ActivityIndicator color={C.primary} style={{ marginTop: 60 }} /></SafeAreaView>;
+
+    const opponentName = state.opponent?.displayName ?? 'Đối thủ';
+
+    return (
+      <SafeAreaView style={styles.safe}>
+        {/* Score header */}
+        <View style={styles.gameHeader}>
+          <View style={styles.playerScore}>
+            <Text style={styles.playerScoreLabel}>{displayName.split(' ').pop()}</Text>
+            <Text style={styles.playerScoreValue}>{myScore}</Text>
+          </View>
+
+          <View style={styles.progressCenter}>
+            <Text style={styles.questionNum}>{current + 1} / {total}</Text>
+            <View style={styles.progressBar}>
+              <View style={[styles.progressFill, { width: `${((current + 1) / total) * 100}%` as any }]} />
+            </View>
+          </View>
+
+          <View style={[styles.playerScore, { alignItems: 'flex-end' }]}>
+            <Text style={styles.playerScoreLabel}>{opponentName.split(' ').pop()}</Text>
+            <Text style={[styles.playerScoreValue, { color: '#EF4444' }]}>
+              {state.opponentAnsweredCount}
+            </Text>
+          </View>
+        </View>
+
+        {/* Question + Options */}
+        <View style={styles.gameBody}>
+          {state.opponentFinished && (
+            <View style={styles.opponentDoneBanner}>
+              <Text style={styles.opponentDoneText}>⚡ Đối thủ đã hoàn thành!</Text>
+            </View>
+          )}
+          <GameQuestion
+            question={adaptQuestion(rawQ)}
+            selectedAnswer={selectedAnswer}
+            onSelectAnswer={handleAnswer}
+            isDisabled={false}
+          />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  // ── YOU FINISHED ──────────────────────────────────────────────
+  if (state.phase === 'you_finished') {
+    return (
+      <SafeAreaView style={styles.safe}>
+        <View style={styles.centerBox}>
+          <Text style={styles.waitIcon}>✅</Text>
+          <Text style={styles.waitTitle}>Bạn đã hoàn thành!</Text>
+          <Text style={styles.waitSub}>
+            Đang chờ đối thủ... ({state.opponentAnsweredCount}/{state.questions.length} câu)
+          </Text>
+          <ActivityIndicator color={C.primary} style={{ marginTop: 24 }} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  // ── GAME OVER ─────────────────────────────────────────────────
+  if (state.phase === 'game_over') {
+    const oppEntry = state.finalResults
+      ? Object.entries(state.finalResults).find(([k]) => k !== userId)
+      : null;
+
+    return (
+      <GameResults
+        playerScore={myScore}
+        opponentScore={oppEntry ? oppEntry[1].correct : 0}
+        playerTime={myTime}
+        opponentTime={oppEntry ? oppEntry[1].totalTimeMs : 0}
+        rankingDelta={state.myRankingDelta}
+        onPlayAgain={handlePlayAgain}
+      />
+    );
+  }
+
+  // ── OPPONENT DISCONNECTED ─────────────────────────────────────
+  if (state.phase === 'opponent_disconnected') {
+    return (
+      <SafeAreaView style={[styles.safe, { backgroundColor: C.deep }]}>
+        <View style={styles.centerBox}>
+          <Text style={styles.discIcon}>🏃</Text>
+          <Text style={styles.discTitle}>Đối thủ bỏ cuộc!</Text>
+          <Text style={styles.discSub}>Bạn thắng mặc định</Text>
+          {state.myRankingDelta != null && (
+            <View style={styles.rankDeltaBadge}>
+              <Text style={styles.rankDeltaText}>+{state.myRankingDelta} điểm xếp hạng</Text>
+            </View>
+          )}
+          <TouchableOpacity style={styles.primaryBtn} onPress={handlePlayAgain}>
+            <Text style={styles.primaryBtnText}>Chơi Trận Mới</Text>
+          </TouchableOpacity>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  return null;
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5',
-    padding: 16,
+  safe: { flex: 1, backgroundColor: C.bg },
+
+  // ── Idle ──
+  idleContainer: {
+    flex: 1, alignItems: 'center', justifyContent: 'center',
+    padding: 28, backgroundColor: C.deep, overflow: 'hidden',
   },
-  centerContent: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+  idleDeco: {
+    position: 'absolute', top: -60, right: -60,
+    width: 200, height: 200, borderRadius: 100,
+    backgroundColor: 'rgba(255,255,255,0.06)',
   },
-  title: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    marginBottom: 12,
-    textAlign: 'center',
+  idleDeco2: {
+    position: 'absolute', bottom: -80, left: -40,
+    width: 240, height: 240, borderRadius: 120,
+    backgroundColor: 'rgba(255,255,255,0.04)',
   },
-  subtitle: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 24,
-    textAlign: 'center',
+  idleTitle: { fontSize: 40, fontWeight: '900', color: '#fff', marginBottom: 8 },
+  idleSub: { fontSize: 15, color: 'rgba(255,255,255,0.7)', marginBottom: 32 },
+  idleCard: {
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    borderRadius: 20, padding: 20, alignItems: 'center',
+    marginBottom: 32, width: '100%',
   },
-  button: {
-    backgroundColor: '#007AFF',
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 8,
-    marginTop: 16,
-    minWidth: 200,
+  idleCardIcon: { fontSize: 40, marginBottom: 8 },
+  idleCardText: { fontSize: 14, color: 'rgba(255,255,255,0.85)', textAlign: 'center' },
+
+  // ── Buttons ──
+  primaryBtn: {
+    backgroundColor: C.yellow, paddingVertical: 18,
+    paddingHorizontal: 48, borderRadius: 20,
+    shadowColor: C.yellow, shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.4, shadowRadius: 12, elevation: 8, marginTop: 8,
   },
-  cancelButton: {
-    backgroundColor: '#FF6B6B',
+  primaryBtnDisabled: { opacity: 0.5 },
+  primaryBtnText: { fontSize: 18, fontWeight: '900', color: C.deep },
+  cancelBtn: {
+    marginTop: 20, paddingVertical: 12, paddingHorizontal: 32,
+    borderRadius: 16, borderWidth: 2, borderColor: '#E2E8F0',
   },
-  buttonText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: '600',
-    textAlign: 'center',
+  cancelBtnText: { fontSize: 15, fontWeight: '700', color: C.textLight },
+
+  errorBox: {
+    backgroundColor: '#FEE2E2', borderRadius: 14, padding: 12,
+    marginBottom: 16, width: '100%',
   },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 24,
-    backgroundColor: '#fff',
-    padding: 16,
-    borderRadius: 8,
+  errorText: { color: '#DC2626', fontSize: 13, textAlign: 'center' },
+  hintText: { fontSize: 13, color: 'rgba(255,255,255,0.6)', marginTop: 12 },
+
+  // ── Centered layout ──
+  centerBox: {
+    flex: 1, alignItems: 'center', justifyContent: 'center', padding: 28,
   },
-  scoreRow: {
-    alignItems: 'center',
+
+  // ── Searching ──
+  searchingAnim: {
+    width: 80, height: 80, borderRadius: 40,
+    backgroundColor: '#EFF6FF', justifyContent: 'center', alignItems: 'center',
+    marginBottom: 20,
+    shadowColor: C.primary, shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.2, shadowRadius: 16, elevation: 8,
   },
-  scoreLabel: {
-    fontSize: 14,
-    color: '#666',
-    marginBottom: 4,
+  searchingTitle: { fontSize: 24, fontWeight: '800', color: C.text, marginBottom: 8 },
+  searchingSub: { fontSize: 14, color: C.textLight },
+
+  // ── VS screen ──
+  vsFound: { fontSize: 28, fontWeight: '900', color: C.yellow, marginBottom: 40 },
+  vsRow: { flexDirection: 'row', alignItems: 'center', gap: 16, width: '100%', justifyContent: 'center' },
+  vsPlayer: { flex: 1, alignItems: 'center', gap: 8 },
+  vsAvatar: {
+    width: 64, height: 64, borderRadius: 32,
+    justifyContent: 'center', alignItems: 'center',
   },
-  scoreValue: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#007AFF',
+  vsAvatarText: { fontSize: 28, fontWeight: '900', color: '#fff' },
+  vsName: { fontSize: 14, fontWeight: '700', color: '#fff', textAlign: 'center' },
+  vsYou: { fontSize: 11, color: C.yellow },
+  vsGrade: { fontSize: 11, color: 'rgba(255,255,255,0.6)' },
+  vsBadge: {
+    width: 48, height: 48, borderRadius: 24,
+    backgroundColor: C.yellow, justifyContent: 'center', alignItems: 'center',
   },
-  questionCounter: {
-    fontSize: 14,
-    color: '#999',
-    marginBottom: 16,
-    textAlign: 'center',
+  vsText: { fontSize: 14, fontWeight: '900', color: C.deep },
+  vsCountdown: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 40 },
+  vsCountdownText: { fontSize: 15, color: 'rgba(255,255,255,0.8)' },
+
+  // ── Playing ──
+  gameHeader: {
+    flexDirection: 'row', alignItems: 'center',
+    paddingHorizontal: 20, paddingVertical: 16,
+    backgroundColor: C.white,
+    shadowColor: 'rgba(59,130,246,0.1)',
+    shadowOffset: { width: 0, height: 4 }, shadowOpacity: 1,
+    shadowRadius: 12, elevation: 4,
   },
-  opponentStatus: {
-    marginTop: 24,
-    padding: 12,
-    backgroundColor: '#E8F5E9',
-    borderRadius: 8,
-    marginBottom: 24,
+  playerScore: { flex: 1, alignItems: 'flex-start' },
+  playerScoreLabel: { fontSize: 11, color: C.textLight, fontWeight: '600' },
+  playerScoreValue: { fontSize: 28, fontWeight: '900', color: C.primary },
+  progressCenter: { flex: 1.5, alignItems: 'center', gap: 6 },
+  questionNum: { fontSize: 13, fontWeight: '700', color: C.textLight },
+  progressBar: {
+    width: '100%', height: 6, backgroundColor: '#E2E8F0',
+    borderRadius: 3, overflow: 'hidden',
   },
-  statusText: {
-    fontSize: 14,
-    color: '#2E7D32',
-    textAlign: 'center',
+  progressFill: { height: '100%', backgroundColor: C.primary, borderRadius: 3 },
+  gameBody: { flex: 1, padding: 20, justifyContent: 'center' },
+  opponentDoneBanner: {
+    backgroundColor: '#FEF9C3', borderRadius: 12,
+    paddingVertical: 8, paddingHorizontal: 16,
+    alignItems: 'center', marginBottom: 16,
   },
-  scoreDisplay: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#4CAF50',
-    marginVertical: 16,
+  opponentDoneText: { fontSize: 13, fontWeight: '700', color: '#92400E' },
+
+  // ── You finished ──
+  waitIcon: { fontSize: 64, marginBottom: 16 },
+  waitTitle: { fontSize: 26, fontWeight: '900', color: C.text, marginBottom: 8 },
+  waitSub: { fontSize: 14, color: C.textLight, textAlign: 'center' },
+
+  // ── Disconnect ──
+  discIcon: { fontSize: 72, marginBottom: 16 },
+  discTitle: { fontSize: 32, fontWeight: '900', color: '#fff', marginBottom: 8 },
+  discSub: { fontSize: 16, color: 'rgba(255,255,255,0.75)', marginBottom: 24 },
+  rankDeltaBadge: {
+    backgroundColor: C.yellow, paddingVertical: 12, paddingHorizontal: 24,
+    borderRadius: 16, marginBottom: 28,
   },
+  rankDeltaText: { fontSize: 20, fontWeight: '900', color: C.deep },
 });

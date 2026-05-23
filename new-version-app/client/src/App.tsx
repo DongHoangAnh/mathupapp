@@ -11,61 +11,68 @@ import HomeScreen from './screens/HomeScreen';
 import GameShowScreen from './screens/GameShowScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import StatisticsScreen from './screens/StatisticsScreen';
+import LeaderboardScreen from './screens/LeaderboardScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
-const tabIcons: Record<string, string> = {
-  HomeTab: '🏠',
-  GameShowTab: '🎮',
-  StatsTab: '📊',
-  ProfileTab: '👤',
-};
+function TabIcon({ icon, focused }: { icon: string; focused: boolean }) {
+  return (
+    <View style={{
+      alignItems: 'center', justifyContent: 'center',
+      width: 44, height: 32,
+      backgroundColor: focused ? '#EFF6FF' : 'transparent',
+      borderRadius: 10,
+    }}>
+      <Text style={{ fontSize: focused ? 22 : 20 }}>{icon}</Text>
+    </View>
+  );
+}
 
-/**
- * Main Tab Navigator
- */
 function MainTabs() {
-  const { user } = useAuth();
-
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
+      screenOptions={{
         tabBarStyle: {
           backgroundColor: '#fff',
-          borderTopWidth: 1,
-          borderTopColor: '#eee',
-          height: 60,
-          paddingBottom: 8,
+          borderTopWidth: 0,
+          height: 72,
+          paddingBottom: 10,
+          paddingTop: 8,
+          shadowColor: 'rgba(59,130,246,0.15)',
+          shadowOffset: { width: 0, height: -4 },
+          shadowOpacity: 1,
+          shadowRadius: 16,
+          elevation: 12,
         },
-        tabBarLabelStyle: {
-          fontSize: 12,
-          marginTop: -4,
-        },
-        tabBarActiveTintColor: '#007AFF',
-        tabBarInactiveTintColor: '#999',
+        tabBarLabelStyle: { fontSize: 10, fontWeight: '700', marginTop: 2 },
+        tabBarActiveTintColor: '#3B82F6',
+        tabBarInactiveTintColor: '#94A3B8',
         headerShown: false,
-      })}
+      }}
     >
       <Tab.Screen
         name="HomeTab"
         component={HomeScreen}
         options={{
           tabBarLabel: 'Trang Chủ',
-          tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>{tabIcons.HomeTab}</Text>,
+          tabBarIcon: ({ focused }) => <TabIcon icon="🏠" focused={focused} />,
         }}
       />
       <Tab.Screen
         name="GameShowTab"
         component={GameShowScreen}
-        initialParams={{
-          userId: user?.id,
-          displayName: user?.user_metadata?.full_name || 'Player',
-          grade: user?.user_metadata?.grade,
-        }}
         options={{
-          tabBarLabel: 'GameShow',
-          tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>{tabIcons.GameShowTab}</Text>,
+          tabBarLabel: 'Đấu',
+          tabBarIcon: ({ focused }) => <TabIcon icon="⚔️" focused={focused} />,
+        }}
+      />
+      <Tab.Screen
+        name="LeaderboardTab"
+        component={LeaderboardScreen}
+        options={{
+          tabBarLabel: 'Xếp Hạng',
+          tabBarIcon: ({ focused }) => <TabIcon icon="🏆" focused={focused} />,
         }}
       />
       <Tab.Screen
@@ -73,7 +80,7 @@ function MainTabs() {
         component={StatisticsScreen}
         options={{
           tabBarLabel: 'Thống Kê',
-          tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>{tabIcons.StatsTab}</Text>,
+          tabBarIcon: ({ focused }) => <TabIcon icon="📊" focused={focused} />,
         }}
       />
       <Tab.Screen
@@ -81,7 +88,7 @@ function MainTabs() {
         component={ProfileScreen}
         options={{
           tabBarLabel: 'Hồ Sơ',
-          tabBarIcon: ({ color }) => <Text style={{ fontSize: 20, color }}>{tabIcons.ProfileTab}</Text>,
+          tabBarIcon: ({ focused }) => <TabIcon icon="👤" focused={focused} />,
         }}
       />
     </Tab.Navigator>
@@ -103,25 +110,12 @@ function RootNavigator() {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
-        animationEnabled: true,
       }}
     >
-      {!user ? (
-        <Stack.Screen
-          name="Login"
-          component={LoginScreen}
-          options={{
-            animationEnabled: false,
-          }}
-        />
+      {user ? (
+        <Stack.Screen name="MainApp" component={MainTabs} />
       ) : (
-        <Stack.Screen
-          name="MainApp"
-          component={MainTabs}
-          options={{
-            animationEnabled: false,
-          }}
-        />
+        <Stack.Screen name="Login" component={LoginScreen} />
       )}
     </Stack.Navigator>
   );
